@@ -1,0 +1,72 @@
+{
+ "python": "3.13.17",
+ "numpy": "2.5.3",
+ "pandas": "3.0.5",
+ "scikit-learn": "1.9.1",
+ "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "config": {
+  "kaggle": {
+   "loader": {},
+   "n_novel": 4,
+   "max_novel_per_disease": null,
+   "pipeline": {
+    "ghsom_params": {
+     "tau1": 0.6,
+     "tau2": 0.05,
+     "purity_target": 0.95,
+     "min_child_samples": 6,
+     "max_units": 64,
+     "max_depth": 3
+    },
+    "alpha_fit": 0.05,
+    "alpha_gng": 0.01,
+    "purity_min": 0.9,
+    "ontology_q": 0.05,
+    "cart_depth": 8,
+    "min_mondrian": 30
+   }
+  },
+  "ddxplus": {
+   "loader": {
+    "per_disease_cap": 40
+   },
+   "n_novel": 5,
+   "max_novel_per_disease": null,
+   "pipeline": {
+    "ghsom_params": {
+     "tau1": 0.85,
+     "tau2": 1.0,
+     "purity_target": 0.9,
+     "min_child_samples": 20,
+     "max_units": 64,
+     "max_depth": 3
+    },
+    "alpha_fit": 0.05,
+    "alpha_gng": 0.01,
+    "purity_min": 0.9,
+    "ontology_q": 0.05,
+    "cart_depth": 8,
+    "min_mondrian": 30
+   }
+  }
+ },
+ "sha256": {
+  "data/Training.csv": "4ec0d80a829b1588b5b3290d29051017783992bec8331c93255a41660aa43f58",
+  "data/ddxplus/release_test_patients.csv.gz": "f2b146343dc878121c78c6366f5bf4fdfee7c6e8520a3a57ef026a385e2d0f74",
+  "data/ddxplus/release_evidences.json": "281c78b044ae60514e28ecc9052d08a8225dd3e2db3f00f8788b99c47b05e0c0",
+  "data/rules/independent_rules.csv": "d25a7c43f6f866188e643ff6f767a00c8da8130fc6481baeda2315dbac440c07",
+  "data/rules/ddxplus_rules.csv": "5ba554ae4e462d44a10a45966f2f90916651d38e624431b9e75008e1eb4b7572"
+ }
+}

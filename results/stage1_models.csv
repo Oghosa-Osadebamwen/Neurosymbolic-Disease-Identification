@@ -1,0 +1,21 @@
+dataset,seed,ghsom_maps,ghsom_max_depth,ghsom_maps_per_depth,ghsom_leaf_clusters,ghsom_weighted_purity,ghsom_root_grid,gng_init_nodes,cart_fidelity,cart_depth,novel_diseases,n_train,n_calib,n_test
+kaggle,0,8,2,"{1: 1, 2: 7}",37,0.9696969696969697,5x5,37,0.32727272727272727,8,Diabetes; Hepatitis C; Hyperthyroidism; Paralysis (brain hemorrhage),132,55,117
+kaggle,1,11,3,"{1: 1, 2: 9, 3: 1}",39,0.9615384615384616,8x3,39,0.2777777777777778,8,Hemorrhoids (piles); Hepatitis B; Migraine; Typhoid,130,54,120
+kaggle,2,10,3,"{1: 1, 2: 7, 3: 2}",37,0.9618320610687023,6x4,37,0.32142857142857145,8,Arthritis; Dengue; Drug Reaction; Osteoarthritis,131,56,117
+kaggle,3,13,3,"{1: 1, 2: 9, 3: 3}",41,0.9846153846153847,6x4,41,0.25925925925925924,8,Allergy; Chicken pox; Common Cold; Migraine,130,54,120
+kaggle,4,11,3,"{1: 1, 2: 7, 3: 3}",39,1.0,4x5,39,0.39285714285714285,8,Hepatitis C; Impetigo; Pneumonia; Psoriasis,131,56,117
+kaggle,5,9,3,"{1: 1, 2: 7, 3: 1}",37,0.9393939393939394,5x5,37,0.32142857142857145,8,AIDS; Hypoglycemia; Osteoarthritis; Paroxysmal positional vertigo,132,56,116
+kaggle,6,12,3,"{1: 1, 2: 8, 3: 3}",40,0.9776119402985075,6x4,40,0.2631578947368421,8,GERD; Heart attack; Hepatitis C; Urinary tract infection,134,57,113
+kaggle,7,10,3,"{1: 1, 2: 8, 3: 1}",34,0.9312977099236641,6x5,34,0.32727272727272727,8,Hyperthyroidism; Impetigo; Pneumonia; Psoriasis,131,55,118
+kaggle,8,11,2,"{1: 1, 2: 10}",40,0.9772727272727273,4x6,40,0.34545454545454546,8,Common Cold; Drug Reaction; Impetigo; Varicose veins,132,55,117
+kaggle,9,9,3,"{1: 1, 2: 7, 3: 1}",37,0.9924242424242424,6x4,37,0.2909090909090909,8,Diabetes; Heart attack; Paroxysmal positional vertigo; Typhoid,132,55,117
+ddxplus,0,20,3,"{1: 1, 2: 14, 3: 5}",68,0.9678530424799081,3x7,68,0.23646723646723647,8,Bronchiolitis; Chagas; Influenza; Myocarditis; SLE,871,351,721
+ddxplus,1,27,3,"{1: 1, 2: 15, 3: 11}",74,0.957471264367816,3x6,74,0.17714285714285713,8,Acute dystonic reactions; GERD; HIV (initial infection); Possible NSTEMI / STEMI; URTI,870,350,723
+ddxplus,2,20,3,"{1: 1, 2: 14, 3: 5}",63,0.9701492537313433,4x5,63,0.21367521367521367,8,Acute rhinosinusitis; Bronchiolitis; Bronchospasm / acute asthma exacerbation; Epiglottitis; Pulmonary neoplasm,871,351,721
+ddxplus,3,22,3,"{1: 1, 2: 13, 3: 8}",72,0.9587155963302753,4x4,72,0.21652421652421652,8,Acute otitis media; Anemia; Bronchiectasis; Pulmonary embolism; Whooping cough,872,351,720
+ddxplus,4,18,3,"{1: 1, 2: 13, 3: 4}",68,0.9735327963176065,5x4,68,0.24,8,Influenza; Panic attack; Spontaneous pneumothorax; Stable angina; Unstable angina,869,350,724
+ddxplus,5,19,3,"{1: 1, 2: 14, 3: 4}",67,0.9678530424799081,4x5,67,0.28285714285714286,8,Acute dystonic reactions; Guillain-Barré syndrome; PSVT; Pulmonary neoplasm; SLE,871,350,722
+ddxplus,6,23,3,"{1: 1, 2: 15, 3: 7}",73,0.9804822043628014,7x3,73,0.2564102564102564,8,Chronic rhinosinusitis; Epiglottitis; Influenza; Unstable angina; Whooping cough,871,351,721
+ddxplus,7,20,3,"{1: 1, 2: 13, 3: 6}",66,0.9678899082568807,3x7,66,0.30484330484330485,8,Myasthenia gravis; Panic attack; Spontaneous rib fracture; Stable angina; Whooping cough,872,351,720
+ddxplus,8,21,3,"{1: 1, 2: 13, 3: 7}",67,0.9586206896551724,3x6,67,0.3314285714285714,8,Anemia; Bronchiectasis; Chagas; Panic attack; Viral pharyngitis,870,350,723
+ddxplus,9,17,3,"{1: 1, 2: 13, 3: 3}",61,0.9746835443037974,4x5,61,0.24285714285714285,8,Acute rhinosinusitis; Bronchitis; Croup; Scombroid food poisoning; URTI,869,350,724

@@ -1,0 +1,610 @@
+[
+ {
+  "dataset": "kaggle",
+  "seed": 0,
+  "train_seconds": 0.1,
+  "n_train": 132,
+  "n_calib": 55,
+  "n_test": 117,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Diabetes",
+   "Hepatitis C",
+   "Hyperthyroidism",
+   "Paralysis (brain hemorrhage)"
+  ],
+  "ghsom_maps": 8,
+  "ghsom_max_depth": 2,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 7
+  },
+  "ghsom_leaf_clusters": 37,
+  "ghsom_weighted_purity": 0.9696969696969697,
+  "ghsom_root_grid": "5x5",
+  "gng_init_nodes": 37,
+  "cart_fidelity": 0.32727272727272727,
+  "cart_depth": 8,
+  "h_max": 3.0
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 1,
+  "train_seconds": 0.1,
+  "n_train": 130,
+  "n_calib": 54,
+  "n_test": 120,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Hemorrhoids (piles)",
+   "Hepatitis B",
+   "Migraine",
+   "Typhoid"
+  ],
+  "ghsom_maps": 11,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 9,
+   "3": 1
+  },
+  "ghsom_leaf_clusters": 39,
+  "ghsom_weighted_purity": 0.9615384615384616,
+  "ghsom_root_grid": "8x3",
+  "gng_init_nodes": 39,
+  "cart_fidelity": 0.2777777777777778,
+  "cart_depth": 8,
+  "h_max": 2.3499999999999943
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 2,
+  "train_seconds": 0.1,
+  "n_train": 131,
+  "n_calib": 56,
+  "n_test": 117,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Arthritis",
+   "Dengue",
+   "Drug Reaction",
+   "Osteoarthritis"
+  ],
+  "ghsom_maps": 10,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 7,
+   "3": 2
+  },
+  "ghsom_leaf_clusters": 37,
+  "ghsom_weighted_purity": 0.9618320610687023,
+  "ghsom_root_grid": "6x4",
+  "gng_init_nodes": 37,
+  "cart_fidelity": 0.32142857142857145,
+  "cart_depth": 8,
+  "h_max": 3.25
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 3,
+  "train_seconds": 0.1,
+  "n_train": 130,
+  "n_calib": 54,
+  "n_test": 120,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Allergy",
+   "Chicken pox",
+   "Common Cold",
+   "Migraine"
+  ],
+  "ghsom_maps": 13,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 9,
+   "3": 3
+  },
+  "ghsom_leaf_clusters": 41,
+  "ghsom_weighted_purity": 0.9846153846153847,
+  "ghsom_root_grid": "6x4",
+  "gng_init_nodes": 41,
+  "cart_fidelity": 0.25925925925925924,
+  "cart_depth": 8,
+  "h_max": 3.3499999999999943
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 4,
+  "train_seconds": 0.1,
+  "n_train": 131,
+  "n_calib": 56,
+  "n_test": 117,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Hepatitis C",
+   "Impetigo",
+   "Pneumonia",
+   "Psoriasis"
+  ],
+  "ghsom_maps": 11,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 7,
+   "3": 3
+  },
+  "ghsom_leaf_clusters": 39,
+  "ghsom_weighted_purity": 1.0,
+  "ghsom_root_grid": "4x5",
+  "gng_init_nodes": 39,
+  "cart_fidelity": 0.39285714285714285,
+  "cart_depth": 8,
+  "h_max": 2.0
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 5,
+  "train_seconds": 0.1,
+  "n_train": 132,
+  "n_calib": 56,
+  "n_test": 116,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "AIDS",
+   "Hypoglycemia",
+   "Osteoarthritis",
+   "Paroxysmal positional vertigo"
+  ],
+  "ghsom_maps": 9,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 7,
+   "3": 1
+  },
+  "ghsom_leaf_clusters": 37,
+  "ghsom_weighted_purity": 0.9393939393939394,
+  "ghsom_root_grid": "5x5",
+  "gng_init_nodes": 37,
+  "cart_fidelity": 0.32142857142857145,
+  "cart_depth": 8,
+  "h_max": 4.0
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 6,
+  "train_seconds": 0.1,
+  "n_train": 134,
+  "n_calib": 57,
+  "n_test": 113,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "GERD",
+   "Heart attack",
+   "Hepatitis C",
+   "Urinary tract infection"
+  ],
+  "ghsom_maps": 12,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 8,
+   "3": 3
+  },
+  "ghsom_leaf_clusters": 40,
+  "ghsom_weighted_purity": 0.9776119402985075,
+  "ghsom_root_grid": "6x4",
+  "gng_init_nodes": 40,
+  "cart_fidelity": 0.2631578947368421,
+  "cart_depth": 8,
+  "h_max": 3.0
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 7,
+  "train_seconds": 0.1,
+  "n_train": 131,
+  "n_calib": 55,
+  "n_test": 118,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Hyperthyroidism",
+   "Impetigo",
+   "Pneumonia",
+   "Psoriasis"
+  ],
+  "ghsom_maps": 10,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 8,
+   "3": 1
+  },
+  "ghsom_leaf_clusters": 34,
+  "ghsom_weighted_purity": 0.9312977099236641,
+  "ghsom_root_grid": "6x5",
+  "gng_init_nodes": 34,
+  "cart_fidelity": 0.32727272727272727,
+  "cart_depth": 8,
+  "h_max": 4.0
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 8,
+  "train_seconds": 0.1,
+  "n_train": 132,
+  "n_calib": 55,
+  "n_test": 117,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Common Cold",
+   "Drug Reaction",
+   "Impetigo",
+   "Varicose veins"
+  ],
+  "ghsom_maps": 11,
+  "ghsom_max_depth": 2,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 10
+  },
+  "ghsom_leaf_clusters": 40,
+  "ghsom_weighted_purity": 0.9772727272727273,
+  "ghsom_root_grid": "4x6",
+  "gng_init_nodes": 40,
+  "cart_fidelity": 0.34545454545454546,
+  "cart_depth": 8,
+  "h_max": 3.0
+ },
+ {
+  "dataset": "kaggle",
+  "seed": 9,
+  "train_seconds": 0.1,
+  "n_train": 132,
+  "n_calib": 55,
+  "n_test": 117,
+  "n_features": 131,
+  "known_diseases": 37,
+  "novel_diseases": [
+   "Diabetes",
+   "Heart attack",
+   "Paroxysmal positional vertigo",
+   "Typhoid"
+  ],
+  "ghsom_maps": 9,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 7,
+   "3": 1
+  },
+  "ghsom_leaf_clusters": 37,
+  "ghsom_weighted_purity": 0.9924242424242424,
+  "ghsom_root_grid": "6x4",
+  "gng_init_nodes": 37,
+  "cart_fidelity": 0.2909090909090909,
+  "cart_depth": 8,
+  "h_max": 2.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 0,
+  "train_seconds": 0.7,
+  "n_train": 871,
+  "n_calib": 351,
+  "n_test": 721,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Bronchiolitis",
+   "Chagas",
+   "Influenza",
+   "Myocarditis",
+   "SLE"
+  ],
+  "ghsom_maps": 20,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 14,
+   "3": 5
+  },
+  "ghsom_leaf_clusters": 68,
+  "ghsom_weighted_purity": 0.9678530424799081,
+  "ghsom_root_grid": "3x7",
+  "gng_init_nodes": 68,
+  "cart_fidelity": 0.23646723646723647,
+  "cart_depth": 8,
+  "h_max": 17.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 1,
+  "train_seconds": 0.7,
+  "n_train": 870,
+  "n_calib": 350,
+  "n_test": 723,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Acute dystonic reactions",
+   "GERD",
+   "HIV (initial infection)",
+   "Possible NSTEMI / STEMI",
+   "URTI"
+  ],
+  "ghsom_maps": 27,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 15,
+   "3": 11
+  },
+  "ghsom_leaf_clusters": 74,
+  "ghsom_weighted_purity": 0.957471264367816,
+  "ghsom_root_grid": "3x6",
+  "gng_init_nodes": 74,
+  "cart_fidelity": 0.17714285714285713,
+  "cart_depth": 8,
+  "h_max": 17.55000000000001
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 2,
+  "train_seconds": 0.6,
+  "n_train": 871,
+  "n_calib": 351,
+  "n_test": 721,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Acute rhinosinusitis",
+   "Bronchiolitis",
+   "Bronchospasm / acute asthma exacerbation",
+   "Epiglottitis",
+   "Pulmonary neoplasm"
+  ],
+  "ghsom_maps": 20,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 14,
+   "3": 5
+  },
+  "ghsom_leaf_clusters": 63,
+  "ghsom_weighted_purity": 0.9701492537313433,
+  "ghsom_root_grid": "4x5",
+  "gng_init_nodes": 63,
+  "cart_fidelity": 0.21367521367521367,
+  "cart_depth": 8,
+  "h_max": 18.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 3,
+  "train_seconds": 0.6,
+  "n_train": 872,
+  "n_calib": 351,
+  "n_test": 720,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Acute otitis media",
+   "Anemia",
+   "Bronchiectasis",
+   "Pulmonary embolism",
+   "Whooping cough"
+  ],
+  "ghsom_maps": 22,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 13,
+   "3": 8
+  },
+  "ghsom_leaf_clusters": 72,
+  "ghsom_weighted_purity": 0.9587155963302753,
+  "ghsom_root_grid": "4x4",
+  "gng_init_nodes": 72,
+  "cart_fidelity": 0.21652421652421652,
+  "cart_depth": 8,
+  "h_max": 18.5
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 4,
+  "train_seconds": 0.6,
+  "n_train": 869,
+  "n_calib": 350,
+  "n_test": 724,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Influenza",
+   "Panic attack",
+   "Spontaneous pneumothorax",
+   "Stable angina",
+   "Unstable angina"
+  ],
+  "ghsom_maps": 18,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 13,
+   "3": 4
+  },
+  "ghsom_leaf_clusters": 68,
+  "ghsom_weighted_purity": 0.9735327963176065,
+  "ghsom_root_grid": "5x4",
+  "gng_init_nodes": 68,
+  "cart_fidelity": 0.24,
+  "cart_depth": 8,
+  "h_max": 17.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 5,
+  "train_seconds": 0.6,
+  "n_train": 871,
+  "n_calib": 350,
+  "n_test": 722,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Acute dystonic reactions",
+   "Guillain-Barr\u00e9 syndrome",
+   "PSVT",
+   "Pulmonary neoplasm",
+   "SLE"
+  ],
+  "ghsom_maps": 19,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 14,
+   "3": 4
+  },
+  "ghsom_leaf_clusters": 67,
+  "ghsom_weighted_purity": 0.9678530424799081,
+  "ghsom_root_grid": "4x5",
+  "gng_init_nodes": 67,
+  "cart_fidelity": 0.28285714285714286,
+  "cart_depth": 8,
+  "h_max": 17.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 6,
+  "train_seconds": 0.8,
+  "n_train": 871,
+  "n_calib": 351,
+  "n_test": 721,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Chronic rhinosinusitis",
+   "Epiglottitis",
+   "Influenza",
+   "Unstable angina",
+   "Whooping cough"
+  ],
+  "ghsom_maps": 23,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 15,
+   "3": 7
+  },
+  "ghsom_leaf_clusters": 73,
+  "ghsom_weighted_purity": 0.9804822043628014,
+  "ghsom_root_grid": "7x3",
+  "gng_init_nodes": 73,
+  "cart_fidelity": 0.2564102564102564,
+  "cart_depth": 8,
+  "h_max": 18.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 7,
+  "train_seconds": 0.7,
+  "n_train": 872,
+  "n_calib": 351,
+  "n_test": 720,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Myasthenia gravis",
+   "Panic attack",
+   "Spontaneous rib fracture",
+   "Stable angina",
+   "Whooping cough"
+  ],
+  "ghsom_maps": 20,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 13,
+   "3": 6
+  },
+  "ghsom_leaf_clusters": 66,
+  "ghsom_weighted_purity": 0.9678899082568807,
+  "ghsom_root_grid": "3x7",
+  "gng_init_nodes": 66,
+  "cart_fidelity": 0.30484330484330485,
+  "cart_depth": 8,
+  "h_max": 18.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 8,
+  "train_seconds": 0.7,
+  "n_train": 870,
+  "n_calib": 350,
+  "n_test": 723,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Anemia",
+   "Bronchiectasis",
+   "Chagas",
+   "Panic attack",
+   "Viral pharyngitis"
+  ],
+  "ghsom_maps": 21,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 13,
+   "3": 7
+  },
+  "ghsom_leaf_clusters": 67,
+  "ghsom_weighted_purity": 0.9586206896551724,
+  "ghsom_root_grid": "3x6",
+  "gng_init_nodes": 67,
+  "cart_fidelity": 0.3314285714285714,
+  "cart_depth": 8,
+  "h_max": 18.0
+ },
+ {
+  "dataset": "ddxplus",
+  "seed": 9,
+  "train_seconds": 0.7,
+  "n_train": 869,
+  "n_calib": 350,
+  "n_test": 724,
+  "n_features": 426,
+  "known_diseases": 44,
+  "novel_diseases": [
+   "Acute rhinosinusitis",
+   "Bronchitis",
+   "Croup",
+   "Scombroid food poisoning",
+   "URTI"
+  ],
+  "ghsom_maps": 17,
+  "ghsom_max_depth": 3,
+  "ghsom_maps_per_depth": {
+   "1": 1,
+   "2": 13,
+   "3": 3
+  },
+  "ghsom_leaf_clusters": 61,
+  "ghsom_weighted_purity": 0.9746835443037974,
+  "ghsom_root_grid": "4x5",
+  "gng_init_nodes": 61,
+  "cart_fidelity": 0.24285714285714285,
+  "cart_depth": 8,
+  "h_max": 18.55000000000001
+ }
+]

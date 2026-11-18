@@ -1,0 +1,1898 @@
+{
+ "kaggle": {
+  "Case 1": {
+   "patient_index_in_stream": 0,
+   "case": "Case 1",
+   "outcome": "known",
+   "disease": "Allergy",
+   "reason": "cluster 28 accepted (p=0.14), purity 1.00 -> ontology lookup",
+   "record": {
+    "path": "fit",
+    "cluster_profile": [
+     "continuous_sneezing",
+     "watering_from_eyes"
+    ],
+    "jaccard_to_cluster": 0.7001757943511394,
+    "cluster_code": 28,
+    "cluster_disease": "Allergy",
+    "cluster_purity": 1.0,
+    "cluster_label_dist": {
+     "Allergy": 1.0
+    },
+    "qe": 1.2401795613571138,
+    "p_value": 0.14285714285714285,
+    "p_value_pooled": true,
+    "qe_attribution": {
+     "top": [
+      {
+       "symptom": "continuous_sneezing",
+       "share": 0.34390994938794855,
+       "direction": "expected for cluster, absent"
+      },
+      {
+       "symptom": "shivering",
+       "share": 0.26328769062218343,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "chills",
+       "share": 0.26328769062218343,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "watering_from_eyes",
+       "share": 0.04835446636796328,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "irritation_in_anus",
+       "share": 0.01417259349727316,
+       "direction": "expected for cluster, absent"
+      }
+     ],
+     "present_unusual": [
+      "shivering",
+      "chills"
+     ],
+     "expected_absent": [
+      "continuous_sneezing"
+     ]
+    },
+    "cart": {
+     "rule": "NOT pain_behind_the_eyes AND NOT red_spots_over_body AND NOT visual_disturbances AND NOT throat_irritation AND NOT abnormal_menstruation AND NOT palpitations AND NOT swelled_lymph_nodes AND NOT phlegm",
+     "predicted_cluster": 0,
+     "rule_symptoms": [
+      "abnormal_menstruation",
+      "pain_behind_the_eyes",
+      "palpitations",
+      "phlegm",
+      "red_spots_over_body",
+      "swelled_lymph_nodes",
+      "throat_irritation",
+      "visual_disturbances"
+     ],
+     "fidelity": 0.32727272727272727
+    },
+    "cart_agrees": false,
+    "concordance": 0.0
+   },
+   "true_disease": "Allergy"
+  },
+  "Case 2": {
+   "patient_index_in_stream": 8,
+   "case": "Case 2",
+   "outcome": "new",
+   "reason": "no known disease or earlier addition fits",
+   "node": null,
+   "needs_node": true,
+   "ontology_top": [
+    {
+     "disease": "Hypoglycemia",
+     "score": 0.45454545454545453,
+     "coverage": 0.4166666666666667,
+     "explained": 0.5,
+     "satisfied": [
+      "hunger",
+      "irritability",
+      "sweating",
+      "tiredness",
+      "weakness"
+     ],
+     "unsatisfied": [
+      "dizziness",
+      "anxiety",
+      "tingling lips",
+      "heart palpitations",
+      "vision changes such as blurred vision",
+      "confusion",
+      "unconsciousness (severe)"
+     ],
+     "theta": 0.6086956521739131,
+     "consistent": false
+    },
+    {
+     "disease": "Tuberculosis",
+     "score": 0.26666666666666666,
+     "coverage": 0.2,
+     "explained": 0.4,
+     "satisfied": [
+      "ongoing tiredness",
+      "drenching night sweats",
+      "unintended weight loss",
+      "irritability (spread)"
+     ],
+     "unsatisfied": [
+      "cough lasting over three weeks",
+      "cough with phlegm",
+      "cough with blood",
+      "fever",
+      "reduced appetite",
+      "general feeling of being unwell",
+      "swollen glands (spread)",
+      "body aches and pains (spread)",
+      "swollen joints or ankles (spread)",
+      "stomach or pelvic pain (spread)",
+      "constipation (spread)",
+      "dark or cloudy urine (spread)",
+      "headache (spread)",
+      "vomiting (spread)",
+      "confusion (spread)",
+      "skin rash (spread)"
+     ],
+     "theta": 0.5945945945945945,
+     "consistent": false
+    },
+    {
+     "disease": "Hypothyroidism",
+     "score": 0.25,
+     "coverage": 0.3333333333333333,
+     "explained": 0.2,
+     "satisfied": [
+      "marked tiredness",
+      "menstrual changes (heavier or irregular bleeding)"
+     ],
+     "unsatisfied": [
+      "weight gain",
+      "hard stools / bowel sluggishness",
+      "trouble focusing or reasoning clearly",
+      "depressed mood"
+     ],
+     "theta": 0.4111111111111111,
+     "consistent": false
+    }
+   ],
+   "case3_check": null,
+   "disease": "NEW-1",
+   "record": {
+    "path": "proximity",
+    "ghsom_cluster": 27,
+    "ghsom_p_value": 0.03571428571428571,
+    "conformal_set": [
+     {
+      "node": 15,
+      "disease": "Hypoglycemia",
+      "kind": "known",
+      "p": 0.05357142857142857
+     },
+     {
+      "node": 14,
+      "disease": "Pneumonia",
+      "kind": "known",
+      "p": 0.03571428571428571
+     },
+     {
+      "node": 26,
+      "disease": "Hypothyroidism",
+      "kind": "known",
+      "p": 0.03571428571428571
+     },
+     {
+      "node": 35,
+      "disease": "Tuberculosis",
+      "kind": "known",
+      "p": 0.03571428571428571
+     },
+     {
+      "node": 0,
+      "disease": "Malaria",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 16,
+      "disease": "Migraine",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 1,
+      "disease": "Typhoid",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 2,
+      "disease": "Jaundice",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 24,
+      "disease": "Varicose veins",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 34,
+      "disease": "Bronchial Asthma",
+      "kind": "known",
+      "p": 0.017857142857142856
+     }
+    ],
+    "nearest": [
+     {
+      "node": 15,
+      "disease": "Hypoglycemia",
+      "kind": "known",
+      "jaccard": 0.7928529065806759,
+      "p": 0.05357142857142857,
+      "differential": {
+       "shared": [
+        "fatigue",
+        "sweating",
+        "excessive_hunger",
+        "irritability"
+       ],
+       "lacks": [
+        "vomiting",
+        "anxiety",
+        "headache",
+        "nausea",
+        "blurred_and_distorted_vision",
+        "drying_and_tingling_lips",
+        "slurred_speech",
+        "palpitations"
+       ],
+       "excess": [
+        "weight_loss",
+        "restlessness",
+        "diarrhoea",
+        "fast_heart_rate",
+        "muscle_weakness",
+        "abnormal_menstruation"
+       ],
+       "hamming": 14
+      }
+     },
+     {
+      "node": 14,
+      "disease": "Pneumonia",
+      "kind": "known",
+      "jaccard": 0.8652381413070996,
+      "p": 0.03571428571428571,
+      "differential": {
+       "shared": [
+        "fatigue",
+        "sweating",
+        "fast_heart_rate"
+       ],
+       "lacks": [
+        "chills",
+        "cough",
+        "high_fever",
+        "breathlessness",
+        "malaise",
+        "phlegm",
+        "chest_pain",
+        "rusty_sputum"
+       ],
+       "excess": [
+        "weight_loss",
+        "restlessness",
+        "diarrhoea",
+        "excessive_hunger",
+        "muscle_weakness",
+        "irritability",
+        "abnormal_menstruation"
+       ],
+       "hamming": 15
+      }
+     },
+     {
+      "node": 26,
+      "disease": "Hypothyroidism",
+      "kind": "known",
+      "jaccard": 0.8688220506557052,
+      "p": 0.03571428571428571,
+      "differential": {
+       "shared": [
+        "fatigue",
+        "irritability",
+        "abnormal_menstruation"
+       ],
+       "lacks": [
+        "weight_gain",
+        "cold_hands_and_feets",
+        "mood_swings",
+        "lethargy",
+        "dizziness",
+        "puffy_face_and_eyes",
+        "enlarged_thyroid",
+        "brittle_nails",
+        "swollen_extremeties",
+        "depression"
+       ],
+       "excess": [
+        "weight_loss",
+        "restlessness",
+        "sweating",
+        "diarrhoea",
+        "fast_heart_rate",
+        "excessive_hunger",
+        "muscle_weakness"
+       ],
+       "hamming": 17
+      }
+     }
+    ],
+    "proposed_node": null,
+    "nearest_registered": null
+   },
+   "true_disease": "Hyperthyroidism"
+  },
+  "Ontology reasoning (low purity)": {
+   "patient_index_in_stream": 19,
+   "case": "Ontology reasoning (low purity)",
+   "outcome": "known",
+   "disease": "Urinary tract infection",
+   "reason": "ontology score 0.43 >= theta 0.31",
+   "ontology_top": [
+    {
+     "disease": "Urinary tract infection",
+     "score": 0.4285714285714285,
+     "coverage": 0.3,
+     "explained": 0.75,
+     "satisfied": [
+      "pain or burning when urinating",
+      "sudden or urgent need to urinate",
+      "smelly urine"
+     ],
+     "unsatisfied": [
+      "needing to urinate more often",
+      "blood in urine",
+      "lower tummy pain",
+      "pain in the back below the ribs",
+      "fever, or feeling hot or cold and shivery",
+      "tiredness",
+      "dark urine"
+     ],
+     "theta": 0.30769230769230765,
+     "consistent": true
+    },
+    {
+     "disease": "Fungal infection",
+     "score": 0.0,
+     "coverage": 0.0,
+     "explained": 0.0,
+     "satisfied": [],
+     "unsatisfied": [
+      "rash as the main symptom",
+      "scaly or dry skin",
+      "itchy skin",
+      "fluid-filled blisters"
+     ],
+     "theta": 0.28571428571428575,
+     "consistent": false
+    }
+   ],
+   "record": {
+    "path": "fit",
+    "cluster_profile": [],
+    "jaccard_to_cluster": 0.88379375399484,
+    "cluster_code": 11,
+    "cluster_disease": "Fungal infection",
+    "cluster_purity": 0.5,
+    "cluster_label_dist": {
+     "Fungal infection": 0.5,
+     "Urinary tract infection": 0.5
+    },
+    "qe": 1.7128133162911314,
+    "p_value": 0.05357142857142857,
+    "p_value_pooled": true,
+    "qe_attribution": {
+     "top": [
+      {
+       "symptom": "bladder_discomfort",
+       "share": 0.26094754326939634,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "burning_micturition",
+       "share": 0.24114981261771834,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "foul_smell_of_urine",
+       "share": 0.19169135198932216,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "continuous_feel_of_urine",
+       "share": 0.19169135198932216,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "skin_rash",
+       "share": 0.023938128431826983,
+       "direction": "expected for cluster, absent"
+      }
+     ],
+     "present_unusual": [
+      "burning_micturition",
+      "bladder_discomfort",
+      "foul_smell_of_urine",
+      "continuous_feel_of_urine"
+     ],
+     "expected_absent": []
+    },
+    "cart": {
+     "rule": "NOT pain_behind_the_eyes AND NOT red_spots_over_body AND NOT visual_disturbances AND NOT throat_irritation AND NOT abnormal_menstruation AND NOT palpitations AND NOT swelled_lymph_nodes AND NOT phlegm",
+     "predicted_cluster": 0,
+     "rule_symptoms": [
+      "abnormal_menstruation",
+      "pain_behind_the_eyes",
+      "palpitations",
+      "phlegm",
+      "red_spots_over_body",
+      "swelled_lymph_nodes",
+      "throat_irritation",
+      "visual_disturbances"
+     ],
+     "fidelity": 0.32727272727272727
+    },
+    "cart_agrees": false,
+    "concordance": 0.0
+   },
+   "true_disease": "Urinary tract infection"
+  },
+  "Case 3": {
+   "patient_index_in_stream": 30,
+   "case": "Case 3",
+   "outcome": "old_new",
+   "disease": "NEW-1",
+   "node": 37,
+   "reason": "registered node 37 accepts (p=0.89), differential 2 <= 3; ontology confirms profile (score 0.90 >= 0.51)",
+   "ontology_check": {
+    "disease": "NEW-1",
+    "score": 0.9,
+    "coverage": 0.9,
+    "explained": 0.9,
+    "theta": 0.5107142857142857,
+    "confirmed": true
+   },
+   "record": {
+    "path": "proximity",
+    "ghsom_cluster": 27,
+    "ghsom_p_value": 0.03571428571428571,
+    "conformal_set": [
+     {
+      "node": 37,
+      "disease": "NEW-1",
+      "kind": "new",
+      "p": 0.8928571428571429
+     },
+     {
+      "node": 15,
+      "disease": "Hypoglycemia",
+      "kind": "known",
+      "p": 0.05357142857142857
+     },
+     {
+      "node": 39,
+      "disease": "NEW-3",
+      "kind": "new",
+      "p": 0.05357142857142857
+     },
+     {
+      "node": 26,
+      "disease": "Hypothyroidism",
+      "kind": "known",
+      "p": 0.05357142857142857
+     },
+     {
+      "node": 14,
+      "disease": "Pneumonia",
+      "kind": "known",
+      "p": 0.03571428571428571
+     },
+     {
+      "node": 35,
+      "disease": "Tuberculosis",
+      "kind": "known",
+      "p": 0.03571428571428571
+     },
+     {
+      "node": 0,
+      "disease": "Malaria",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 16,
+      "disease": "Migraine",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 1,
+      "disease": "Typhoid",
+      "kind": "known",
+      "p": 0.017857142857142856
+     },
+     {
+      "node": 2,
+      "disease": "Jaundice",
+      "kind": "known",
+      "p": 0.017857142857142856
+     }
+    ],
+    "nearest": [
+     {
+      "node": 37,
+      "disease": "NEW-1",
+      "kind": "new",
+      "jaccard": 0.18181818181818177,
+      "p": 0.8928571428571429,
+      "differential": {
+       "shared": [
+        "fatigue",
+        "weight_loss",
+        "sweating",
+        "diarrhoea",
+        "fast_heart_rate",
+        "excessive_hunger",
+        "muscle_weakness",
+        "irritability",
+        "abnormal_menstruation"
+       ],
+       "lacks": [
+        "restlessness"
+       ],
+       "excess": [
+        "mood_swings"
+       ],
+       "hamming": 2
+      }
+     },
+     {
+      "node": 15,
+      "disease": "Hypoglycemia",
+      "kind": "known",
+      "jaccard": 0.7928529065806759,
+      "p": 0.05357142857142857,
+      "differential": {
+       "shared": [
+        "fatigue",
+        "sweating",
+        "excessive_hunger",
+        "irritability"
+       ],
+       "lacks": [
+        "vomiting",
+        "anxiety",
+        "headache",
+        "nausea",
+        "blurred_and_distorted_vision",
+        "drying_and_tingling_lips",
+        "slurred_speech",
+        "palpitations"
+       ],
+       "excess": [
+        "mood_swings",
+        "weight_loss",
+        "diarrhoea",
+        "fast_heart_rate",
+        "muscle_weakness",
+        "abnormal_menstruation"
+       ],
+       "hamming": 14
+      }
+     },
+     {
+      "node": 39,
+      "disease": "NEW-3",
+      "kind": "new",
+      "jaccard": 0.8125,
+      "p": 0.05357142857142857,
+      "differential": {
+       "shared": [
+        "fatigue",
+        "weight_loss",
+        "excessive_hunger"
+       ],
+       "lacks": [
+        "restlessness",
+        "lethargy",
+        "irregular_sugar_level",
+        "blurred_and_distorted_vision",
+        "increased_appetite",
+        "polyuria"
+       ],
+       "excess": [
+        "mood_swings",
+        "sweating",
+        "diarrhoea",
+        "fast_heart_rate",
+        "muscle_weakness",
+        "irritability",
+        "abnormal_menstruation"
+       ],
+       "hamming": 13
+      }
+     }
+    ],
+    "proposed_node": null,
+    "nearest_registered": {
+     "node": 37,
+     "disease": "NEW-1",
+     "p": 0.8928571428571429,
+     "differential": {
+      "shared": [
+       "fatigue",
+       "weight_loss",
+       "sweating",
+       "diarrhoea",
+       "fast_heart_rate",
+       "excessive_hunger",
+       "muscle_weakness",
+       "irritability",
+       "abnormal_menstruation"
+      ],
+      "lacks": [
+       "restlessness"
+      ],
+      "excess": [
+       "mood_swings"
+      ],
+      "hamming": 2
+     }
+    }
+   },
+   "true_disease": "Hyperthyroidism"
+  }
+ },
+ "ddxplus": {
+  "Case 2": {
+   "patient_index_in_stream": 0,
+   "case": "Case 2",
+   "outcome": "new",
+   "reason": "no known disease or earlier addition fits",
+   "node": 68,
+   "needs_node": false,
+   "ontology_top": [
+    {
+     "disease": "Pulmonary neoplasm",
+     "score": 0.25,
+     "coverage": 0.2857142857142857,
+     "explained": 0.2222222222222222,
+     "satisfied": [
+      "Shortness of breath",
+      "Chest or shoulder pain",
+      "Feeling tired all the time"
+     ],
+     "unsatisfied": [
+      "A cough that is not going away",
+      "Coughing up blood",
+      "Losing weight without trying",
+      "Not feeling hungry (loss of appetite)",
+      "Swelling of your face or neck",
+      "Difficulty swallowing",
+      "A hoarse voice that does not go away",
+      "A family member who has had lung cancer"
+     ],
+     "theta": 0.40710325710325707,
+     "consistent": false
+    },
+    {
+     "disease": "Anemia",
+     "score": 0.21428571428571427,
+     "coverage": 0.3,
+     "explained": 0.16666666666666666,
+     "satisfied": [
+      "Tiredness and lack of energy",
+      "Shortness of breath",
+      "Painful open sores in the corners of your mouth"
+     ],
+     "unsatisfied": [
+      "Noticeable heartbeats (heart palpitations)",
+      "Paler than usual skin",
+      "Headaches",
+      "Finding it hard to swallow",
+      "Heavy periods",
+      "Pregnancy",
+      "Poor diet",
+      "Bleeding in the stomach and intestines",
+      "Non-steroidal anti-inflammatory drugs",
+      "Cancers of the bowel or stomach"
+     ],
+     "theta": 0.25583333333333336,
+     "consistent": false
+    },
+    {
+     "disease": "Sarcoidosis",
+     "score": 0.2105263157894737,
+     "coverage": 0.2857142857142857,
+     "explained": 0.16666666666666666,
+     "satisfied": [
+      "Tender bumps on the skin",
+      "Shortness of breath",
+      "Tiredness and a general feeling of being unwell"
+     ],
+     "unsatisfied": [
+      "A persistent dry cough",
+      "Chest pain or discomfort",
+      "Swollen, tender glands in the face, neck, armpits or groin",
+      "Red or sore eyes",
+      "Abnormal heart rhythm (arrhythmia)",
+      "A blocked or stuffy nose",
+      "Headache",
+      "More common in women"
+     ],
+     "theta": 0.0,
+     "consistent": true
+    }
+   ],
+   "case3_check": null,
+   "disease": "NEW-1",
+   "record": {
+    "path": "proximity",
+    "ghsom_cluster": 54,
+    "ghsom_p_value": 0.005681818181818182,
+    "conformal_set": [],
+    "nearest": [
+     {
+      "node": 33,
+      "disease": "Pancreatic neoplasm",
+      "kind": "known",
+      "jaccard": 0.8134887039087885,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_53",
+        "E_129",
+        "E_130",
+        "E_136",
+        "E_135",
+        "E_89",
+        "E_79"
+       ],
+       "lacks": [
+        "E_133=V_197",
+        "E_134",
+        "E_132",
+        "E_148",
+        "E_6",
+        "sex_female"
+       ],
+       "excess": [
+        "E_55=V_26",
+        "E_55=V_35",
+        "E_55=V_74",
+        "E_55=V_194",
+        "E_55=V_195",
+        "E_54=V_161",
+        "E_133=V_108",
+        "E_133=V_109",
+        "E_66",
+        "E_102",
+        "E_206",
+        "sex_male",
+        "age_2_11"
+       ],
+       "hamming": 19
+      }
+     },
+     {
+      "node": 31,
+      "disease": "Scombroid food poisoning",
+      "kind": "known",
+      "jaccard": 0.8486732869660826,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_129",
+        "E_130",
+        "E_136",
+        "E_135"
+       ],
+       "lacks": [
+        "E_133=V_26",
+        "E_133=V_30",
+        "E_133=V_31",
+        "E_133=V_32",
+        "E_133=V_33",
+        "E_134",
+        "E_132",
+        "E_148",
+        "E_214",
+        "E_92",
+        "E_187",
+        "sex_female"
+       ],
+       "excess": [
+        "E_55=V_26",
+        "E_55=V_35",
+        "E_55=V_74",
+        "E_55=V_194",
+        "E_55=V_195",
+        "E_53",
+        "E_54=V_161",
+        "E_133=V_108",
+        "E_133=V_109",
+        "E_89",
+        "E_66",
+        "E_102",
+        "E_206",
+        "E_79",
+        "sex_male",
+        "age_2_11"
+       ],
+       "hamming": 28
+      }
+     },
+     {
+      "node": 32,
+      "disease": "Anaphylaxis",
+      "kind": "known",
+      "jaccard": 0.8512147586874692,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_53",
+        "E_129",
+        "E_130",
+        "E_136",
+        "E_135",
+        "E_66",
+        "sex_male"
+       ],
+       "lacks": [
+        "E_55=V_197",
+        "E_54=V_192",
+        "E_133=V_26",
+        "E_133=V_30",
+        "E_133=V_31",
+        "E_133=V_32",
+        "E_133=V_33",
+        "E_133=V_34",
+        "E_134",
+        "E_132",
+        "E_51",
+        "E_152=V_89",
+        "E_152=V_108",
+        "E_152=V_109",
+        "E_152=V_122",
+        "E_151",
+        "E_42",
+        "E_214",
+        "E_226",
+        "E_12"
+       ],
+       "excess": [
+        "E_55=V_26",
+        "E_55=V_35",
+        "E_55=V_74",
+        "E_55=V_194",
+        "E_55=V_195",
+        "E_54=V_161",
+        "E_133=V_108",
+        "E_133=V_109",
+        "E_89",
+        "E_102",
+        "E_206",
+        "E_79",
+        "age_2_11"
+       ],
+       "hamming": 33
+      }
+     }
+    ],
+    "proposed_node": 68,
+    "nearest_registered": null
+   },
+   "true_disease": "SLE"
+  },
+  "Case 1": {
+   "patient_index_in_stream": 1,
+   "case": "Case 1",
+   "outcome": "known",
+   "disease": "HIV (initial infection)",
+   "reason": "cluster 0 accepted (p=0.07), purity 1.00 -> ontology lookup",
+   "record": {
+    "path": "fit",
+    "cluster_profile": [
+     "E_91",
+     "E_53",
+     "E_129",
+     "E_130",
+     "E_134",
+     "E_132",
+     "E_135",
+     "E_148",
+     "E_50",
+     "sex_female"
+    ],
+    "jaccard_to_cluster": 0.7627955444619845,
+    "cluster_code": 0,
+    "cluster_disease": "HIV (initial infection)",
+    "cluster_purity": 1.0,
+    "cluster_label_dist": {
+     "HIV (initial infection)": 1.0
+    },
+    "qe": 4.108913399261057,
+    "p_value": 0.07102272727272728,
+    "p_value_pooled": true,
+    "qe_attribution": {
+     "top": [
+      {
+       "symptom": "E_55=V_53",
+       "share": 0.059228818004816726,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "E_227",
+       "share": 0.05922881800481615,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "E_133=V_54",
+       "share": 0.05899316818353333,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "E_94",
+       "share": 0.0583427296327147,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "E_181",
+       "share": 0.05159367991869624,
+       "direction": "present, unusual for cluster"
+      }
+     ],
+     "present_unusual": [
+      "E_55=V_25",
+      "E_55=V_26",
+      "E_55=V_53",
+      "E_55=V_62",
+      "E_55=V_89",
+      "E_54=V_183",
+      "E_54=V_198",
+      "E_133=V_26",
+      "E_133=V_54",
+      "E_94",
+      "E_181",
+      "E_88",
+      "E_201",
+      "E_97",
+      "E_79",
+      "E_227",
+      "age_65_plus"
+     ],
+     "expected_absent": [
+      "E_148"
+     ]
+    },
+    "cart": {
+     "rule": "NOT E_187 AND NOT E_153 AND NOT E_178 AND NOT E_151 AND NOT E_3 AND NOT E_21 AND NOT E_164 AND NOT E_20",
+     "predicted_cluster": 0,
+     "rule_symptoms": [
+      "E_151",
+      "E_153",
+      "E_164",
+      "E_178",
+      "E_187",
+      "E_20",
+      "E_21",
+      "E_3"
+     ],
+     "fidelity": 0.23646723646723647
+    },
+    "cart_agrees": true,
+    "concordance": 0.0
+   },
+   "true_disease": "Influenza"
+  },
+  "Ontology reasoning (low purity)": {
+   "patient_index_in_stream": 5,
+   "case": "Ontology reasoning (low purity)",
+   "outcome": "known",
+   "disease": "Unstable angina",
+   "reason": "ontology score 0.75 >= theta 0.58",
+   "ontology_top": [
+    {
+     "disease": "Unstable angina",
+     "score": 0.7453416149068324,
+     "coverage": 0.7407407407407407,
+     "explained": 0.75,
+     "satisfied": [
+      "Sudden pain in your chest, neck, shoulders, jaw or arms",
+      "Pain that spreads to your arm, neck, jaw, shoulder, stomach or back",
+      "Feeling sick",
+      "Breathless",
+      "Angina that happens when you're resting",
+      "Angina that feels worse than before or is happening more often",
+      "Triggers such as exercise",
+      "Smoking",
+      "Drinking more than 14 units of alcohol a week",
+      "High blood pressure",
+      "Previous heart problems",
+      "Close relatives with heart problems",
+      "Diabetes"
+     ],
+     "unsatisfied": [
+      "Dizzy",
+      "Sweaty",
+      "Obesity or overweight",
+      "High cholesterol",
+      "Kidney disease"
+     ],
+     "theta": 0.5793973880274009,
+     "consistent": true
+    },
+    {
+     "disease": "Stable angina",
+     "score": 0.6808510638297872,
+     "coverage": 0.6956521739130435,
+     "explained": 0.6666666666666666,
+     "satisfied": [
+      "Pain in your chest (tightness, squeezing or pressure)",
+      "Pain that spreads to your arm, neck, jaw, shoulder, stomach or back",
+      "Feeling sick",
+      "Breathless",
+      "Triggers such as exercise (eased by rest)",
+      "Smoking",
+      "Drinking more than 14 units of alcohol a week",
+      "High blood pressure",
+      "Previous heart problems",
+      "Close relatives with heart problems",
+      "Diabetes"
+     ],
+     "unsatisfied": [
+      "Dizzy",
+      "Sweaty",
+      "Obesity or overweight",
+      "High cholesterol",
+      "Kidney disease"
+     ],
+     "theta": 0.4888888888888889,
+     "consistent": true
+    }
+   ],
+   "record": {
+    "path": "fit",
+    "cluster_profile": [
+     "E_55=V_29",
+     "E_55=V_101",
+     "E_55=V_159",
+     "E_55=V_160",
+     "E_55=V_197",
+     "E_53",
+     "E_57=V_30",
+     "E_57=V_31",
+     "E_57=V_33",
+     "E_57=V_163",
+     "E_57=V_194",
+     "E_57=V_195",
+     "E_54=V_154",
+     "E_54=V_183",
+     "E_54=V_198",
+     "E_218",
+     "E_66",
+     "E_13",
+     "E_14",
+     "E_78",
+     "E_105",
+     "E_104",
+     "E_79",
+     "E_71",
+     "E_69",
+     "E_70",
+     "E_143",
+     "E_225",
+     "sex_female",
+     "age_18_39"
+    ],
+    "jaccard_to_cluster": 0.5346460343259831,
+    "cluster_code": 47,
+    "cluster_disease": "Unstable angina",
+    "cluster_purity": 0.7692307692307693,
+    "cluster_label_dist": {
+     "Stable angina": 0.23076923076923078,
+     "Unstable angina": 0.7692307692307693
+    },
+    "qe": 3.222797617770678,
+    "p_value": 0.6107954545454546,
+    "p_value_pooled": true,
+    "qe_attribution": {
+     "top": [
+      {
+       "symptom": "E_57=V_30",
+       "share": 0.07049651504086513,
+       "direction": "expected for cluster, absent"
+      },
+      {
+       "symptom": "E_70",
+       "share": 0.06774311333645007,
+       "direction": "expected for cluster, absent"
+      },
+      {
+       "symptom": "E_71",
+       "share": 0.06773634627088033,
+       "direction": "expected for cluster, absent"
+      },
+      {
+       "symptom": "E_55=V_56",
+       "share": 0.06465742583072552,
+       "direction": "present, unusual for cluster"
+      },
+      {
+       "symptom": "E_55=V_29",
+       "share": 0.05871435475115248,
+       "direction": "expected for cluster, absent"
+      }
+     ],
+     "present_unusual": [
+      "E_55=V_56",
+      "E_57=V_39",
+      "E_148",
+      "sex_male",
+      "age_40_64"
+     ],
+     "expected_absent": [
+      "E_55=V_29",
+      "E_57=V_30",
+      "E_57=V_163",
+      "E_54=V_183",
+      "E_71",
+      "E_70",
+      "E_143",
+      "sex_female",
+      "age_18_39"
+     ]
+    },
+    "cart": {
+     "rule": "NOT E_187 AND NOT E_153 AND NOT E_178 AND NOT E_151 AND NOT E_3 AND NOT E_21 AND NOT E_164 AND NOT E_20",
+     "predicted_cluster": 0,
+     "rule_symptoms": [
+      "E_151",
+      "E_153",
+      "E_164",
+      "E_178",
+      "E_187",
+      "E_20",
+      "E_21",
+      "E_3"
+     ],
+     "fidelity": 0.23646723646723647
+    },
+    "cart_agrees": false,
+    "concordance": 0.0
+   },
+   "true_disease": "Unstable angina"
+  },
+  "Ontology override -> known": {
+   "patient_index_in_stream": 8,
+   "case": "Ontology override -> known",
+   "outcome": "known",
+   "disease": "Croup",
+   "reason": "prefetched candidates: score 0.49 >= theta 0.30",
+   "reject_node": 69,
+   "ontology_top": [
+    {
+     "disease": "Croup",
+     "score": 0.4864864864864865,
+     "coverage": 0.47368421052631576,
+     "explained": 0.5,
+     "satisfied": [
+      "A barking cough",
+      "Difficulty breathing",
+      "A temperature",
+      "Runny nose",
+      "Mainly affects babies' and young children's airways"
+     ],
+     "unsatisfied": [
+      "A hoarse voice",
+      "A high pitched, rasping sound when breathing in",
+      "Often worse at night",
+      "Drooling more than they normally do",
+      "Finding it hard to swallow"
+     ],
+     "theta": 0.3022875816993464,
+     "consistent": true
+    },
+    {
+     "disease": "Bronchitis",
+     "score": 0.4444444444444445,
+     "coverage": 0.4,
+     "explained": 0.5,
+     "satisfied": [
+      "A cough - you may cough up mucus",
+      "Shortness of breath",
+      "A runny nose",
+      "A high temperature"
+     ],
+     "unsatisfied": [
+      "Chest pain when coughing",
+      "A sore throat",
+      "You cough up blood or blood-stained mucus",
+      "You suddenly feel confused",
+      "You're over 65",
+      "You're pregnant",
+      "A long-term condition, such as diabetes, or a heart, lung or kidney condition",
+      "A weakened immune system"
+     ],
+     "theta": 0.20816696914700547,
+     "consistent": true
+    },
+    {
+     "disease": "Tuberculosis",
+     "score": 0.14814814814814814,
+     "coverage": 0.10526315789473684,
+     "explained": 0.25,
+     "satisfied": [
+      "A cough that lasts more than 3 weeks",
+      "A high temperature or night sweats"
+     ],
+     "unsatisfied": [
+      "Cough up mucus or mucus with blood in it",
+      "Feeling tired all the time",
+      "Not feeling as hungry as usual",
+      "Losing weight without trying",
+      "Swollen glands",
+      "Body aches and pains",
+      "A headache",
+      "Being sick (vomiting)",
+      "Feeling confused or irritable",
+      "Swollen joints or ankles",
+      "Tummy or pelvic pain",
+      "A rash on the legs, face or other part of the body",
+      "Had a seizure or fit",
+      "Weakness or loss of movement in part of the body",
+      "Born in or lived in an area where TB is more common",
+      "People with HIV",
+      "Diabetes",
+      "A weakened immune system",
+      "Regularly smoke, drink alcohol or take drugs",
+      "Close contact with people who have TB"
+     ],
+     "theta": 0.2501864443957008,
+     "consistent": false
+    }
+   ],
+   "case3_check": null,
+   "record": {
+    "path": "proximity",
+    "ghsom_cluster": 15,
+    "ghsom_p_value": 0.002840909090909091,
+    "conformal_set": [],
+    "nearest": [
+     {
+      "node": 11,
+      "disease": "Tuberculosis",
+      "kind": "known",
+      "jaccard": 0.8387499343978,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_91",
+        "E_66",
+        "E_201"
+       ],
+       "lacks": [
+        "E_162",
+        "E_45",
+        "E_78",
+        "E_69",
+        "E_2",
+        "E_61",
+        "E_208",
+        "E_44",
+        "sex_female"
+       ],
+       "excess": [
+        "E_181",
+        "E_32",
+        "E_23",
+        "E_142",
+        "E_183",
+        "sex_male",
+        "age_under_2"
+       ],
+       "hamming": 16
+      }
+     },
+     {
+      "node": 34,
+      "disease": "Bronchitis",
+      "kind": "known",
+      "jaccard": 0.8401431744001727,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_91",
+        "E_181",
+        "E_201",
+        "sex_male"
+       ],
+       "lacks": [
+        "E_53",
+        "E_54=V_161",
+        "age_40_64"
+       ],
+       "excess": [
+        "E_66",
+        "E_32",
+        "E_23",
+        "E_142",
+        "E_183",
+        "age_under_2"
+       ],
+       "hamming": 9
+      }
+     },
+     {
+      "node": 17,
+      "disease": "Croup",
+      "kind": "known",
+      "jaccard": 0.8520725459890681,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_181"
+       ],
+       "lacks": [
+        "E_190",
+        "E_194",
+        "E_202",
+        "E_219",
+        "E_4",
+        "sex_female",
+        "age_2_11"
+       ],
+       "excess": [
+        "E_91",
+        "E_66",
+        "E_201",
+        "E_32",
+        "E_23",
+        "E_142",
+        "E_183",
+        "sex_male",
+        "age_under_2"
+       ],
+       "hamming": 16
+      }
+     }
+    ],
+    "proposed_node": 69,
+    "nearest_registered": {
+     "node": 68,
+     "disease": "NEW-1",
+     "p": 0.002840909090909091,
+     "differential": {
+      "shared": [
+       "E_66",
+       "sex_male"
+      ],
+      "lacks": [
+       "E_55=V_26",
+       "E_55=V_35",
+       "E_55=V_74",
+       "E_55=V_194",
+       "E_55=V_195",
+       "E_53",
+       "E_54=V_161",
+       "E_133=V_108",
+       "E_133=V_109",
+       "E_129",
+       "E_130",
+       "E_136",
+       "E_135",
+       "E_89",
+       "E_102",
+       "E_206",
+       "E_79",
+       "age_2_11"
+      ],
+      "excess": [
+       "E_91",
+       "E_181",
+       "E_201",
+       "E_32",
+       "E_23",
+       "E_142",
+       "E_183",
+       "age_under_2"
+      ],
+      "hamming": 26
+     }
+    }
+   },
+   "true_disease": "Bronchiolitis"
+  },
+  "GNG -> known": {
+   "patient_index_in_stream": 14,
+   "case": "GNG -> known",
+   "outcome": "known",
+   "disease": "Atrial fibrillation",
+   "reason": "prefetched candidates: score 0.50 >= theta 0.39",
+   "reject_node": null,
+   "ontology_top": [
+    {
+     "disease": "Atrial fibrillation",
+     "score": 0.4983818770226537,
+     "coverage": 0.36666666666666664,
+     "explained": 0.7777777777777778,
+     "satisfied": [
+      "An irregular heartbeat, where your pulse is not steady",
+      "Heart pounding, racing, fluttering, skipping or missing a beat",
+      "Feeling short of breath",
+      "Feeling lightheaded, dizzy or like you might faint",
+      "High blood pressure",
+      "Mitral valve problems",
+      "Diabetes"
+     ],
+     "unsatisfied": [
+      "Feeling very tired",
+      "Finding it harder to exercise",
+      "Chest pain or tightness",
+      "Sweating",
+      "Feeling or being sick",
+      "You're a man",
+      "Living with obesity or overweight",
+      "You smoke",
+      "Heart failure",
+      "A heart attack",
+      "Chronic kidney disease",
+      "An overactive thyroid (hyperthyroidism)",
+      "Sleep apnoea",
+      "Caffeine"
+     ],
+     "theta": 0.3884279475982533,
+     "consistent": true
+    },
+    {
+     "disease": "PSVT",
+     "score": 0.43243243243243246,
+     "coverage": 0.32,
+     "explained": 0.6666666666666666,
+     "satisfied": [
+      "A very fast heartbeat / pounding or fluttering feelings in the chest (palpitations)",
+      "A lightheaded or dizzy feeling",
+      "Shortness of breath",
+      "Heart disease (coronary artery disease, valve disease, heart failure, congenital defect)",
+      "Diabetes"
+     ],
+     "unsatisfied": [
+      "Chest pain",
+      "Fainting or almost fainting",
+      "Sweating",
+      "Weakness or extreme tiredness",
+      "Long-term conditions that affect the lungs and airways",
+      "Obstructive sleep apnea",
+      "Thyroid disease",
+      "Stress",
+      "Too much caffeine",
+      "Too much alcohol use",
+      "Smoking and nicotine use",
+      "Stimulant drugs",
+      "More often in women, especially during pregnancy"
+     ],
+     "theta": 0.27768957946292855,
+     "consistent": true
+    },
+    {
+     "disease": "Tuberculosis",
+     "score": 0.0425531914893617,
+     "coverage": 0.02631578947368421,
+     "explained": 0.1111111111111111,
+     "satisfied": [
+      "Diabetes"
+     ],
+     "unsatisfied": [
+      "A cough that lasts more than 3 weeks",
+      "Cough up mucus or mucus with blood in it",
+      "Feeling tired all the time",
+      "A high temperature or night sweats",
+      "Not feeling as hungry as usual",
+      "Losing weight without trying",
+      "Swollen glands",
+      "Body aches and pains",
+      "A headache",
+      "Being sick (vomiting)",
+      "Feeling confused or irritable",
+      "Swollen joints or ankles",
+      "Tummy or pelvic pain",
+      "A rash on the legs, face or other part of the body",
+      "Had a seizure or fit",
+      "Weakness or loss of movement in part of the body",
+      "Born in or lived in an area where TB is more common",
+      "People with HIV",
+      "A weakened immune system",
+      "Regularly smoke, drink alcohol or take drugs",
+      "Close contact with people who have TB"
+     ],
+     "theta": 0.2501864443957008,
+     "consistent": false
+    }
+   ],
+   "case3_check": null,
+   "record": {
+    "path": "proximity",
+    "ghsom_cluster": 1,
+    "ghsom_p_value": 0.03977272727272727,
+    "conformal_set": [
+     {
+      "node": 1,
+      "disease": "Atrial fibrillation",
+      "kind": "known",
+      "p": 0.16761363636363635
+     }
+    ],
+    "nearest": [
+     {
+      "node": 1,
+      "disease": "Atrial fibrillation",
+      "kind": "known",
+      "jaccard": 0.619508603263001,
+      "p": 0.16761363636363635,
+      "differential": {
+       "shared": [
+        "E_155",
+        "E_66",
+        "E_76",
+        "E_164",
+        "E_104",
+        "E_31",
+        "E_22",
+        "sex_female"
+       ],
+       "lacks": [
+        "E_105",
+        "E_70",
+        "E_19",
+        "age_40_64"
+       ],
+       "excess": [
+        "E_69",
+        "E_139",
+        "age_under_2"
+       ],
+       "hamming": 7
+      }
+     },
+     {
+      "node": 3,
+      "disease": "PSVT",
+      "kind": "known",
+      "jaccard": 0.8830295897499524,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_155",
+        "E_76"
+       ],
+       "lacks": [
+        "E_53",
+        "E_82",
+        "E_60",
+        "E_213",
+        "sex_male"
+       ],
+       "excess": [
+        "E_66",
+        "E_164",
+        "E_104",
+        "E_69",
+        "E_139",
+        "E_31",
+        "E_22",
+        "sex_female",
+        "age_under_2"
+       ],
+       "hamming": 14
+      }
+     },
+     {
+      "node": 11,
+      "disease": "Tuberculosis",
+      "kind": "known",
+      "jaccard": 0.8893236875011399,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_66",
+        "E_69",
+        "sex_female"
+       ],
+       "lacks": [
+        "E_91",
+        "E_162",
+        "E_201",
+        "E_45",
+        "E_78",
+        "E_2",
+        "E_61",
+        "E_208",
+        "E_44"
+       ],
+       "excess": [
+        "E_155",
+        "E_76",
+        "E_164",
+        "E_104",
+        "E_139",
+        "E_31",
+        "E_22",
+        "age_under_2"
+       ],
+       "hamming": 17
+      }
+     }
+    ],
+    "proposed_node": null,
+    "nearest_registered": {
+     "node": 68,
+     "disease": "NEW-1",
+     "p": 0.002840909090909091,
+     "differential": {
+      "shared": [
+       "E_66"
+      ],
+      "lacks": [
+       "E_55=V_26",
+       "E_55=V_35",
+       "E_55=V_74",
+       "E_55=V_194",
+       "E_55=V_195",
+       "E_53",
+       "E_54=V_161",
+       "E_133=V_108",
+       "E_133=V_109",
+       "E_129",
+       "E_130",
+       "E_136",
+       "E_135",
+       "E_89",
+       "E_102",
+       "E_206",
+       "E_79",
+       "sex_male",
+       "age_2_11"
+      ],
+      "excess": [
+       "E_155",
+       "E_76",
+       "E_164",
+       "E_104",
+       "E_69",
+       "E_139",
+       "E_31",
+       "E_22",
+       "sex_female",
+       "age_under_2"
+      ],
+      "hamming": 29
+     }
+    }
+   },
+   "true_disease": "Atrial fibrillation"
+  },
+  "Case 3": {
+   "patient_index_in_stream": 17,
+   "case": "Case 3",
+   "outcome": "old_new",
+   "disease": "NEW-1",
+   "node": 68,
+   "reason": "registered node 68 accepts (p=0.84), differential 13 <= 17; ontology confirms profile (score 0.76 >= 0.29)",
+   "ontology_check": {
+    "disease": "NEW-1",
+    "score": 0.7567567567567567,
+    "coverage": 0.7777777777777778,
+    "explained": 0.7368421052631579,
+    "theta": 0.2908376447400838,
+    "confirmed": true
+   },
+   "record": {
+    "path": "proximity",
+    "ghsom_cluster": 54,
+    "ghsom_p_value": 0.008522727272727272,
+    "conformal_set": [
+     {
+      "node": 68,
+      "disease": "NEW-1",
+      "kind": "new",
+      "p": 0.8352272727272727
+     }
+    ],
+    "nearest": [
+     {
+      "node": 68,
+      "disease": "NEW-1",
+      "kind": "new",
+      "jaccard": 0.4814814814814815,
+      "p": 0.8352272727272727,
+      "differential": {
+       "shared": [
+        "E_55=V_26",
+        "E_55=V_35",
+        "E_55=V_74",
+        "E_53",
+        "E_54=V_161",
+        "E_133=V_109",
+        "E_129",
+        "E_130",
+        "E_135",
+        "E_89",
+        "E_66",
+        "E_102",
+        "E_206",
+        "E_79"
+       ],
+       "lacks": [
+        "E_55=V_194",
+        "E_55=V_195",
+        "E_133=V_108",
+        "E_136",
+        "sex_male",
+        "age_2_11"
+       ],
+       "excess": [
+        "E_55=V_34",
+        "E_55=V_75",
+        "E_133=V_122",
+        "E_132",
+        "E_3",
+        "sex_female",
+        "age_40_64"
+       ],
+       "hamming": 13
+      }
+     },
+     {
+      "node": 33,
+      "disease": "Pancreatic neoplasm",
+      "kind": "known",
+      "jaccard": 0.8103185316769909,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_53",
+        "E_129",
+        "E_130",
+        "E_132",
+        "E_135",
+        "E_89",
+        "E_79",
+        "sex_female"
+       ],
+       "lacks": [
+        "E_133=V_197",
+        "E_134",
+        "E_136",
+        "E_148",
+        "E_6"
+       ],
+       "excess": [
+        "E_55=V_26",
+        "E_55=V_34",
+        "E_55=V_35",
+        "E_55=V_74",
+        "E_55=V_75",
+        "E_54=V_161",
+        "E_133=V_109",
+        "E_133=V_122",
+        "E_66",
+        "E_102",
+        "E_206",
+        "E_3",
+        "age_40_64"
+       ],
+       "hamming": 18
+      }
+     },
+     {
+      "node": 30,
+      "disease": "Inguinal hernia",
+      "kind": "known",
+      "jaccard": 0.8235004409310326,
+      "p": 0.002840909090909091,
+      "differential": {
+       "shared": [
+        "E_53",
+        "E_129",
+        "E_130",
+        "E_132",
+        "E_135"
+       ],
+       "lacks": [
+        "E_55=V_88",
+        "E_55=V_168",
+        "E_54=V_183",
+        "E_133=V_87",
+        "E_133=V_88",
+        "E_134",
+        "E_203",
+        "E_160",
+        "sex_male"
+       ],
+       "excess": [
+        "E_55=V_26",
+        "E_55=V_34",
+        "E_55=V_35",
+        "E_55=V_74",
+        "E_55=V_75",
+        "E_54=V_161",
+        "E_133=V_109",
+        "E_133=V_122",
+        "E_89",
+        "E_66",
+        "E_102",
+        "E_206",
+        "E_79",
+        "E_3",
+        "sex_female",
+        "age_40_64"
+       ],
+       "hamming": 25
+      }
+     }
+    ],
+    "proposed_node": null,
+    "nearest_registered": {
+     "node": 68,
+     "disease": "NEW-1",
+     "p": 0.8352272727272727,
+     "differential": {
+      "shared": [
+       "E_55=V_26",
+       "E_55=V_35",
+       "E_55=V_74",
+       "E_53",
+       "E_54=V_161",
+       "E_133=V_109",
+       "E_129",
+       "E_130",
+       "E_135",
+       "E_89",
+       "E_66",
+       "E_102",
+       "E_206",
+       "E_79"
+      ],
+      "lacks": [
+       "E_55=V_194",
+       "E_55=V_195",
+       "E_133=V_108",
+       "E_136",
+       "sex_male",
+       "age_2_11"
+      ],
+      "excess": [
+       "E_55=V_34",
+       "E_55=V_75",
+       "E_133=V_122",
+       "E_132",
+       "E_3",
+       "sex_female",
+       "age_40_64"
+      ],
+      "hamming": 13
+     }
+    }
+   },
+   "true_disease": "SLE"
+  }
+ }
+}

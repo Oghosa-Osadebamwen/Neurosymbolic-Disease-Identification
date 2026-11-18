@@ -1,0 +1,91 @@
+dataset,disease,seeds_known,known_test_patients,known_recall,seeds_held_out,held_out_patients,held_out_flagged_new
+ddxplus,Acute COPD exacerbation / infection,10,120,0.9833333333333333,0,0,
+ddxplus,Acute dystonic reactions,8,96,0.9270833333333334,2,78,0.9871794871794872
+ddxplus,Acute laryngitis,10,120,0.9416666666666667,0,0,
+ddxplus,Acute otitis media,9,108,0.9814814814814815,1,40,0.975
+ddxplus,Acute pulmonary edema,10,120,0.9166666666666666,0,0,
+ddxplus,Acute rhinosinusitis,8,96,0.90625,2,80,0.0
+ddxplus,Allergic sinusitis,10,120,0.9583333333333334,0,0,
+ddxplus,Anaphylaxis,10,120,1.0,0,0,
+ddxplus,Anemia,8,96,0.96875,2,80,0.625
+ddxplus,Atrial fibrillation,10,120,1.0,0,0,
+ddxplus,Boerhaave,10,120,1.0,0,0,
+ddxplus,Bronchiectasis,8,96,0.9791666666666666,2,78,0.8589743589743589
+ddxplus,Bronchiolitis,8,80,1.0,2,70,0.35714285714285715
+ddxplus,Bronchitis,9,108,0.8703703703703703,1,40,0.375
+ddxplus,Bronchospasm / acute asthma exacerbation,9,108,0.9814814814814815,1,40,0.575
+ddxplus,Chagas,8,96,0.9791666666666666,2,80,0.8
+ddxplus,Chronic rhinosinusitis,9,108,0.23148148148148148,1,40,0.0
+ddxplus,Cluster headache,10,120,0.975,0,0,
+ddxplus,Croup,9,108,0.9907407407407407,1,40,0.85
+ddxplus,Ebola,10,120,0.9916666666666667,0,0,
+ddxplus,Epiglottitis,8,96,1.0,2,80,0.275
+ddxplus,GERD,9,108,1.0,1,40,0.975
+ddxplus,Guillain-Barré syndrome,9,108,0.9537037037037037,1,39,1.0
+ddxplus,HIV (initial infection),9,108,1.0,1,40,0.0
+ddxplus,Influenza,7,84,1.0,3,120,0.0
+ddxplus,Inguinal hernia,10,120,1.0,0,0,
+ddxplus,Larygospasm,10,110,0.990909090909091,0,0,
+ddxplus,Localized edema,10,120,1.0,0,0,
+ddxplus,Myasthenia gravis,9,108,0.9907407407407407,1,39,0.8717948717948718
+ddxplus,Myocarditis,9,108,0.8240740740740741,1,40,0.15
+ddxplus,PSVT,9,108,0.8611111111111112,1,40,0.825
+ddxplus,Pancreatic neoplasm,10,120,0.9916666666666667,0,0,
+ddxplus,Panic attack,7,84,1.0,3,120,0.575
+ddxplus,Pericarditis,10,120,0.9833333333333333,0,0,
+ddxplus,Pneumonia,10,120,1.0,0,0,
+ddxplus,Possible NSTEMI / STEMI,9,108,0.9444444444444444,1,40,0.05
+ddxplus,Pulmonary embolism,9,108,0.9814814814814815,1,40,0.925
+ddxplus,Pulmonary neoplasm,8,96,1.0,2,80,0.225
+ddxplus,SLE,8,96,0.9479166666666666,2,80,0.925
+ddxplus,Sarcoidosis,10,120,0.9583333333333334,0,0,
+ddxplus,Scombroid food poisoning,9,108,1.0,1,40,0.3
+ddxplus,Spontaneous pneumothorax,9,108,1.0,1,40,0.325
+ddxplus,Spontaneous rib fracture,9,108,1.0,1,40,0.25
+ddxplus,Stable angina,8,96,0.90625,2,80,0.05
+ddxplus,Tuberculosis,10,120,0.9916666666666667,0,0,
+ddxplus,URTI,8,96,0.9583333333333334,2,80,0.45
+ddxplus,Unstable angina,8,96,0.84375,2,80,0.0
+ddxplus,Viral pharyngitis,9,108,1.0,1,40,0.0
+ddxplus,Whooping cough,7,77,1.0,3,108,1.0
+kaggle,AIDS,9,18,0.6666666666666666,1,5,1.0
+kaggle,Acne,10,20,1.0,0,0,
+kaggle,Alcoholic hepatitis,10,20,1.0,0,0,
+kaggle,Allergy,9,18,0.8888888888888888,1,5,1.0
+kaggle,Arthritis,9,18,1.0,1,6,0.6666666666666666
+kaggle,Bronchial Asthma,10,20,1.0,0,0,
+kaggle,Cervical spondylosis,10,20,1.0,0,0,
+kaggle,Chicken pox,9,27,1.0,1,10,0.0
+kaggle,Chronic cholestasis,10,20,0.95,0,0,
+kaggle,Common Cold,8,24,1.0,2,18,0.0
+kaggle,Dengue,9,27,1.0,1,10,0.0
+kaggle,Diabetes,8,24,1.0,2,18,0.6111111111111112
+kaggle,Drug Reaction,8,16,0.875,2,12,0.0
+kaggle,Fungal infection,10,20,0.8,0,0,
+kaggle,GERD,9,18,1.0,1,7,0.0
+kaggle,Gastroenteritis,10,20,0.5,0,0,
+kaggle,Heart attack,8,16,1.0,2,10,0.5
+kaggle,Hemorrhoids (piles),9,18,1.0,1,6,1.0
+kaggle,Hepatitis A,10,30,1.0,0,0,
+kaggle,Hepatitis B,9,27,1.0,1,9,0.0
+kaggle,Hepatitis C,7,14,1.0,3,21,0.3333333333333333
+kaggle,Hepatitis D,10,30,1.0,0,0,
+kaggle,Hepatitis E,10,30,0.9666666666666667,0,0,
+kaggle,Hypertension,10,20,1.0,0,0,
+kaggle,Hyperthyroidism,8,24,1.0,2,18,0.6111111111111112
+kaggle,Hypoglycemia,9,27,1.0,1,9,0.0
+kaggle,Hypothyroidism,10,20,1.0,0,0,
+kaggle,Impetigo,7,14,1.0,3,18,1.0
+kaggle,Jaundice,10,30,1.0,0,0,
+kaggle,Malaria,10,20,1.0,0,0,
+kaggle,Migraine,8,24,1.0,2,20,0.45
+kaggle,Osteoarthritis,8,16,1.0,2,14,0.2857142857142857
+kaggle,Paralysis (brain hemorrhage),9,18,1.0,1,5,0.6
+kaggle,Paroxysmal positional vertigo,8,16,0.9375,2,14,0.5714285714285714
+kaggle,Peptic ulcer disease,10,20,1.0,0,0,
+kaggle,Pneumonia,8,24,1.0,2,18,0.16666666666666666
+kaggle,Psoriasis,8,16,1.0,2,14,0.8571428571428571
+kaggle,Tuberculosis,10,30,1.0,0,0,
+kaggle,Typhoid,8,24,1.0,2,18,0.0
+kaggle,Urinary tract infection,9,18,1.0,1,5,1.0
+kaggle,Varicose veins,9,18,1.0,1,8,1.0

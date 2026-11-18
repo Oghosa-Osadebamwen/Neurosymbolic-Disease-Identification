@@ -1,0 +1,52 @@
+disease,source_phrase,item_type,source_id
+Spontaneous pneumothorax,"Age 20 to 40, especially very tall and underweight",risk,mayo_pneumothorax
+Cluster headache,A smaller pupil in the eye,symptom,nhs_cluster
+Cluster headache,Pain that makes you feel restless,symptom,nhs_cluster
+Boerhaave,Subcutaneous emphysema,symptom,pmc_boerhaave
+Boerhaave,Peptic ulcer disease,risk,pmc_boerhaave
+Spontaneous rib fracture,Very tender in one particular spot,symptom,msd_ribfx
+GERD,Bad breath,symptom,nhs_reflux
+Anemia,Hair loss,symptom,nhs_ida
+Anemia,Hearing ringing noises inside your head (tinnitus),symptom,nhs_ida
+Anemia,Restless legs syndrome,symptom,nhs_ida
+Anemia,Food tasting strange,symptom,nhs_ida
+Viral pharyngitis,Redness in the back of your mouth,symptom,nhs_sorethroat
+Viral pharyngitis,Bad breath,symptom,nhs_sorethroat
+Inguinal hernia,"A heavy, dragging feeling in your leg",symptom,nhs_hernia
+Guillain-Barré syndrome,Difficulty moving your joints,symptom,nhs_gbs
+Acute laryngitis,Always needing to clear your throat,symptom,nhs_laryngitis
+PSVT,A pounding feeling in the neck,symptom,mayo_svt
+Bronchiectasis,Getting frequent chest infections,symptom,nhs_bronchiectasis
+Allergic sinusitis,Sneezing,symptom,nhs_allergic_rhinitis
+Chagas,"Digestive problems, such as an enlarged esophagus or colon",symptom,cdc_chagas
+Myocarditis,Autoimmune diseases like rheumatoid arthritis or lupus,risk,cc_myocarditis
+Larygospasm,General anesthesia during surgery,risk,healthline_laryngospasm
+Acute dystonic reactions,Rapid blinking or spasms that close the eyes,symptom,mayo_dystonia
+Acute dystonic reactions,Reactions to certain medicines,risk,mayo_dystonia
+Acute dystonic reactions,A family history of dystonia,risk,mayo_dystonia
+Localized edema,Stretched or shiny skin / pitting,symptom,mayo_edema
+Localized edema,Feeling of leg heaviness,symptom,mayo_edema
+SLE,Hair loss,symptom,nhs_lupus
+SLE,Changes in the colour of your fingers and toes when you're cold,symptom,nhs_lupus
+Acute otitis media,Difficulty hearing,symptom,nhs_ear
+Acute otitis media,Discharge running out of the ear,symptom,nhs_ear
+Panic attack,Trembling,symptom,nhs_panic
+Panic attack,Hot flushes,symptom,nhs_panic
+Panic attack,Dry mouth,symptom,nhs_panic
+Panic attack,A traumatic or very stressful life experience,risk,nhs_panic
+Bronchospasm / acute asthma exacerbation,Chest feeling tight,symptom,nhs_asthma
+Acute COPD exacerbation / infection,Frequent chest infections,symptom,nhs_copd
+URTI,Sneezing,symptom,nhs_cold
+Influenza,Difficulty sleeping,symptom,nhs_flu
+Acute rhinosinusitis,Bad breath,symptom,nhs_sinusitis
+Acute rhinosinusitis,A feeling of pressure in the ears,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Bad breath,symptom,nhs_sinusitis
+Chronic rhinosinusitis,A feeling of pressure in the ears,symptom,nhs_sinusitis
+Bronchiolitis,Sneezing,symptom,nhs_bronchiolitis
+Pulmonary neoplasm,Often having chest infections,symptom,nhs_lungcancer
+Pulmonary neoplasm,Changes in the way your fingers look (clubbing),symptom,nhs_lungcancer
+Sarcoidosis,Painful joints,symptom,nhs_sarcoid
+Sarcoidosis,Kidney stones,symptom,nhs_sarcoid
+Pancreatic neoplasm,The whites of your eyes or your skin turn yellow (jaundice),symptom,nhs_pancreatic
+Pancreatic neoplasm,Itchy skin,symptom,nhs_pancreatic
+Pericarditis,Painful joints,symptom,nhs_pericarditis

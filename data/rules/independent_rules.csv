@@ -1,0 +1,355 @@
+disease,item,source_phrase,dataset_symptoms_any_of,item_type,source_id
+Acne,1,pustules: raised bumps filled with pus,pus_filled_pimples,symptom,nhs_acne
+Acne,2,blackheads,blackheads,symptom,nhs_acne
+Acne,3,scars where you have had spots,scurring,symptom,nhs_acne
+AIDS,1,sore throat,throat_irritation,symptom,nhs_hiv
+AIDS,2,high temperature,mild_fever|high_fever,symptom,nhs_hiv
+AIDS,3,swollen glands,swelled_lymph_nodes,symptom,nhs_hiv
+AIDS,4,muscle aches,muscle_pain,symptom,nhs_hiv
+AIDS,5,tiredness,fatigue|lethargy,symptom,nhs_hiv
+AIDS,6,skin rash,skin_rash,symptom,nhs_hiv
+AIDS,7,sharing needles/syringes (route of infection),receiving_unsterile_injections,risk,nhs_hiv
+AIDS,8,blood transfusion/exposure to infected blood (route of infection),receiving_blood_transfusion,risk,nhs_hiv
+AIDS,9,sex without a condom with someone who has HIV (route of infection),extra_marital_contacts,risk,nhs_hiv
+Allergy,1,runny nose,runny_nose,symptom,nhs_allergies
+Allergy,2,sneezing,continuous_sneezing,symptom,nhs_allergies
+Allergy,3,red eyes,redness_of_eyes,symptom,nhs_allergies
+Allergy,4,watering eyes,watering_from_eyes,symptom,nhs_allergies
+Allergy,5,"pain or tenderness around the cheeks, eyes or forehead",sinus_pressure,symptom,nhs_allergies
+Allergy,6,coughing,cough,symptom,nhs_allergies
+Allergy,7,wheezing or breathlessness,breathlessness,symptom,nhs_allergies
+Allergy,8,raised rash (hives),skin_rash,symptom,nhs_allergies
+Allergy,9,itchy skin,itching,symptom,nhs_allergies
+Allergy,10,diarrhoea,diarrhoea,symptom,nhs_allergies
+Allergy,11,stomach cramps,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_allergies
+Allergy,12,bloating,distention_of_abdomen|swelling_of_stomach,symptom,nhs_allergies
+Allergy,13,feeling sick,nausea,symptom,nhs_allergies
+Allergy,14,being sick,vomiting,symptom,nhs_allergies
+Allergy,15,swelling of the eyes,puffy_face_and_eyes,symptom,nhs_allergies
+Bronchial Asthma,1,coughing,cough,symptom,nhs_asthma
+Bronchial Asthma,2,shortness of breath,breathlessness,symptom,nhs_asthma
+Cervical spondylosis,1,neck pain,neck_pain,symptom,nhs_cervsp
+Cervical spondylosis,2,neck stiffness,stiff_neck,symptom,nhs_cervsp
+Cervical spondylosis,3,headaches that often start at the back of the neck,headache,symptom,nhs_cervsp
+Chicken pox,1,itchy rash,itching,symptom,nhs_chickenpox
+Chicken pox,2,spotty rash,skin_rash|red_spots_over_body,symptom,nhs_chickenpox
+Chicken pox,3,fever (high temperature),mild_fever|high_fever,symptom,nhs_chickenpox
+Chicken pox,4,aches and pains,muscle_pain|joint_pain,symptom,nhs_chickenpox
+Chicken pox,5,general feeling of being unwell,malaise,symptom,nhs_chickenpox
+Chicken pox,6,loss of appetite,loss_of_appetite,symptom,nhs_chickenpox
+Chicken pox,7,blisters,blister,symptom,nhs_chickenpox
+Common Cold,1,stuffy nose,congestion,symptom,nhs_cold
+Common Cold,2,runny nose,runny_nose,symptom,nhs_cold
+Common Cold,3,sneezing,continuous_sneezing,symptom,nhs_cold
+Common Cold,4,sore throat,throat_irritation,symptom,nhs_cold
+Common Cold,5,cough,cough,symptom,nhs_cold
+Common Cold,6,tiredness,fatigue|lethargy,symptom,nhs_cold
+Common Cold,7,feeling unwell,malaise,symptom,nhs_cold
+Common Cold,8,high temperature (may occur),mild_fever|high_fever,symptom,nhs_cold
+Common Cold,9,aching muscles (may occur),muscle_pain,symptom,nhs_cold
+Common Cold,10,loss of smell (may occur),loss_of_smell,symptom,nhs_cold
+Common Cold,11,pressure in the ears and face (may occur),sinus_pressure,symptom,nhs_cold
+Dengue,1,fever,mild_fever|high_fever,symptom,nhs_dengue
+Dengue,2,intense headache,headache,symptom,nhs_dengue
+Dengue,3,pain behind the eyes,pain_behind_the_eyes,symptom,nhs_dengue
+Dengue,4,muscle aches,muscle_pain,symptom,nhs_dengue
+Dengue,5,joint aches,joint_pain,symptom,nhs_dengue
+Dengue,6,nausea,nausea,symptom,nhs_dengue
+Dengue,7,vomiting,vomiting,symptom,nhs_dengue
+Dengue,8,enlarged lymph glands,swelled_lymph_nodes,symptom,nhs_dengue
+Dengue,9,blotchy rash of flat or slightly raised spots,skin_rash|red_spots_over_body,symptom,nhs_dengue
+Dengue,10,intense abdominal pain (severe dengue),stomach_pain|abdominal_pain|belly_pain,symptom,nhs_dengue
+Dengue,11,extreme exhaustion (severe dengue),fatigue|lethargy,symptom,nhs_dengue
+Dengue,12,inability to settle or keep still (severe dengue),restlessness,symptom,nhs_dengue
+Dengue,13,blood in vomit or stool (severe dengue),bloody_stool,symptom,nhs_dengue
+Heart attack,1,chest pain,chest_pain,symptom,nhs_heartattack
+Heart attack,2,feeling short of breath,breathlessness,symptom,nhs_heartattack
+Heart attack,3,feeling sick,nausea,symptom,nhs_heartattack
+Heart attack,4,being sick,vomiting,symptom,nhs_heartattack
+Heart attack,5,indigestion-like feeling,indigestion,symptom,nhs_heartattack
+Heart attack,6,sweating,sweating,symptom,nhs_heartattack
+GERD,1,burning feeling in the centre of the chest,chest_pain,symptom,nhs_reflux
+GERD,2,sour taste from stomach acid (acid reflux),acidity,symptom,nhs_reflux
+GERD,3,recurring cough,cough,symptom,nhs_reflux
+GERD,4,bloating,distention_of_abdomen|swelling_of_stomach,symptom,nhs_reflux
+GERD,5,feeling sick,nausea,symptom,nhs_reflux
+GERD,6,frequent vomiting,vomiting,symptom,nhs_reflux
+GERD,7,unexplained weight loss,weight_loss,symptom,nhs_reflux
+Gastroenteritis,1,diarrhoea,diarrhoea,symptom,mlp_gastro
+Gastroenteritis,2,abdominal pain or cramping,stomach_pain|abdominal_pain|belly_pain,symptom,mlp_gastro
+Gastroenteritis,3,nausea,nausea,symptom,mlp_gastro
+Gastroenteritis,4,vomiting,vomiting,symptom,mlp_gastro
+Gastroenteritis,5,sometimes fever,mild_fever|high_fever,symptom,mlp_gastro
+Hepatitis A,1,high temperature,mild_fever|high_fever,symptom,nhs_hepa
+Hepatitis A,2,tiredness,fatigue|lethargy,symptom,nhs_hepa
+Hepatitis A,3,headache,headache,symptom,nhs_hepa
+Hepatitis A,4,muscle pain,muscle_pain,symptom,nhs_hepa
+Hepatitis A,5,feeling sick,nausea,symptom,nhs_hepa
+Hepatitis A,6,being sick,vomiting,symptom,nhs_hepa
+Hepatitis A,7,pain in the upper tummy,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_hepa
+Hepatitis A,8,diarrhoea,diarrhoea,symptom,nhs_hepa
+Hepatitis A,9,constipation,constipation,symptom,nhs_hepa
+Hepatitis A,10,dark brown urine,dark_urine,symptom,nhs_hepa
+Hepatitis A,11,itchy skin,itching,symptom,nhs_hepa
+Hepatitis A,12,raised rash (hives),skin_rash,symptom,nhs_hepa
+Hepatitis A,13,yellowing of the skin,yellowish_skin,symptom,nhs_hepa
+Hepatitis A,14,yellowing of the whites of the eyes,yellowing_of_eyes,symptom,nhs_hepa
+Hepatitis A,15,close contact including sex (route of infection),extra_marital_contacts,risk,nhs_hepa
+Hepatitis A,16,sharing needles to take drugs (route of infection),receiving_unsterile_injections,risk,nhs_hepa
+Hepatitis B,1,fever,mild_fever|high_fever,symptom,nhs_hepb
+Hepatitis B,2,tiredness,fatigue|lethargy,symptom,nhs_hepb
+Hepatitis B,3,pain in the upper abdomen,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_hepb
+Hepatitis B,4,nausea,nausea,symptom,nhs_hepb
+Hepatitis B,5,vomiting,vomiting,symptom,nhs_hepb
+Hepatitis B,6,itchy skin,itching,symptom,nhs_hepb
+Hepatitis B,7,raised rash (hives),skin_rash,symptom,nhs_hepb
+Hepatitis B,8,yellowing of the skin,yellowish_skin,symptom,nhs_hepb
+Hepatitis B,9,yellowing of the eyes,yellowing_of_eyes,symptom,nhs_hepb
+Hepatitis B,10,darker urine,dark_urine,symptom,nhs_hepb
+Hepatitis B,11,sex without a condom (route of infection),extra_marital_contacts,risk,nhs_hepb
+Hepatitis B,12,shared needles / used needle injury / unsterilised equipment (route of infection),receiving_unsterile_injections,risk,nhs_hepb
+Hepatitis B,13,blood transfusion in a country that does not screen blood (route of infection),receiving_blood_transfusion,risk,nhs_hepb
+Hepatitis C,1,fever,mild_fever|high_fever,symptom,nhs_hepc
+Hepatitis C,2,tiredness,fatigue|lethargy,symptom,nhs_hepc
+Hepatitis C,3,stomach pain,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_hepc
+Hepatitis C,4,reduced appetite,loss_of_appetite,symptom,nhs_hepc
+Hepatitis C,5,nausea,nausea,symptom,nhs_hepc
+Hepatitis C,6,vomiting,vomiting,symptom,nhs_hepc
+Hepatitis C,7,jaundice (yellowing of the skin or eyes),yellowish_skin|yellowing_of_eyes,symptom,nhs_hepc
+Hepatitis C,8,itchy skin,itching,symptom,nhs_hepc
+Hepatitis C,9,anxiety,anxiety,symptom,nhs_hepc
+Hepatitis C,10,depression,depression,symptom,nhs_hepc
+Hepatitis C,11,memory and concentration problems,lack_of_concentration,symptom,nhs_hepc
+Hepatitis C,12,sharing equipment to inject drugs / unsterilised equipment (route of infection),receiving_unsterile_injections,risk,nhs_hepc
+Hepatitis C,13,blood transfusion before 1996 in the UK (route of infection),receiving_blood_transfusion,risk,nhs_hepc
+Hepatitis C,14,unprotected sex where blood is present (route of infection),extra_marital_contacts,risk,nhs_hepc
+Hepatitis D,1,fever,mild_fever|high_fever,symptom,who_hepd
+Hepatitis D,2,fatigue,fatigue|lethargy,symptom,who_hepd
+Hepatitis D,3,loss of appetite,loss_of_appetite,symptom,who_hepd
+Hepatitis D,4,nausea,nausea,symptom,who_hepd
+Hepatitis D,5,vomiting,vomiting,symptom,who_hepd
+Hepatitis D,6,dark urine,dark_urine,symptom,who_hepd
+Hepatitis D,7,jaundice,yellowish_skin|yellowing_of_eyes,symptom,who_hepd
+Hepatitis D,8,fulminant hepatitis (acute liver failure),acute_liver_failure,symptom,who_hepd
+Hepatitis D,9,sexual intercourse (route of transmission),extra_marital_contacts,risk,who_hepd
+Hepatitis E,1,mild fever,mild_fever,symptom,who_hepe
+Hepatitis E,2,reduced appetite,loss_of_appetite,symptom,who_hepe
+Hepatitis E,3,nausea,nausea,symptom,who_hepe
+Hepatitis E,4,vomiting,vomiting,symptom,who_hepe
+Hepatitis E,5,abdominal pain,stomach_pain|abdominal_pain|belly_pain,symptom,who_hepe
+Hepatitis E,6,itching,itching,symptom,who_hepe
+Hepatitis E,7,skin rash,skin_rash,symptom,who_hepe
+Hepatitis E,8,joint pain,joint_pain,symptom,who_hepe
+Hepatitis E,9,jaundice (yellowing of the skin),yellowish_skin|yellowing_of_eyes,symptom,who_hepe
+Hepatitis E,10,dark urine,dark_urine,symptom,who_hepe
+Hyperthyroidism,1,feeling anxious,anxiety,symptom,nhs_hyperthy
+Hyperthyroidism,2,easily irritated,irritability,symptom,nhs_hyperthy
+Hyperthyroidism,3,restlessness and excess energy,restlessness,symptom,nhs_hyperthy
+Hyperthyroidism,4,mood swings,mood_swings,symptom,nhs_hyperthy
+Hyperthyroidism,5,constant tiredness,fatigue|lethargy,symptom,nhs_hyperthy
+Hyperthyroidism,6,heavy sweating,sweating,symptom,nhs_hyperthy
+Hyperthyroidism,7,muscle weakness,muscle_weakness,symptom,nhs_hyperthy
+Hyperthyroidism,8,diarrhoea,diarrhoea,symptom,nhs_hyperthy
+Hyperthyroidism,9,needing to urinate more often,polyuria,symptom,nhs_hyperthy
+Hyperthyroidism,10,itchiness,itching,symptom,nhs_hyperthy
+Hyperthyroidism,11,neck swelling from an enlarged thyroid (goitre),enlarged_thyroid,symptom,nhs_hyperthy
+Hyperthyroidism,12,irregular or unusually fast heartbeat,fast_heart_rate|palpitations,symptom,nhs_hyperthy
+Hyperthyroidism,13,"raised, itchy welts (hives)",skin_rash,symptom,nhs_hyperthy
+Hyperthyroidism,14,weight loss,weight_loss,symptom,nhs_hyperthy
+Hyperthyroidism,15,increased appetite,increased_appetite|excessive_hunger,symptom,nhs_hyperthy
+Hyperthyroidism,16,eye redness,redness_of_eyes,symptom,nhs_hyperthy
+Hyperthyroidism,17,vision changes,blurred_and_distorted_vision|visual_disturbances,symptom,nhs_hyperthy
+Hypothyroidism,1,marked tiredness,fatigue|lethargy,symptom,nhs_hypothy
+Hypothyroidism,2,weight gain,weight_gain,symptom,nhs_hypothy
+Hypothyroidism,3,hard stools / bowel sluggishness,constipation,symptom,nhs_hypothy
+Hypothyroidism,4,trouble focusing or reasoning clearly,lack_of_concentration,symptom,nhs_hypothy
+Hypothyroidism,5,depressed mood,depression,symptom,nhs_hypothy
+Hypothyroidism,6,menstrual changes (heavier or irregular bleeding),abnormal_menstruation,symptom,nhs_hypothy
+Hypertension,1,headaches,headache,symptom,nhs_hbp
+Hypertension,2,blurred vision,blurred_and_distorted_vision,symptom,nhs_hbp
+Hypertension,3,chest pain,chest_pain,symptom,nhs_hbp
+Diabetes,1,urinating more often,polyuria,symptom,cdc_diabetes
+Diabetes,2,increased hunger,excessive_hunger|increased_appetite,symptom,cdc_diabetes
+Diabetes,3,unintended weight loss,weight_loss,symptom,cdc_diabetes
+Diabetes,4,tiredness,fatigue|lethargy,symptom,cdc_diabetes
+Diabetes,5,irritability,irritability,symptom,cdc_diabetes
+Diabetes,6,mood changes,mood_swings,symptom,cdc_diabetes
+Diabetes,7,blurry vision,blurred_and_distorted_vision,symptom,cdc_diabetes
+Diabetes,8,nausea,nausea,symptom,cdc_diabetes
+Diabetes,9,vomiting,vomiting,symptom,cdc_diabetes
+Diabetes,10,stomach pain,stomach_pain|abdominal_pain|belly_pain,symptom,cdc_diabetes
+Diabetes,11,dark skin patches,dischromic_patches,symptom,cdc_diabetes
+Hypoglycemia,1,hunger,excessive_hunger|increased_appetite,symptom,nhs_hypogly
+Hypoglycemia,2,dizziness,dizziness,symptom,nhs_hypogly
+Hypoglycemia,3,anxiety,anxiety,symptom,nhs_hypogly
+Hypoglycemia,4,irritability,irritability,symptom,nhs_hypogly
+Hypoglycemia,5,sweating,sweating,symptom,nhs_hypogly
+Hypoglycemia,6,tingling lips,drying_and_tingling_lips,symptom,nhs_hypogly
+Hypoglycemia,7,heart palpitations,palpitations,symptom,nhs_hypogly
+Hypoglycemia,8,tiredness,fatigue|lethargy,symptom,nhs_hypogly
+Hypoglycemia,9,weakness,weakness_in_limbs|muscle_weakness,symptom,nhs_hypogly
+Hypoglycemia,10,vision changes such as blurred vision,blurred_and_distorted_vision|visual_disturbances,symptom,nhs_hypogly
+Hypoglycemia,11,confusion,altered_sensorium,symptom,nhs_hypogly
+Hypoglycemia,12,unconsciousness (severe),coma,symptom,nhs_hypogly
+Impetigo,1,red sores or blisters,blister,symptom,nhs_impetigo
+Impetigo,2,red sores around the nose and mouth,red_sore_around_nose,symptom,nhs_impetigo
+Impetigo,3,"yellow fluid oozing, drying into a golden-brown crust",yellow_crust_ooze,symptom,nhs_impetigo
+Impetigo,4,itchiness,itching,symptom,nhs_impetigo
+Jaundice,1,yellow tint to the skin,yellowish_skin,symptom,nhs_jaundice
+Jaundice,2,yellow tint to the whites of the eyes,yellowing_of_eyes,symptom,nhs_jaundice
+Jaundice,3,itching of the skin,itching,symptom,nhs_jaundice
+Jaundice,4,darker urine than usual,dark_urine,symptom,nhs_jaundice
+Malaria,1,"fever, or feeling hot",mild_fever|high_fever,symptom,nhs_malaria
+Malaria,2,feeling cold or shivery,chills|shivering,symptom,nhs_malaria
+Malaria,3,sweating,sweating,symptom,nhs_malaria
+Malaria,4,headaches,headache,symptom,nhs_malaria
+Malaria,5,confusion,altered_sensorium,symptom,nhs_malaria
+Malaria,6,unusual tiredness and sleepiness,fatigue|lethargy,symptom,nhs_malaria
+Malaria,7,nausea,nausea,symptom,nhs_malaria
+Malaria,8,vomiting,vomiting,symptom,nhs_malaria
+Malaria,9,stomach pain,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_malaria
+Malaria,10,diarrhoea,diarrhoea,symptom,nhs_malaria
+Malaria,11,reduced appetite,loss_of_appetite,symptom,nhs_malaria
+Malaria,12,muscle aches,muscle_pain,symptom,nhs_malaria
+Malaria,13,yellowing of the eyes or skin (jaundice),yellowish_skin|yellowing_of_eyes,symptom,nhs_malaria
+Malaria,14,sore throat,throat_irritation,symptom,nhs_malaria
+Malaria,15,cough,cough,symptom,nhs_malaria
+Malaria,16,breathing difficulty,breathlessness,symptom,nhs_malaria
+Migraine,1,pulsing head pain,headache,symptom,nhs_migraine
+Migraine,2,nausea,nausea,symptom,nhs_migraine
+Migraine,3,vomiting,vomiting,symptom,nhs_migraine
+Migraine,4,tiredness (early symptom),fatigue|lethargy,symptom,nhs_migraine
+Migraine,5,mood changes (early symptom),mood_swings,symptom,nhs_migraine
+Migraine,6,stiff neck (early symptom),stiff_neck,symptom,nhs_migraine
+Migraine,7,needing to urinate more often (early symptom),polyuria,symptom,nhs_migraine
+Migraine,8,vision problems such as zigzag lines or flashing lights (aura),visual_disturbances,symptom,nhs_migraine
+Migraine,9,dizziness (aura),dizziness,symptom,nhs_migraine
+Migraine,10,difficulty speaking (aura),slurred_speech,symptom,nhs_migraine
+Osteoarthritis,1,joint pain,joint_pain,symptom,nhs_oa
+Osteoarthritis,2,joint stiffness,movement_stiffness,symptom,nhs_oa
+Osteoarthritis,3,swollen fingers/joints,swelling_joints,symptom,nhs_oa
+Osteoarthritis,4,muscle weakness,muscle_weakness,symptom,nhs_oa
+Osteoarthritis,5,loss of muscle bulk,muscle_wasting,symptom,nhs_oa
+Osteoarthritis,6,knee pain,knee_pain,symptom,nhs_oa
+Osteoarthritis,7,pain in the groin or outer hip,hip_joint_pain,symptom,nhs_oa
+Osteoarthritis,8,pain when walking,painful_walking,symptom,nhs_oa
+Arthritis,1,joint pain,joint_pain,symptom,nhs_arthritis
+Arthritis,2,joint swelling,swelling_joints,symptom,nhs_arthritis
+Arthritis,3,joint stiffness / difficulty moving the joints,movement_stiffness,symptom,nhs_arthritis
+Paralysis (brain hemorrhage),1,weakness or numbness on one side of the body,weakness_of_one_body_side,symptom,nhs_stroke
+Paralysis (brain hemorrhage),2,slurred words / difficulty speaking,slurred_speech,symptom,nhs_stroke
+Paralysis (brain hemorrhage),3,blurred vision or vision loss,blurred_and_distorted_vision|visual_disturbances,symptom,nhs_stroke
+Paralysis (brain hemorrhage),4,confusion and memory loss,altered_sensorium,symptom,nhs_stroke
+Paralysis (brain hemorrhage),5,dizziness,dizziness,symptom,nhs_stroke
+Paralysis (brain hemorrhage),6,losing balance,loss_of_balance,symptom,nhs_stroke
+Paralysis (brain hemorrhage),7,severe headache,headache,symptom,nhs_stroke
+Paralysis (brain hemorrhage),8,nausea,nausea,symptom,nhs_stroke
+Paralysis (brain hemorrhage),9,vomiting,vomiting,symptom,nhs_stroke
+Peptic ulcer disease,1,"tummy (abdominal) pain, usually upper tummy",stomach_pain|abdominal_pain|belly_pain,symptom,nhs_ulcer
+Peptic ulcer disease,2,indigestion,indigestion,symptom,nhs_ulcer
+Peptic ulcer disease,3,heartburn,acidity,symptom,nhs_ulcer
+Peptic ulcer disease,4,bloating,distention_of_abdomen|swelling_of_stomach,symptom,nhs_ulcer
+Peptic ulcer disease,5,feeling sick,nausea,symptom,nhs_ulcer
+Peptic ulcer disease,6,being sick,vomiting,symptom,nhs_ulcer
+Pneumonia,1,cough,cough,symptom,nhs_pneumonia
+Pneumonia,2,shortness of breath,breathlessness,symptom,nhs_pneumonia
+Pneumonia,3,high temperature (fever),mild_fever|high_fever,symptom,nhs_pneumonia
+Pneumonia,4,chest pain,chest_pain,symptom,nhs_pneumonia
+Pneumonia,5,body aches,muscle_pain,symptom,nhs_pneumonia
+Pneumonia,6,extreme tiredness,fatigue|lethargy,symptom,nhs_pneumonia
+Pneumonia,7,reduced appetite,loss_of_appetite,symptom,nhs_pneumonia
+Pneumonia,8,yellow or green phlegm when coughing,phlegm|mucoid_sputum,symptom,nhs_pneumonia
+Pneumonia,9,confusion (common in older people),altered_sensorium,symptom,nhs_pneumonia
+Psoriasis,1,scaly patches,skin_peeling,symptom,nhs_psoriasis
+Psoriasis,2,silvery-white patches,silver_like_dusting,symptom,nhs_psoriasis
+Psoriasis,3,itchy skin,itching,symptom,nhs_psoriasis
+Psoriasis,4,small dents and pits in the nails,small_dents_in_nails,symptom,nhs_psoriasis
+Tuberculosis,1,cough lasting over three weeks,cough,symptom,nhs_tb
+Tuberculosis,2,cough with phlegm,phlegm|mucoid_sputum,symptom,nhs_tb
+Tuberculosis,3,cough with blood,blood_in_sputum,symptom,nhs_tb
+Tuberculosis,4,ongoing tiredness,fatigue|lethargy,symptom,nhs_tb
+Tuberculosis,5,fever,mild_fever|high_fever,symptom,nhs_tb
+Tuberculosis,6,drenching night sweats,sweating,symptom,nhs_tb
+Tuberculosis,7,reduced appetite,loss_of_appetite,symptom,nhs_tb
+Tuberculosis,8,unintended weight loss,weight_loss,symptom,nhs_tb
+Tuberculosis,9,general feeling of being unwell,malaise,symptom,nhs_tb
+Tuberculosis,10,swollen glands (spread),swelled_lymph_nodes,symptom,nhs_tb
+Tuberculosis,11,body aches and pains (spread),muscle_pain|joint_pain,symptom,nhs_tb
+Tuberculosis,12,swollen joints or ankles (spread),swelling_joints,symptom,nhs_tb
+Tuberculosis,13,stomach or pelvic pain (spread),stomach_pain|abdominal_pain|belly_pain,symptom,nhs_tb
+Tuberculosis,14,constipation (spread),constipation,symptom,nhs_tb
+Tuberculosis,15,dark or cloudy urine (spread),dark_urine,symptom,nhs_tb
+Tuberculosis,16,headache (spread),headache,symptom,nhs_tb
+Tuberculosis,17,vomiting (spread),vomiting,symptom,nhs_tb
+Tuberculosis,18,confusion (spread),altered_sensorium,symptom,nhs_tb
+Tuberculosis,19,irritability (spread),irritability,symptom,nhs_tb
+Tuberculosis,20,skin rash (spread),skin_rash,symptom,nhs_tb
+Typhoid,1,fever that may gradually worsen,mild_fever|high_fever,symptom,nhs_typhoid
+Typhoid,2,headache,headache,symptom,nhs_typhoid
+Typhoid,3,coughing,cough,symptom,nhs_typhoid
+Typhoid,4,shivering,shivering,symptom,nhs_typhoid
+Typhoid,5,body aches,muscle_pain,symptom,nhs_typhoid
+Typhoid,6,fatigue,fatigue|lethargy,symptom,nhs_typhoid
+Typhoid,7,nausea,nausea,symptom,nhs_typhoid
+Typhoid,8,constipation,constipation,symptom,nhs_typhoid
+Typhoid,9,reduced appetite,loss_of_appetite,symptom,nhs_typhoid
+Typhoid,10,stomach cramps,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_typhoid
+Typhoid,11,diarrhoea,diarrhoea,symptom,nhs_typhoid
+Typhoid,12,light-pink spots mainly on the upper body,red_spots_over_body,symptom,nhs_typhoid
+Urinary tract infection,1,pain or burning when urinating,burning_micturition,symptom,nhs_uti
+Urinary tract infection,2,needing to urinate more often,polyuria,symptom,nhs_uti
+Urinary tract infection,3,sudden or urgent need to urinate,continuous_feel_of_urine,symptom,nhs_uti
+Urinary tract infection,4,blood in urine,spotting_urination,symptom,nhs_uti
+Urinary tract infection,5,lower tummy pain,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_uti
+Urinary tract infection,6,pain in the back below the ribs,back_pain,symptom,nhs_uti
+Urinary tract infection,7,"fever, or feeling hot or cold and shivery",mild_fever|high_fever,symptom,nhs_uti
+Urinary tract infection,8,tiredness,fatigue|lethargy,symptom,nhs_uti
+Urinary tract infection,9,dark urine,dark_urine,symptom,nhs_uti
+Urinary tract infection,10,smelly urine,foul_smell_of_urine,symptom,nhs_uti
+Varicose veins,1,swollen and twisted veins under the skin,swollen_blood_vessels,symptom,nhs_varicose
+Varicose veins,2,lumpy veins that bulge outward,prominent_veins_on_calf,symptom,nhs_varicose
+Varicose veins,3,itchy skin,itching,symptom,nhs_varicose
+Varicose veins,4,colour changes in the skin,dischromic_patches,symptom,nhs_varicose
+Varicose veins,5,swollen ankles or legs,swollen_legs,symptom,nhs_varicose
+Hemorrhoids (piles),1,bright red bleeding after bowel movements,bloody_stool,symptom,nhs_piles
+Hemorrhoids (piles),2,itching around the anal area,irritation_in_anus,symptom,nhs_piles
+Hemorrhoids (piles),3,discomfort or pain around the anus,pain_in_anal_region,symptom,nhs_piles
+Drug Reaction,1,skin rash or hives,skin_rash,symptom,mayo_drugallergy
+Drug Reaction,2,itching,itching,symptom,mayo_drugallergy
+Drug Reaction,3,fever,mild_fever|high_fever,symptom,mayo_drugallergy
+Drug Reaction,4,trouble breathing or wheezing,breathlessness,symptom,mayo_drugallergy
+Drug Reaction,5,runny nose,runny_nose,symptom,mayo_drugallergy
+Drug Reaction,6,"itchy, watery eyes",watering_from_eyes,symptom,mayo_drugallergy
+Chronic cholestasis,1,yellowing of the skin (jaundice),yellowish_skin,symptom,msd_cholestasis
+Chronic cholestasis,2,yellowing of the whites of the eyes (jaundice),yellowing_of_eyes,symptom,msd_cholestasis
+Chronic cholestasis,3,dark urine,dark_urine,symptom,msd_cholestasis
+Chronic cholestasis,4,generalized itching,itching,symptom,msd_cholestasis
+Chronic cholestasis,5,easy bruising or bleeding,bruising,symptom,msd_cholestasis
+Chronic cholestasis,6,abdominal pain (possible),stomach_pain|abdominal_pain|belly_pain,symptom,msd_cholestasis
+Chronic cholestasis,7,loss of appetite (possible),loss_of_appetite,symptom,msd_cholestasis
+Chronic cholestasis,8,nausea (possible),nausea,symptom,msd_cholestasis
+Chronic cholestasis,9,vomiting (possible),vomiting,symptom,msd_cholestasis
+Chronic cholestasis,10,fever (possible),mild_fever|high_fever,symptom,msd_cholestasis
+Chronic cholestasis,11,ascites (fluid in the abdomen),distention_of_abdomen|swelling_of_stomach,symptom,msd_cholestasis
+Alcoholic hepatitis,1,extreme tiredness,fatigue|lethargy,symptom,nhs_arld
+Alcoholic hepatitis,2,reduced appetite,loss_of_appetite,symptom,nhs_arld
+Alcoholic hepatitis,3,unintended weight loss,weight_loss,symptom,nhs_arld
+Alcoholic hepatitis,4,nausea,nausea,symptom,nhs_arld
+Alcoholic hepatitis,5,vomiting,vomiting,symptom,nhs_arld
+Alcoholic hepatitis,6,pain in the upper right abdomen,stomach_pain|abdominal_pain|belly_pain,symptom,nhs_arld
+Alcoholic hepatitis,7,jaundice (yellowing of the skin or eyes),yellowish_skin|yellowing_of_eyes,symptom,nhs_arld
+Alcoholic hepatitis,8,fever,mild_fever|high_fever,symptom,nhs_arld
+Alcoholic hepatitis,9,abdominal swelling from fluid build-up,distention_of_abdomen|swelling_of_stomach,symptom,nhs_arld
+Alcoholic hepatitis,10,swollen legs,swollen_legs,symptom,nhs_arld
+Alcoholic hepatitis,11,blood in vomit,stomach_bleeding,symptom,nhs_arld
+Alcoholic hepatitis,12,"black, sticky stools",bloody_stool,symptom,nhs_arld
+Alcoholic hepatitis,13,confusion,altered_sensorium,symptom,nhs_arld
+Alcoholic hepatitis,14,poor concentration and memory problems,lack_of_concentration,symptom,nhs_arld
+Alcoholic hepatitis,15,regularly drinking too much alcohol (cause),history_of_alcohol_consumption,risk,nhs_arld
+Fungal infection,1,rash as the main symptom,skin_rash,symptom,nhs_ringworm
+Fungal infection,2,scaly or dry skin,skin_peeling,symptom,nhs_ringworm
+Fungal infection,3,itchy skin,itching,symptom,nhs_ringworm
+Fungal infection,4,fluid-filled blisters,blister,symptom,nhs_athletesfoot
+Paroxysmal positional vertigo,1,sensation that you or your surroundings are spinning,spinning_movements,symptom,nhs_vertigo
+Paroxysmal positional vertigo,2,balance problems,loss_of_balance|unsteadiness,symptom,nhs_vertigo
+Paroxysmal positional vertigo,3,dizziness brought on by head movements or positions,dizziness,symptom,mayo_bppv

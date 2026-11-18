@@ -1,0 +1,115 @@
+dataset,seed,case,n,share_novel_patients,accuracy_on_known
+kaggle,0,Case 1,90,0.12222222222222222,1.0
+kaggle,0,Case 2,5,0.8,0.0
+kaggle,0,Ontology reasoning (low purity),9,0.2222222222222222,1.0
+kaggle,0,Case 3,13,1.0,
+kaggle,1,Case 1,90,0.2,0.9861111111111112
+kaggle,1,GNG -> known,4,0.25,1.0
+kaggle,1,Case 2,5,0.4,0.0
+kaggle,1,Ontology reasoning (low purity),7,0.0,1.0
+kaggle,1,Case 3,13,1.0,
+kaggle,1,Ontology override -> known,1,0.0,0.0
+kaggle,2,Case 1,86,0.11627906976744186,1.0
+kaggle,2,GNG -> known,7,0.8571428571428571,1.0
+kaggle,2,Ontology reasoning (low purity),9,0.0,1.0
+kaggle,2,Ontology override -> known,5,1.0,
+kaggle,2,Case 2,3,0.6666666666666666,0.0
+kaggle,2,Case 3,7,0.8571428571428571,0.0
+kaggle,3,Case 1,104,0.22115384615384615,1.0
+kaggle,3,Ontology override -> known,4,1.0,
+kaggle,3,Case 2,3,0.3333333333333333,0.0
+kaggle,3,Case 3,5,0.8,0.0
+kaggle,3,GNG -> known,2,1.0,
+kaggle,3,Ontology reasoning (low purity),2,0.0,1.0
+kaggle,4,Case 1,93,0.0967741935483871,1.0
+kaggle,4,Case 2,6,0.6666666666666666,0.0
+kaggle,4,Case 3,16,1.0,
+kaggle,4,GNG -> known,2,0.0,1.0
+kaggle,5,Case 1,88,0.1590909090909091,1.0
+kaggle,5,Ontology reasoning (low purity),14,0.21428571428571427,0.9090909090909091
+kaggle,5,Case 2,3,0.6666666666666666,0.0
+kaggle,5,Case 3,7,1.0,
+kaggle,5,Ontology override -> known,3,0.3333333333333333,1.0
+kaggle,5,GNG -> known,1,1.0,
+kaggle,6,Case 1,87,0.08045977011494253,1.0
+kaggle,6,Case 2,4,0.25,0.0
+kaggle,6,GNG -> known,13,0.8461538461538461,1.0
+kaggle,6,Ontology reasoning (low purity),4,0.0,1.0
+kaggle,6,Ontology override -> known,1,1.0,
+kaggle,6,Case 3,4,1.0,
+kaggle,7,Case 1,83,0.1927710843373494,0.9850746268656716
+kaggle,7,Case 2,5,0.6,0.0
+kaggle,7,Case 3,10,1.0,
+kaggle,7,Ontology override -> known,5,0.4,1.0
+kaggle,7,Ontology reasoning (low purity),14,0.0,0.7857142857142857
+kaggle,7,GNG -> known,1,0.0,1.0
+kaggle,8,Case 1,92,0.10869565217391304,1.0
+kaggle,8,Case 2,4,0.5,0.0
+kaggle,8,Ontology reasoning (low purity),2,0.0,1.0
+kaggle,8,Case 3,13,0.9230769230769231,0.0
+kaggle,8,Ontology override -> known,1,0.0,1.0
+kaggle,8,GNG -> known,5,1.0,
+kaggle,9,Case 1,93,0.10752688172043011,1.0
+kaggle,9,Ontology reasoning (low purity),6,0.3333333333333333,1.0
+kaggle,9,Case 2,3,1.0,
+kaggle,9,Case 3,15,1.0,
+ddxplus,0,Case 2,11,0.6363636363636364,0.0
+ddxplus,0,Case 1,517,0.1218568665377176,0.9955947136563876
+ddxplus,0,Ontology reasoning (low purity),44,0.0,0.7045454545454546
+ddxplus,0,Ontology override -> known,44,0.9318181818181818,1.0
+ddxplus,0,GNG -> known,27,0.25925925925925924,1.0
+ddxplus,0,Case 3,78,0.9871794871794872,0.0
+ddxplus,1,Case 1,509,0.13359528487229863,0.9931972789115646
+ddxplus,1,Ontology override -> known,27,0.8888888888888888,0.6666666666666666
+ddxplus,1,Ontology reasoning (low purity),66,0.15151515151515152,0.7321428571428571
+ddxplus,1,Case 2,11,0.5454545454545454,0.0
+ddxplus,1,Case 3,76,0.9605263157894737,0.0
+ddxplus,1,GNG -> known,34,0.5294117647058824,1.0
+ddxplus,2,Ontology override -> known,79,0.9620253164556962,0.3333333333333333
+ddxplus,2,Case 1,526,0.11596958174904944,0.9849462365591398
+ddxplus,2,GNG -> known,18,0.3888888888888889,0.9090909090909091
+ddxplus,2,Ontology reasoning (low purity),29,0.0,0.9655172413793104
+ddxplus,2,Case 2,9,0.3333333333333333,0.0
+ddxplus,2,Case 3,60,0.8,0.0
+ddxplus,3,Case 1,452,0.0022123893805309734,0.9933481152993349
+ddxplus,3,Case 2,15,0.7333333333333333,0.0
+ddxplus,3,Ontology reasoning (low purity),48,0.0,0.6666666666666666
+ddxplus,3,Ontology override -> known,25,0.56,0.36363636363636365
+ddxplus,3,Case 3,168,1.0,
+ddxplus,3,GNG -> known,12,0.08333333333333333,1.0
+ddxplus,4,Case 1,544,0.15257352941176472,0.9956616052060737
+ddxplus,4,Ontology reasoning (low purity),48,0.3541666666666667,0.6451612903225806
+ddxplus,4,Ontology override -> known,77,0.8961038961038961,0.625
+ddxplus,4,GNG -> known,21,0.047619047619047616,0.7
+ddxplus,4,Case 2,9,0.5555555555555556,0.0
+ddxplus,4,Case 3,25,1.0,
+ddxplus,5,GNG -> known,23,0.0,1.0
+ddxplus,5,Case 1,461,0.0,0.982646420824295
+ddxplus,5,Case 2,16,0.625,0.0
+ddxplus,5,Ontology reasoning (low purity),25,0.0,0.68
+ddxplus,5,Ontology override -> known,40,0.775,0.4444444444444444
+ddxplus,5,Case 3,157,1.0,
+ddxplus,6,Case 1,604,0.20198675496688742,0.9979253112033195
+ddxplus,6,Ontology reasoning (low purity),15,0.06666666666666667,0.8571428571428571
+ddxplus,6,Case 2,6,0.5,0.0
+ddxplus,6,GNG -> known,26,0.4230769230769231,1.0
+ddxplus,6,Ontology override -> known,18,0.8333333333333334,1.0
+ddxplus,6,Case 3,52,0.8461538461538461,0.0
+ddxplus,7,Case 1,541,0.133086876155268,0.9829424307036247
+ddxplus,7,Case 2,9,0.6666666666666666,0.0
+ddxplus,7,Case 3,105,0.9809523809523809,0.0
+ddxplus,7,Ontology override -> known,18,0.7777777777777778,0.25
+ddxplus,7,GNG -> known,18,0.0,1.0
+ddxplus,7,Ontology reasoning (low purity),29,0.0,0.7586206896551724
+ddxplus,8,Case 1,478,0.07740585774058577,0.9931972789115646
+ddxplus,8,GNG -> known,19,0.10526315789473684,1.0
+ddxplus,8,Ontology override -> known,59,0.8983050847457628,0.3333333333333333
+ddxplus,8,Ontology reasoning (low purity),49,0.0,0.6122448979591837
+ddxplus,8,Case 2,10,0.5,0.0
+ddxplus,8,Case 3,108,0.9444444444444444,0.0
+ddxplus,9,Case 1,556,0.1420863309352518,0.9958071278825996
+ddxplus,9,GNG -> known,33,0.5757575757575758,0.9285714285714286
+ddxplus,9,Ontology override -> known,10,0.5,1.0
+ddxplus,9,Case 2,8,0.625,0.0
+ddxplus,9,Ontology reasoning (low purity),22,0.0,0.9090909090909091
+ddxplus,9,Case 3,95,0.968421052631579,0.0

@@ -1,0 +1,906 @@
+feature,description
+E_91,Do you have a fever (either felt or measured with a thermometer)?
+E_55=V_14,Do you feel pain somewhere? [iliac wing(R)]
+E_55=V_15,Do you feel pain somewhere? [iliac wing(L)]
+E_55=V_16,Do you feel pain somewhere? [groin(R)]
+E_55=V_17,Do you feel pain somewhere? [groin(L)]
+E_55=V_18,Do you feel pain somewhere? [axilla(R)]
+E_55=V_19,Do you feel pain somewhere? [axilla(L)]
+E_55=V_20,Do you feel pain somewhere? [tonsil(R)]
+E_55=V_21,Do you feel pain somewhere? [tonsil(L)]
+E_55=V_22,Do you feel pain somewhere? [anus]
+E_55=V_23,Do you feel pain somewhere? [posterior aspect of the ankle(R)]
+E_55=V_24,Do you feel pain somewhere? [posterior aspect of the ankle(L)]
+E_55=V_25,Do you feel pain somewhere? [back of head]
+E_55=V_26,Do you feel pain somewhere? [back of the neck]
+E_55=V_27,Do you feel pain somewhere? [forearm(R)]
+E_55=V_28,Do you feel pain somewhere? [forearm(L)]
+E_55=V_29,Do you feel pain somewhere? [lower chest]
+E_55=V_30,Do you feel pain somewhere? [biceps(R)]
+E_55=V_31,Do you feel pain somewhere? [biceps(L)]
+E_55=V_32,Do you feel pain somewhere? [mouth]
+E_55=V_33,Do you feel pain somewhere? [thyroid cartilage]
+E_55=V_34,Do you feel pain somewhere? [ankle(R)]
+E_55=V_35,Do you feel pain somewhere? [ankle(L)]
+E_55=V_36,Do you feel pain somewhere? [clitoris]
+E_55=V_37,Do you feel pain somewhere? [coccyx]
+E_55=V_38,Do you feel pain somewhere? [cervical spine]
+E_55=V_39,Do you feel pain somewhere? [thoracic spine]
+E_55=V_40,Do you feel pain somewhere? [lumbar spine]
+E_55=V_41,Do you feel pain somewhere? [commissure(R)]
+E_55=V_42,Do you feel pain somewhere? [commissure(L)]
+E_55=V_43,Do you feel pain somewhere? [lateral side of the foot(R)]
+E_55=V_44,Do you feel pain somewhere? [lateral side of the foot(L)]
+E_55=V_45,Do you feel pain somewhere? [elbow(R)]
+E_55=V_46,Do you feel pain somewhere? [elbow(L)]
+E_55=V_47,Do you feel pain somewhere? [popliteal fossa(R)]
+E_55=V_48,Do you feel pain somewhere? [popliteal fossa(L)]
+E_55=V_49,Do you feel pain somewhere? [iliac crest(R)]
+E_55=V_50,Do you feel pain somewhere? [iliac crest(L)]
+E_55=V_51,Do you feel pain somewhere? [thigh(R)]
+E_55=V_52,Do you feel pain somewhere? [thigh(L)]
+E_55=V_53,Do you feel pain somewhere? [side of the neck(R)]
+E_55=V_54,Do you feel pain somewhere? [side of the neck(L)]
+E_55=V_55,Do you feel pain somewhere? [side of the chest(R)]
+E_55=V_56,Do you feel pain somewhere? [side of the chest(L)]
+E_55=V_57,Do you feel pain somewhere? [lower teeth(R)]
+E_55=V_58,Do you feel pain somewhere? [lower teeth(L)]
+E_55=V_59,Do you feel pain somewhere? [upper teeth(R)]
+E_55=V_60,Do you feel pain somewhere? [upper teeth(L)]
+E_55=V_61,Do you feel pain somewhere? [above the tongue]
+E_55=V_62,Do you feel pain somewhere? [top of the head]
+E_55=V_63,Do you feel pain somewhere? [finger (ring finger)(R)]
+E_55=V_64,Do you feel pain somewhere? [finger (ring finger)(L)]
+E_55=V_65,Do you feel pain somewhere? [finger (little finger)(R)]
+E_55=V_66,Do you feel pain somewhere? [finger (little finger)(L)]
+E_55=V_67,Do you feel pain somewhere? [finger (index)(R)]
+E_55=V_68,Do you feel pain somewhere? [finger (index)(L)]
+E_55=V_69,Do you feel pain somewhere? [finger (middle)(R)]
+E_55=V_70,Do you feel pain somewhere? [finger (middle)(L)]
+E_55=V_72,Do you feel pain somewhere? [dorsal aspect of the foot(R)]
+E_55=V_73,Do you feel pain somewhere? [dorsal aspect of the foot(L)]
+E_55=V_74,Do you feel pain somewhere? [dorsal aspect of the wrist(R)]
+E_55=V_75,Do you feel pain somewhere? [dorsal aspect of the wrist(L)]
+E_55=V_76,Do you feel pain somewhere? [dorsal aspect of the hand(R)]
+E_55=V_77,Do you feel pain somewhere? [dorsal aspect of the hand(L)]
+E_55=V_78,Do you feel pain somewhere? [palmar side of the forearm(R)]
+E_55=V_79,Do you feel pain somewhere? [palmar side of the forearm(L)]
+E_55=V_80,Do you feel pain somewhere? [palmar face of the wrist(R)]
+E_55=V_81,Do you feel pain somewhere? [palmar face of the wrist(L)]
+E_55=V_82,Do you feel pain somewhere? [buttock(R)]
+E_55=V_83,Do you feel pain somewhere? [buttock(L)]
+E_55=V_84,Do you feel pain somewhere? [flank(R)]
+E_55=V_85,Do you feel pain somewhere? [flank(L)]
+E_55=V_87,Do you feel pain somewhere? [iliac fossa(R)]
+E_55=V_88,Do you feel pain somewhere? [iliac fossa(L)]
+E_55=V_89,Do you feel pain somewhere? [forehead]
+E_55=V_90,Do you feel pain somewhere? [lower gum]
+E_55=V_91,Do you feel pain somewhere? [upper gum]
+E_55=V_92,Do you feel pain somewhere? [knee(R)]
+E_55=V_93,Do you feel pain somewhere? [knee(L)]
+E_55=V_94,Do you feel pain somewhere? [glans]
+E_55=V_95,Do you feel pain somewhere? [labia majora(R)]
+E_55=V_96,Do you feel pain somewhere? [labia majora(L)]
+E_55=V_97,Do you feel pain somewhere? [big toe(R)]
+E_55=V_98,Do you feel pain somewhere? [big toe(L)]
+E_55=V_99,Do you feel pain somewhere? [hip(R)]
+E_55=V_100,Do you feel pain somewhere? [hip(L)]
+E_55=V_101,Do you feel pain somewhere? [upper chest]
+E_55=V_102,Do you feel pain somewhere? [hymen]
+E_55=V_103,Do you feel pain somewhere? [hypochondrium(R)]
+E_55=V_104,Do you feel pain somewhere? [hypochondrium(L)]
+E_55=V_105,Do you feel pain somewhere? [ischio jambier(R)]
+E_55=V_106,Do you feel pain somewhere? [ischio jambier(L)]
+E_55=V_108,Do you feel pain somewhere? [cheek(R)]
+E_55=V_109,Do you feel pain somewhere? [cheek(L)]
+E_55=V_110,Do you feel pain somewhere? [internal cheek(R)]
+E_55=V_111,Do you feel pain somewhere? [internal cheek(L)]
+E_55=V_113,Do you feel pain somewhere? [renal fossa(R)]
+E_55=V_114,Do you feel pain somewhere? [renal fossa(L)]
+E_55=V_115,Do you feel pain somewhere? [uvula]
+E_55=V_116,Do you feel pain somewhere? [bottom lip(R)]
+E_55=V_117,Do you feel pain somewhere? [upper lip(R)]
+E_55=V_118,Do you feel pain somewhere? [chin]
+E_55=V_119,Do you feel pain somewhere? [calf(R)]
+E_55=V_120,Do you feel pain somewhere? [calf(L)]
+E_55=V_121,Do you feel pain somewhere? [jaw]
+E_55=V_122,Do you feel pain somewhere? [nose]
+E_55=V_124,Do you feel pain somewhere? [occiput]
+E_55=V_125,Do you feel pain somewhere? [eye(R)]
+E_55=V_126,Do you feel pain somewhere? [eye(L)]
+E_55=V_127,Do you feel pain somewhere? [scapula(R)]
+E_55=V_128,Do you feel pain somewhere? [scapula(L)]
+E_55=V_129,Do you feel pain somewhere? [ear(R)]
+E_55=V_130,Do you feel pain somewhere? [ear(L)]
+E_55=V_131,Do you feel pain somewhere? [toe (1)(R)]
+E_55=V_132,Do you feel pain somewhere? [toe (1)(L)]
+E_55=V_133,Do you feel pain somewhere? [toe (2)(R)]
+E_55=V_134,Do you feel pain somewhere? [toe (2)(L)]
+E_55=V_135,Do you feel pain somewhere? [toe (3)(R)]
+E_55=V_136,Do you feel pain somewhere? [toe (3)(L)]
+E_55=V_137,Do you feel pain somewhere? [palace]
+E_55=V_139,Do you feel pain somewhere? [vaginal wall]
+E_55=V_140,Do you feel pain somewhere? [vaginal wall(R)]
+E_55=V_141,Do you feel pain somewhere? [vaginal wall(L)]
+E_55=V_142,Do you feel pain somewhere? [palm(R)]
+E_55=V_143,Do you feel pain somewhere? [palm(L)]
+E_55=V_144,Do you feel pain somewhere? [little toe (4)(R)]
+E_55=V_145,Do you feel pain somewhere? [little toe (4)(L)]
+E_55=V_146,Do you feel pain somewhere? [labia minora(R)]
+E_55=V_147,Do you feel pain somewhere? [labia minora(L)]
+E_55=V_148,Do you feel pain somewhere? [pharynx]
+E_55=V_149,Do you feel pain somewhere? [sole(R)]
+E_55=V_150,Do you feel pain somewhere? [sole(L)]
+E_55=V_151,Do you feel pain somewhere? [thumb(R)]
+E_55=V_152,Do you feel pain somewhere? [thumb(L)]
+E_55=V_153,Do you feel pain somewhere? [pubis]
+E_55=V_155,Do you feel pain somewhere? [penis]
+E_55=V_158,Do you feel pain somewhere? [scrotum]
+E_55=V_159,Do you feel pain somewhere? [breast(R)]
+E_55=V_160,Do you feel pain somewhere? [breast(L)]
+E_55=V_162,Do you feel pain somewhere? [under the tongue]
+E_55=V_163,Do you feel pain somewhere? [under the jaw]
+E_55=V_164,Do you feel pain somewhere? [heel(R)]
+E_55=V_165,Do you feel pain somewhere? [heel(L)]
+E_55=V_166,Do you feel pain somewhere? [temple(R)]
+E_55=V_167,Do you feel pain somewhere? [temple(L)]
+E_55=V_168,Do you feel pain somewhere? [testicle(R)]
+E_55=V_169,Do you feel pain somewhere? [testicle(L)]
+E_55=V_170,Do you feel pain somewhere? [posterior chest wall(R)]
+E_55=V_171,Do you feel pain somewhere? [posterior chest wall(L)]
+E_55=V_172,Do you feel pain somewhere? [tibia(R)]
+E_55=V_173,Do you feel pain somewhere? [tibia(L)]
+E_55=V_174,Do you feel pain somewhere? [trachea]
+E_55=V_175,Do you feel pain somewhere? [trapezius(R)]
+E_55=V_176,Do you feel pain somewhere? [trapezius(L)]
+E_55=V_177,Do you feel pain somewhere? [triceps(R)]
+E_55=V_178,Do you feel pain somewhere? [triceps(L)]
+E_55=V_185,Do you feel pain somewhere? [urethra]
+E_55=V_186,Do you feel pain somewhere? [vagina]
+E_55=V_187,Do you feel pain somewhere? [belly]
+E_55=V_188,Do you feel pain somewhere? [vermilion(R)]
+E_55=V_189,Do you feel pain somewhere? [vermilion(L)]
+E_55=V_190,Do you feel pain somewhere? [vulval vestibule]
+E_55=V_194,Do you feel pain somewhere? [shoulder(R)]
+E_55=V_195,Do you feel pain somewhere? [shoulder(L)]
+E_55=V_197,Do you feel pain somewhere? [epigastric]
+E_53,"Do you have pain somewhere, related to your reason for consulting?"
+E_57=V_14,Does the pain radiate to another location? [iliac wing(R)]
+E_57=V_15,Does the pain radiate to another location? [iliac wing(L)]
+E_57=V_16,Does the pain radiate to another location? [groin(R)]
+E_57=V_17,Does the pain radiate to another location? [groin(L)]
+E_57=V_18,Does the pain radiate to another location? [axilla(R)]
+E_57=V_19,Does the pain radiate to another location? [axilla(L)]
+E_57=V_20,Does the pain radiate to another location? [tonsil(R)]
+E_57=V_21,Does the pain radiate to another location? [tonsil(L)]
+E_57=V_22,Does the pain radiate to another location? [anus]
+E_57=V_23,Does the pain radiate to another location? [posterior aspect of the ankle(R)]
+E_57=V_24,Does the pain radiate to another location? [posterior aspect of the ankle(L)]
+E_57=V_25,Does the pain radiate to another location? [back of head]
+E_57=V_26,Does the pain radiate to another location? [back of the neck]
+E_57=V_27,Does the pain radiate to another location? [forearm(R)]
+E_57=V_28,Does the pain radiate to another location? [forearm(L)]
+E_57=V_29,Does the pain radiate to another location? [lower chest]
+E_57=V_30,Does the pain radiate to another location? [biceps(R)]
+E_57=V_31,Does the pain radiate to another location? [biceps(L)]
+E_57=V_32,Does the pain radiate to another location? [mouth]
+E_57=V_33,Does the pain radiate to another location? [thyroid cartilage]
+E_57=V_34,Does the pain radiate to another location? [ankle(R)]
+E_57=V_35,Does the pain radiate to another location? [ankle(L)]
+E_57=V_36,Does the pain radiate to another location? [clitoris]
+E_57=V_37,Does the pain radiate to another location? [coccyx]
+E_57=V_38,Does the pain radiate to another location? [cervical spine]
+E_57=V_39,Does the pain radiate to another location? [thoracic spine]
+E_57=V_40,Does the pain radiate to another location? [lumbar spine]
+E_57=V_41,Does the pain radiate to another location? [commissure(R)]
+E_57=V_42,Does the pain radiate to another location? [commissure(L)]
+E_57=V_43,Does the pain radiate to another location? [lateral side of the foot(R)]
+E_57=V_44,Does the pain radiate to another location? [lateral side of the foot(L)]
+E_57=V_45,Does the pain radiate to another location? [elbow(R)]
+E_57=V_46,Does the pain radiate to another location? [elbow(L)]
+E_57=V_47,Does the pain radiate to another location? [popliteal fossa(R)]
+E_57=V_48,Does the pain radiate to another location? [popliteal fossa(L)]
+E_57=V_49,Does the pain radiate to another location? [iliac crest(R)]
+E_57=V_50,Does the pain radiate to another location? [iliac crest(L)]
+E_57=V_51,Does the pain radiate to another location? [thigh(R)]
+E_57=V_52,Does the pain radiate to another location? [thigh(L)]
+E_57=V_53,Does the pain radiate to another location? [side of the neck(R)]
+E_57=V_54,Does the pain radiate to another location? [side of the neck(L)]
+E_57=V_55,Does the pain radiate to another location? [side of the chest(R)]
+E_57=V_56,Does the pain radiate to another location? [side of the chest(L)]
+E_57=V_57,Does the pain radiate to another location? [lower teeth(R)]
+E_57=V_58,Does the pain radiate to another location? [lower teeth(L)]
+E_57=V_59,Does the pain radiate to another location? [upper teeth(R)]
+E_57=V_60,Does the pain radiate to another location? [upper teeth(L)]
+E_57=V_61,Does the pain radiate to another location? [above the tongue]
+E_57=V_62,Does the pain radiate to another location? [top of the head]
+E_57=V_63,Does the pain radiate to another location? [finger (ring finger)(R)]
+E_57=V_64,Does the pain radiate to another location? [finger (ring finger)(L)]
+E_57=V_65,Does the pain radiate to another location? [finger (little finger)(R)]
+E_57=V_66,Does the pain radiate to another location? [finger (little finger)(L)]
+E_57=V_67,Does the pain radiate to another location? [finger (index)(R)]
+E_57=V_68,Does the pain radiate to another location? [finger (index)(L)]
+E_57=V_69,Does the pain radiate to another location? [finger (middle)(R)]
+E_57=V_70,Does the pain radiate to another location? [finger (middle)(L)]
+E_57=V_72,Does the pain radiate to another location? [dorsal aspect of the foot(R)]
+E_57=V_73,Does the pain radiate to another location? [dorsal aspect of the foot(L)]
+E_57=V_74,Does the pain radiate to another location? [dorsal aspect of the wrist(R)]
+E_57=V_75,Does the pain radiate to another location? [dorsal aspect of the wrist(L)]
+E_57=V_76,Does the pain radiate to another location? [dorsal aspect of the hand(R)]
+E_57=V_77,Does the pain radiate to another location? [dorsal aspect of the hand(L)]
+E_57=V_78,Does the pain radiate to another location? [palmar side of the forearm(R)]
+E_57=V_79,Does the pain radiate to another location? [palmar side of the forearm(L)]
+E_57=V_80,Does the pain radiate to another location? [palmar face of the wrist(R)]
+E_57=V_81,Does the pain radiate to another location? [palmar face of the wrist(L)]
+E_57=V_82,Does the pain radiate to another location? [buttock(R)]
+E_57=V_83,Does the pain radiate to another location? [buttock(L)]
+E_57=V_84,Does the pain radiate to another location? [flank(R)]
+E_57=V_85,Does the pain radiate to another location? [flank(L)]
+E_57=V_87,Does the pain radiate to another location? [iliac fossa(R)]
+E_57=V_88,Does the pain radiate to another location? [iliac fossa(L)]
+E_57=V_89,Does the pain radiate to another location? [forehead]
+E_57=V_90,Does the pain radiate to another location? [lower gum]
+E_57=V_91,Does the pain radiate to another location? [upper gum]
+E_57=V_92,Does the pain radiate to another location? [knee(R)]
+E_57=V_93,Does the pain radiate to another location? [knee(L)]
+E_57=V_94,Does the pain radiate to another location? [glans]
+E_57=V_95,Does the pain radiate to another location? [labia majora(R)]
+E_57=V_96,Does the pain radiate to another location? [labia majora(L)]
+E_57=V_97,Does the pain radiate to another location? [big toe(R)]
+E_57=V_98,Does the pain radiate to another location? [big toe(L)]
+E_57=V_99,Does the pain radiate to another location? [hip(R)]
+E_57=V_100,Does the pain radiate to another location? [hip(L)]
+E_57=V_101,Does the pain radiate to another location? [upper chest]
+E_57=V_102,Does the pain radiate to another location? [hymen]
+E_57=V_103,Does the pain radiate to another location? [hypochondrium(R)]
+E_57=V_104,Does the pain radiate to another location? [hypochondrium(L)]
+E_57=V_105,Does the pain radiate to another location? [ischio jambier(R)]
+E_57=V_106,Does the pain radiate to another location? [ischio jambier(L)]
+E_57=V_108,Does the pain radiate to another location? [cheek(R)]
+E_57=V_109,Does the pain radiate to another location? [cheek(L)]
+E_57=V_110,Does the pain radiate to another location? [internal cheek(R)]
+E_57=V_111,Does the pain radiate to another location? [internal cheek(L)]
+E_57=V_113,Does the pain radiate to another location? [renal fossa(R)]
+E_57=V_114,Does the pain radiate to another location? [renal fossa(L)]
+E_57=V_115,Does the pain radiate to another location? [uvula]
+E_57=V_116,Does the pain radiate to another location? [bottom lip(R)]
+E_57=V_117,Does the pain radiate to another location? [upper lip(R)]
+E_57=V_118,Does the pain radiate to another location? [chin]
+E_57=V_119,Does the pain radiate to another location? [calf(R)]
+E_57=V_120,Does the pain radiate to another location? [calf(L)]
+E_57=V_121,Does the pain radiate to another location? [jaw]
+E_57=V_122,Does the pain radiate to another location? [nose]
+E_57=V_124,Does the pain radiate to another location? [occiput]
+E_57=V_125,Does the pain radiate to another location? [eye(R)]
+E_57=V_126,Does the pain radiate to another location? [eye(L)]
+E_57=V_127,Does the pain radiate to another location? [scapula(R)]
+E_57=V_128,Does the pain radiate to another location? [scapula(L)]
+E_57=V_129,Does the pain radiate to another location? [ear(R)]
+E_57=V_130,Does the pain radiate to another location? [ear(L)]
+E_57=V_131,Does the pain radiate to another location? [toe (1)(R)]
+E_57=V_132,Does the pain radiate to another location? [toe (1)(L)]
+E_57=V_133,Does the pain radiate to another location? [toe (2)(R)]
+E_57=V_134,Does the pain radiate to another location? [toe (2)(L)]
+E_57=V_135,Does the pain radiate to another location? [toe (3)(R)]
+E_57=V_136,Does the pain radiate to another location? [toe (3)(L)]
+E_57=V_137,Does the pain radiate to another location? [palace]
+E_57=V_139,Does the pain radiate to another location? [vaginal wall]
+E_57=V_140,Does the pain radiate to another location? [vaginal wall(R)]
+E_57=V_141,Does the pain radiate to another location? [vaginal wall(L)]
+E_57=V_142,Does the pain radiate to another location? [palm(R)]
+E_57=V_143,Does the pain radiate to another location? [palm(L)]
+E_57=V_144,Does the pain radiate to another location? [little toe (4)(R)]
+E_57=V_145,Does the pain radiate to another location? [little toe (4)(L)]
+E_57=V_146,Does the pain radiate to another location? [labia minora(R)]
+E_57=V_147,Does the pain radiate to another location? [labia minora(L)]
+E_57=V_148,Does the pain radiate to another location? [pharynx]
+E_57=V_149,Does the pain radiate to another location? [sole(R)]
+E_57=V_150,Does the pain radiate to another location? [sole(L)]
+E_57=V_151,Does the pain radiate to another location? [thumb(R)]
+E_57=V_152,Does the pain radiate to another location? [thumb(L)]
+E_57=V_153,Does the pain radiate to another location? [pubis]
+E_57=V_155,Does the pain radiate to another location? [penis]
+E_57=V_158,Does the pain radiate to another location? [scrotum]
+E_57=V_159,Does the pain radiate to another location? [breast(R)]
+E_57=V_160,Does the pain radiate to another location? [breast(L)]
+E_57=V_162,Does the pain radiate to another location? [under the tongue]
+E_57=V_163,Does the pain radiate to another location? [under the jaw]
+E_57=V_164,Does the pain radiate to another location? [heel(R)]
+E_57=V_165,Does the pain radiate to another location? [heel(L)]
+E_57=V_166,Does the pain radiate to another location? [temple(R)]
+E_57=V_167,Does the pain radiate to another location? [temple(L)]
+E_57=V_168,Does the pain radiate to another location? [testicle(R)]
+E_57=V_169,Does the pain radiate to another location? [testicle(L)]
+E_57=V_170,Does the pain radiate to another location? [posterior chest wall(R)]
+E_57=V_171,Does the pain radiate to another location? [posterior chest wall(L)]
+E_57=V_172,Does the pain radiate to another location? [tibia(R)]
+E_57=V_173,Does the pain radiate to another location? [tibia(L)]
+E_57=V_174,Does the pain radiate to another location? [trachea]
+E_57=V_175,Does the pain radiate to another location? [trapezius(R)]
+E_57=V_176,Does the pain radiate to another location? [trapezius(L)]
+E_57=V_177,Does the pain radiate to another location? [triceps(R)]
+E_57=V_178,Does the pain radiate to another location? [triceps(L)]
+E_57=V_185,Does the pain radiate to another location? [urethra]
+E_57=V_186,Does the pain radiate to another location? [vagina]
+E_57=V_187,Does the pain radiate to another location? [belly]
+E_57=V_188,Does the pain radiate to another location? [vermilion(R)]
+E_57=V_189,Does the pain radiate to another location? [vermilion(L)]
+E_57=V_190,Does the pain radiate to another location? [vulval vestibule]
+E_57=V_194,Does the pain radiate to another location? [shoulder(R)]
+E_57=V_195,Does the pain radiate to another location? [shoulder(L)]
+E_57=V_197,Does the pain radiate to another location? [epigastric]
+E_54=V_71,Characterize your pain: [heartbreaking]
+E_54=V_112,Characterize your pain: [haunting]
+E_54=V_154,Characterize your pain: [tedious]
+E_54=V_161,Characterize your pain: [sensitive]
+E_54=V_179,Characterize your pain: [a knife stroke]
+E_54=V_180,Characterize your pain: [tugging]
+E_54=V_181,Characterize your pain: [burning]
+E_54=V_182,Characterize your pain: [a cramp]
+E_54=V_183,Characterize your pain: [heavy]
+E_54=V_184,Characterize your pain: [a pulse]
+E_54=V_191,Characterize your pain: [violent]
+E_54=V_192,Characterize your pain: [sharp]
+E_54=V_193,Characterize your pain: [sickening]
+E_54=V_196,Characterize your pain: [scary]
+E_54=V_198,Characterize your pain: [exhausting]
+E_159,Did you lose consciousness?
+E_133=V_14,Where is the affected region located? [iliac wing(R)]
+E_133=V_15,Where is the affected region located? [iliac wing(L)]
+E_133=V_16,Where is the affected region located? [groin(R)]
+E_133=V_17,Where is the affected region located? [groin(L)]
+E_133=V_18,Where is the affected region located? [axilla(R)]
+E_133=V_19,Where is the affected region located? [axilla(L)]
+E_133=V_20,Where is the affected region located? [tonsil(R)]
+E_133=V_21,Where is the affected region located? [tonsil(L)]
+E_133=V_22,Where is the affected region located? [anus]
+E_133=V_23,Where is the affected region located? [posterior aspect of the ankle(R)]
+E_133=V_24,Where is the affected region located? [posterior aspect of the ankle(L)]
+E_133=V_25,Where is the affected region located? [back of head]
+E_133=V_26,Where is the affected region located? [back of the neck]
+E_133=V_27,Where is the affected region located? [forearm(R)]
+E_133=V_28,Where is the affected region located? [forearm(L)]
+E_133=V_29,Where is the affected region located? [lower chest]
+E_133=V_30,Where is the affected region located? [biceps(R)]
+E_133=V_31,Where is the affected region located? [biceps(L)]
+E_133=V_32,Where is the affected region located? [mouth]
+E_133=V_33,Where is the affected region located? [thyroid cartilage]
+E_133=V_34,Where is the affected region located? [ankle(R)]
+E_133=V_35,Where is the affected region located? [ankle(L)]
+E_133=V_36,Where is the affected region located? [clitoris]
+E_133=V_37,Where is the affected region located? [coccyx]
+E_133=V_38,Where is the affected region located? [cervical spine]
+E_133=V_39,Where is the affected region located? [thoracic spine]
+E_133=V_40,Where is the affected region located? [lumbar spine]
+E_133=V_41,Where is the affected region located? [commissure(R)]
+E_133=V_42,Where is the affected region located? [commissure(L)]
+E_133=V_43,Where is the affected region located? [lateral side of the foot(R)]
+E_133=V_44,Where is the affected region located? [lateral side of the foot(L)]
+E_133=V_45,Where is the affected region located? [elbow(R)]
+E_133=V_46,Where is the affected region located? [elbow(L)]
+E_133=V_47,Where is the affected region located? [popliteal fossa(R)]
+E_133=V_48,Where is the affected region located? [popliteal fossa(L)]
+E_133=V_49,Where is the affected region located? [iliac crest(R)]
+E_133=V_50,Where is the affected region located? [iliac crest(L)]
+E_133=V_51,Where is the affected region located? [thigh(R)]
+E_133=V_52,Where is the affected region located? [thigh(L)]
+E_133=V_53,Where is the affected region located? [side of the neck(R)]
+E_133=V_54,Where is the affected region located? [side of the neck(L)]
+E_133=V_55,Where is the affected region located? [side of the chest(R)]
+E_133=V_56,Where is the affected region located? [side of the chest(L)]
+E_133=V_57,Where is the affected region located? [lower teeth(R)]
+E_133=V_58,Where is the affected region located? [lower teeth(L)]
+E_133=V_59,Where is the affected region located? [upper teeth(R)]
+E_133=V_60,Where is the affected region located? [upper teeth(L)]
+E_133=V_61,Where is the affected region located? [above the tongue]
+E_133=V_62,Where is the affected region located? [top of the head]
+E_133=V_63,Where is the affected region located? [finger (ring finger)(R)]
+E_133=V_64,Where is the affected region located? [finger (ring finger)(L)]
+E_133=V_65,Where is the affected region located? [finger (little finger)(R)]
+E_133=V_66,Where is the affected region located? [finger (little finger)(L)]
+E_133=V_67,Where is the affected region located? [finger (index)(R)]
+E_133=V_68,Where is the affected region located? [finger (index)(L)]
+E_133=V_69,Where is the affected region located? [finger (middle)(R)]
+E_133=V_70,Where is the affected region located? [finger (middle)(L)]
+E_133=V_72,Where is the affected region located? [dorsal aspect of the foot(R)]
+E_133=V_73,Where is the affected region located? [dorsal aspect of the foot(L)]
+E_133=V_74,Where is the affected region located? [dorsal aspect of the wrist(R)]
+E_133=V_75,Where is the affected region located? [dorsal aspect of the wrist(L)]
+E_133=V_76,Where is the affected region located? [dorsal aspect of the hand(R)]
+E_133=V_77,Where is the affected region located? [dorsal aspect of the hand(L)]
+E_133=V_78,Where is the affected region located? [palmar side of the forearm(R)]
+E_133=V_79,Where is the affected region located? [palmar side of the forearm(L)]
+E_133=V_80,Where is the affected region located? [palmar face of the wrist(R)]
+E_133=V_81,Where is the affected region located? [palmar face of the wrist(L)]
+E_133=V_82,Where is the affected region located? [buttock(R)]
+E_133=V_83,Where is the affected region located? [buttock(L)]
+E_133=V_84,Where is the affected region located? [flank(R)]
+E_133=V_85,Where is the affected region located? [flank(L)]
+E_133=V_87,Where is the affected region located? [iliac fossa(R)]
+E_133=V_88,Where is the affected region located? [iliac fossa(L)]
+E_133=V_89,Where is the affected region located? [forehead]
+E_133=V_90,Where is the affected region located? [lower gum]
+E_133=V_91,Where is the affected region located? [upper gum]
+E_133=V_92,Where is the affected region located? [knee(R)]
+E_133=V_93,Where is the affected region located? [knee(L)]
+E_133=V_94,Where is the affected region located? [glans]
+E_133=V_95,Where is the affected region located? [labia majora(R)]
+E_133=V_96,Where is the affected region located? [labia majora(L)]
+E_133=V_97,Where is the affected region located? [big toe(R)]
+E_133=V_98,Where is the affected region located? [big toe(L)]
+E_133=V_99,Where is the affected region located? [hip(R)]
+E_133=V_100,Where is the affected region located? [hip(L)]
+E_133=V_101,Where is the affected region located? [upper chest]
+E_133=V_102,Where is the affected region located? [hymen]
+E_133=V_103,Where is the affected region located? [hypochondrium(R)]
+E_133=V_104,Where is the affected region located? [hypochondrium(L)]
+E_133=V_105,Where is the affected region located? [ischio jambier(R)]
+E_133=V_106,Where is the affected region located? [ischio jambier(L)]
+E_133=V_108,Where is the affected region located? [cheek(R)]
+E_133=V_109,Where is the affected region located? [cheek(L)]
+E_133=V_110,Where is the affected region located? [internal cheek(R)]
+E_133=V_111,Where is the affected region located? [internal cheek(L)]
+E_133=V_113,Where is the affected region located? [renal fossa(R)]
+E_133=V_114,Where is the affected region located? [renal fossa(L)]
+E_133=V_115,Where is the affected region located? [uvula]
+E_133=V_116,Where is the affected region located? [bottom lip(R)]
+E_133=V_117,Where is the affected region located? [upper lip(R)]
+E_133=V_118,Where is the affected region located? [chin]
+E_133=V_119,Where is the affected region located? [calf(R)]
+E_133=V_120,Where is the affected region located? [calf(L)]
+E_133=V_121,Where is the affected region located? [jaw]
+E_133=V_122,Where is the affected region located? [nose]
+E_133=V_124,Where is the affected region located? [occiput]
+E_133=V_125,Where is the affected region located? [eye(R)]
+E_133=V_126,Where is the affected region located? [eye(L)]
+E_133=V_127,Where is the affected region located? [scapula(R)]
+E_133=V_128,Where is the affected region located? [scapula(L)]
+E_133=V_129,Where is the affected region located? [ear(R)]
+E_133=V_130,Where is the affected region located? [ear(L)]
+E_133=V_131,Where is the affected region located? [toe (1)(R)]
+E_133=V_132,Where is the affected region located? [toe (1)(L)]
+E_133=V_133,Where is the affected region located? [toe (2)(R)]
+E_133=V_134,Where is the affected region located? [toe (2)(L)]
+E_133=V_135,Where is the affected region located? [toe (3)(R)]
+E_133=V_136,Where is the affected region located? [toe (3)(L)]
+E_133=V_137,Where is the affected region located? [palace]
+E_133=V_139,Where is the affected region located? [vaginal wall]
+E_133=V_140,Where is the affected region located? [vaginal wall(R)]
+E_133=V_141,Where is the affected region located? [vaginal wall(L)]
+E_133=V_142,Where is the affected region located? [palm(R)]
+E_133=V_143,Where is the affected region located? [palm(L)]
+E_133=V_144,Where is the affected region located? [little toe (4)(R)]
+E_133=V_145,Where is the affected region located? [little toe (4)(L)]
+E_133=V_146,Where is the affected region located? [labia minora(R)]
+E_133=V_147,Where is the affected region located? [labia minora(L)]
+E_133=V_148,Where is the affected region located? [pharynx]
+E_133=V_149,Where is the affected region located? [sole(R)]
+E_133=V_150,Where is the affected region located? [sole(L)]
+E_133=V_151,Where is the affected region located? [thumb(R)]
+E_133=V_152,Where is the affected region located? [thumb(L)]
+E_133=V_153,Where is the affected region located? [pubis]
+E_133=V_155,Where is the affected region located? [penis]
+E_133=V_158,Where is the affected region located? [scrotum]
+E_133=V_159,Where is the affected region located? [breast(R)]
+E_133=V_160,Where is the affected region located? [breast(L)]
+E_133=V_162,Where is the affected region located? [under the tongue]
+E_133=V_163,Where is the affected region located? [under the jaw]
+E_133=V_164,Where is the affected region located? [heel(R)]
+E_133=V_165,Where is the affected region located? [heel(L)]
+E_133=V_166,Where is the affected region located? [temple(R)]
+E_133=V_167,Where is the affected region located? [temple(L)]
+E_133=V_168,Where is the affected region located? [testicle(R)]
+E_133=V_169,Where is the affected region located? [testicle(L)]
+E_133=V_170,Where is the affected region located? [posterior chest wall(R)]
+E_133=V_171,Where is the affected region located? [posterior chest wall(L)]
+E_133=V_172,Where is the affected region located? [tibia(R)]
+E_133=V_173,Where is the affected region located? [tibia(L)]
+E_133=V_174,Where is the affected region located? [trachea]
+E_133=V_175,Where is the affected region located? [trapezius(R)]
+E_133=V_176,Where is the affected region located? [trapezius(L)]
+E_133=V_177,Where is the affected region located? [triceps(R)]
+E_133=V_178,Where is the affected region located? [triceps(L)]
+E_133=V_185,Where is the affected region located? [urethra]
+E_133=V_186,Where is the affected region located? [vagina]
+E_133=V_187,Where is the affected region located? [belly]
+E_133=V_188,Where is the affected region located? [vermilion(R)]
+E_133=V_189,Where is the affected region located? [vermilion(L)]
+E_133=V_190,Where is the affected region located? [vulval vestibule]
+E_133=V_194,Where is the affected region located? [shoulder(R)]
+E_133=V_195,Where is the affected region located? [shoulder(L)]
+E_133=V_197,Where is the affected region located? [epigastric]
+E_129,"Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for?"
+E_130,What color is the rash? [answered]
+E_134,How intense is the pain caused by the rash? [answered]
+E_132,Is the rash swollen? [answered]
+E_136,How severe is the itching? [answered]
+E_135,Is the lesion (or are the lesions) larger than 1cm? [answered]
+E_131,Do your lesions peel off? [answered]
+E_154,Is your skin much paler than usual?
+E_155,"Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations?"
+E_210,Have you recently thrown up blood or something resembling coffee beans?
+E_140,Have you recently had stools that were black (like coal)?
+E_51,Have you had diarrhea or an increase in stool frequency?
+E_75,Do you feel like you are (or were) choking or suffocating?
+E_89,Do you constantly feel fatigued or do you have non-restful sleep?
+E_114,Are you more irritable or has your mood been very unstable recently?
+E_82,Do you feel lightheaded and dizzy or do you feel like you are about to faint?
+E_148,Are you feeling nauseous or do you feel like vomiting?
+E_94,Have you had chills or shivers?
+E_220,Do you have pain that is increased when you breathe in deeply?
+E_161,Have you recently had a loss of appetite or do you get full more quickly then usually?
+E_179,Have you noticed light red blood or blood clots in your stool?
+E_162,Have you had an involuntary weight loss over the last 3 months?
+E_173,"Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?"
+E_33,Do you have pain that improves when you lean forward?
+E_218,Do you have symptoms that are increased with physical exertion but alleviated with rest?
+E_93,"Do you have numbness, loss of sensation or tingling in the feet?"
+E_66,Are you experiencing shortness of breath or difficulty breathing in a significant way?
+E_163,Have you had any vaginal discharge?
+E_30,Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)?
+E_127,Do you feel that your eyes produce excessive tears?
+E_181,Do you have nasal congestion or a clear runny nose?
+E_88,Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?
+E_43,Have you lost consciousness associated with violent and sustained muscle contractions or had an absence episode?
+E_156,"Have you had weakness or paralysis on one side of the face, which may still be present or completely resolved?"
+E_144,Do you have diffuse (widespread) muscle pain?
+E_216,Do you have pain that is increased with movement?
+E_201,Do you have a cough?
+E_217,Are your symptoms worse when lying down and alleviated while sitting up?
+E_215,Do you have symptoms that get worse after eating?
+E_64,Do you feel out of breath with minimal physical effort?
+E_96,Have you gained weight recently?
+E_16,Do you feel anxious?
+E_50,Have you had significantly increased sweating?
+E_97,Do you have a sore throat?
+E_9,Do you have swollen or painful lymph nodes?
+E_76,Do you feel slightly dizzy or lightheaded?
+E_102,Are you consulting because you have high blood pressure?
+E_65,"Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing?"
+E_74,Have you noticed a diffuse (widespread) redness in one or both eyes?
+E_205,Do you suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it?
+E_63,Do you have difficulty articulating words/speaking?
+E_128,Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?
+E_190,Have you noticed that you produce more saliva than usual?
+E_39,Have you felt confused or disorientated lately?
+E_212,"Have you noticed that the tone of your voice has become deeper, softer or hoarse?"
+E_206,Do you have painful mouth ulcers or sores?
+E_52,Do you have the perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)?
+E_203,Do you have intense coughing fits?
+E_38,Do you have pain or weakness in your jaw?
+E_172,Do you have a hard time opening/raising one or both eyelids?
+E_84,Do you feel weakness in both arms and/or both legs?
+E_90,Do your symptoms of muscle weakness increase with fatigue and/or stress?
+E_211,Have you vomited several times or have you made several efforts to vomit?
+E_166,Did you vomit after coughing?
+E_112,Do you wheeze while inhaling or is your breathing noisy after coughing spells?
+E_178,Have you noticed any unusual bleeding or bruising related to your consultation today?
+E_152=V_14,Where is the swelling located? [iliac wing(R)]
+E_152=V_15,Where is the swelling located? [iliac wing(L)]
+E_152=V_16,Where is the swelling located? [groin(R)]
+E_152=V_17,Where is the swelling located? [groin(L)]
+E_152=V_18,Where is the swelling located? [axilla(R)]
+E_152=V_19,Where is the swelling located? [axilla(L)]
+E_152=V_20,Where is the swelling located? [tonsil(R)]
+E_152=V_21,Where is the swelling located? [tonsil(L)]
+E_152=V_22,Where is the swelling located? [anus]
+E_152=V_23,Where is the swelling located? [posterior aspect of the ankle(R)]
+E_152=V_24,Where is the swelling located? [posterior aspect of the ankle(L)]
+E_152=V_25,Where is the swelling located? [back of head]
+E_152=V_26,Where is the swelling located? [back of the neck]
+E_152=V_27,Where is the swelling located? [forearm(R)]
+E_152=V_28,Where is the swelling located? [forearm(L)]
+E_152=V_29,Where is the swelling located? [lower chest]
+E_152=V_30,Where is the swelling located? [biceps(R)]
+E_152=V_31,Where is the swelling located? [biceps(L)]
+E_152=V_32,Where is the swelling located? [mouth]
+E_152=V_33,Where is the swelling located? [thyroid cartilage]
+E_152=V_34,Where is the swelling located? [ankle(R)]
+E_152=V_35,Where is the swelling located? [ankle(L)]
+E_152=V_36,Where is the swelling located? [clitoris]
+E_152=V_37,Where is the swelling located? [coccyx]
+E_152=V_38,Where is the swelling located? [cervical spine]
+E_152=V_39,Where is the swelling located? [thoracic spine]
+E_152=V_40,Where is the swelling located? [lumbar spine]
+E_152=V_41,Where is the swelling located? [commissure(R)]
+E_152=V_42,Where is the swelling located? [commissure(L)]
+E_152=V_43,Where is the swelling located? [lateral side of the foot(R)]
+E_152=V_44,Where is the swelling located? [lateral side of the foot(L)]
+E_152=V_45,Where is the swelling located? [elbow(R)]
+E_152=V_46,Where is the swelling located? [elbow(L)]
+E_152=V_47,Where is the swelling located? [popliteal fossa(R)]
+E_152=V_48,Where is the swelling located? [popliteal fossa(L)]
+E_152=V_49,Where is the swelling located? [iliac crest(R)]
+E_152=V_50,Where is the swelling located? [iliac crest(L)]
+E_152=V_51,Where is the swelling located? [thigh(R)]
+E_152=V_52,Where is the swelling located? [thigh(L)]
+E_152=V_53,Where is the swelling located? [side of the neck(R)]
+E_152=V_54,Where is the swelling located? [side of the neck(L)]
+E_152=V_55,Where is the swelling located? [side of the chest(R)]
+E_152=V_56,Where is the swelling located? [side of the chest(L)]
+E_152=V_57,Where is the swelling located? [lower teeth(R)]
+E_152=V_58,Where is the swelling located? [lower teeth(L)]
+E_152=V_59,Where is the swelling located? [upper teeth(R)]
+E_152=V_60,Where is the swelling located? [upper teeth(L)]
+E_152=V_61,Where is the swelling located? [above the tongue]
+E_152=V_62,Where is the swelling located? [top of the head]
+E_152=V_63,Where is the swelling located? [finger (ring finger)(R)]
+E_152=V_64,Where is the swelling located? [finger (ring finger)(L)]
+E_152=V_65,Where is the swelling located? [finger (little finger)(R)]
+E_152=V_66,Where is the swelling located? [finger (little finger)(L)]
+E_152=V_67,Where is the swelling located? [finger (index)(R)]
+E_152=V_68,Where is the swelling located? [finger (index)(L)]
+E_152=V_69,Where is the swelling located? [finger (middle)(R)]
+E_152=V_70,Where is the swelling located? [finger (middle)(L)]
+E_152=V_72,Where is the swelling located? [dorsal aspect of the foot(R)]
+E_152=V_73,Where is the swelling located? [dorsal aspect of the foot(L)]
+E_152=V_74,Where is the swelling located? [dorsal aspect of the wrist(R)]
+E_152=V_75,Where is the swelling located? [dorsal aspect of the wrist(L)]
+E_152=V_76,Where is the swelling located? [dorsal aspect of the hand(R)]
+E_152=V_77,Where is the swelling located? [dorsal aspect of the hand(L)]
+E_152=V_78,Where is the swelling located? [palmar side of the forearm(R)]
+E_152=V_79,Where is the swelling located? [palmar side of the forearm(L)]
+E_152=V_80,Where is the swelling located? [palmar face of the wrist(R)]
+E_152=V_81,Where is the swelling located? [palmar face of the wrist(L)]
+E_152=V_82,Where is the swelling located? [buttock(R)]
+E_152=V_83,Where is the swelling located? [buttock(L)]
+E_152=V_84,Where is the swelling located? [flank(R)]
+E_152=V_85,Where is the swelling located? [flank(L)]
+E_152=V_87,Where is the swelling located? [iliac fossa(R)]
+E_152=V_88,Where is the swelling located? [iliac fossa(L)]
+E_152=V_89,Where is the swelling located? [forehead]
+E_152=V_90,Where is the swelling located? [lower gum]
+E_152=V_91,Where is the swelling located? [upper gum]
+E_152=V_92,Where is the swelling located? [knee(R)]
+E_152=V_93,Where is the swelling located? [knee(L)]
+E_152=V_94,Where is the swelling located? [glans]
+E_152=V_95,Where is the swelling located? [labia majora(R)]
+E_152=V_96,Where is the swelling located? [labia majora(L)]
+E_152=V_97,Where is the swelling located? [big toe(R)]
+E_152=V_98,Where is the swelling located? [big toe(L)]
+E_152=V_99,Where is the swelling located? [hip(R)]
+E_152=V_100,Where is the swelling located? [hip(L)]
+E_152=V_101,Where is the swelling located? [upper chest]
+E_152=V_102,Where is the swelling located? [hymen]
+E_152=V_103,Where is the swelling located? [hypochondrium(R)]
+E_152=V_104,Where is the swelling located? [hypochondrium(L)]
+E_152=V_105,Where is the swelling located? [ischio jambier(R)]
+E_152=V_106,Where is the swelling located? [ischio jambier(L)]
+E_152=V_108,Where is the swelling located? [cheek(R)]
+E_152=V_109,Where is the swelling located? [cheek(L)]
+E_152=V_110,Where is the swelling located? [internal cheek(R)]
+E_152=V_111,Where is the swelling located? [internal cheek(L)]
+E_152=V_113,Where is the swelling located? [renal fossa(R)]
+E_152=V_114,Where is the swelling located? [renal fossa(L)]
+E_152=V_115,Where is the swelling located? [uvula]
+E_152=V_116,Where is the swelling located? [bottom lip(R)]
+E_152=V_117,Where is the swelling located? [upper lip(R)]
+E_152=V_118,Where is the swelling located? [chin]
+E_152=V_119,Where is the swelling located? [calf(R)]
+E_152=V_120,Where is the swelling located? [calf(L)]
+E_152=V_121,Where is the swelling located? [jaw]
+E_152=V_122,Where is the swelling located? [nose]
+E_152=V_124,Where is the swelling located? [occiput]
+E_152=V_125,Where is the swelling located? [eye(R)]
+E_152=V_126,Where is the swelling located? [eye(L)]
+E_152=V_127,Where is the swelling located? [scapula(R)]
+E_152=V_128,Where is the swelling located? [scapula(L)]
+E_152=V_129,Where is the swelling located? [ear(R)]
+E_152=V_130,Where is the swelling located? [ear(L)]
+E_152=V_131,Where is the swelling located? [toe (1)(R)]
+E_152=V_132,Where is the swelling located? [toe (1)(L)]
+E_152=V_133,Where is the swelling located? [toe (2)(R)]
+E_152=V_134,Where is the swelling located? [toe (2)(L)]
+E_152=V_135,Where is the swelling located? [toe (3)(R)]
+E_152=V_136,Where is the swelling located? [toe (3)(L)]
+E_152=V_137,Where is the swelling located? [palace]
+E_152=V_139,Where is the swelling located? [vaginal wall]
+E_152=V_140,Where is the swelling located? [vaginal wall(R)]
+E_152=V_141,Where is the swelling located? [vaginal wall(L)]
+E_152=V_142,Where is the swelling located? [palm(R)]
+E_152=V_143,Where is the swelling located? [palm(L)]
+E_152=V_144,Where is the swelling located? [little toe (4)(R)]
+E_152=V_145,Where is the swelling located? [little toe (4)(L)]
+E_152=V_146,Where is the swelling located? [labia minora(R)]
+E_152=V_147,Where is the swelling located? [labia minora(L)]
+E_152=V_148,Where is the swelling located? [pharynx]
+E_152=V_149,Where is the swelling located? [sole(R)]
+E_152=V_150,Where is the swelling located? [sole(L)]
+E_152=V_151,Where is the swelling located? [thumb(R)]
+E_152=V_152,Where is the swelling located? [thumb(L)]
+E_152=V_153,Where is the swelling located? [pubis]
+E_152=V_155,Where is the swelling located? [penis]
+E_152=V_158,Where is the swelling located? [scrotum]
+E_152=V_159,Where is the swelling located? [breast(R)]
+E_152=V_160,Where is the swelling located? [breast(L)]
+E_152=V_162,Where is the swelling located? [under the tongue]
+E_152=V_163,Where is the swelling located? [under the jaw]
+E_152=V_164,Where is the swelling located? [heel(R)]
+E_152=V_165,Where is the swelling located? [heel(L)]
+E_152=V_166,Where is the swelling located? [temple(R)]
+E_152=V_167,Where is the swelling located? [temple(L)]
+E_152=V_168,Where is the swelling located? [testicle(R)]
+E_152=V_169,Where is the swelling located? [testicle(L)]
+E_152=V_170,Where is the swelling located? [posterior chest wall(R)]
+E_152=V_171,Where is the swelling located? [posterior chest wall(L)]
+E_152=V_172,Where is the swelling located? [tibia(R)]
+E_152=V_173,Where is the swelling located? [tibia(L)]
+E_152=V_174,Where is the swelling located? [trachea]
+E_152=V_175,Where is the swelling located? [trapezius(R)]
+E_152=V_176,Where is the swelling located? [trapezius(L)]
+E_152=V_177,Where is the swelling located? [triceps(R)]
+E_152=V_178,Where is the swelling located? [triceps(L)]
+E_152=V_185,Where is the swelling located? [urethra]
+E_152=V_186,Where is the swelling located? [vagina]
+E_152=V_187,Where is the swelling located? [belly]
+E_152=V_188,Where is the swelling located? [vermilion(R)]
+E_152=V_189,Where is the swelling located? [vermilion(L)]
+E_152=V_190,Where is the swelling located? [vulval vestibule]
+E_152=V_194,Where is the swelling located? [shoulder(R)]
+E_152=V_195,Where is the swelling located? [shoulder(L)]
+E_152=V_197,Where is the swelling located? [epigastric]
+E_151,Do you have swelling in one or more areas of your body?
+E_45,Have you been coughing up blood?
+E_194,Have you noticed a high pitched sound when breathing in?
+E_83,Have you noticed weakness in your facial muscles and/or eyes?
+E_157,"Have you recently had numbness, loss of sensation or tingling, in both arms and legs and around your mouth?"
+E_176,"Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face?"
+E_42,Have you been in contact with or ate something that you have an allergy to?
+E_214,Have you noticed a wheezing sound when you exhale?
+E_150,Have you been able to pass stools or gas since your symptoms increased?
+E_32,Do you have a decrease in appetite?
+E_221,"Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement?"
+E_202,Does the person have a whooping cough?
+E_219,Are your symptoms more prominent at night?
+E_196,Have you had surgery within the last month?
+E_170,Do you have severe itching in one or both eyes?
+E_77,Do you have a cough that produces colored or more abundant sputum than usual?
+E_13,Do you find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms?
+E_14,Do you have chest pain even at rest?
+E_169,Is your nose or the back of your throat itchy?
+E_177,"Do you currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body?"
+E_175,"Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?"
+E_174,Have you been unintentionally losing weight or have you lost your appetite?
+E_145,Do you have very abundant or very long menstruation periods?
+E_92,Did your cheeks suddenly turn red?
+E_192,Do you feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side?
+E_188,Do you have pale stools and dark urine?
+E_164,Do you feel your heart is beating very irregularly or in a disorganized pattern?
+E_193,"Do you have annoying muscle spasms in your face, neck or any other part of your body?"
+E_168,Do you have trouble keeping your tongue in your mouth?
+E_180,Are you unable to control the direction of your eyes?
+E_67,Do you have bouts of choking or shortness of breath that wake you up at night?
+E_78,Do you drink alcohol excessively or do you have an addiction to alcohol?
+E_146,Are you taking any new oral anticoagulants ((NOACs)?
+E_171,Do you feel like you are detached from your own body or your surroundings?
+E_111,Do you feel like you are dying or were you afraid that you were about do die?
+E_182,Do you have greenish or yellowish nasal discharge?
+E_103,Have you lost your sense of smell?
+E_23,Do you ever temporarily stop breathing while you’re asleep?
+E_105,Have you ever had a heart attack or do you have angina (chest pain)?
+E_108,Do you have a problem with poor circulation?
+E_104,Do you have high blood pressure or do you take medications to treat high blood pressure?
+E_79,Do you smoke cigarettes?
+E_71,Do you have high cholesterol or do you take medications to treat high cholesterol?
+E_41,Have you been in contact with a person with similar symptoms in the past 2 weeks?
+E_100,Do you currently take hormones?
+E_69,Do you have diabetes?
+E_167,Do you think you are pregnant or are you currently pregnant?
+E_115,Have you had unprotected sex with more than one partner in the last 6 months?
+E_70,Are you significantly overweight compared to people of the same height as you?
+E_10,Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)?
+E_165,Have any of your family members ever had a pneumothorax?
+E_8,Do you currently undergo dialysis?
+E_25,Have any of your family members been diagnosed with cluster headaches?
+E_184,Do you take medication that dilates your blood vessels?
+E_185,Have you ever had a head trauma?
+E_99,Have you ever had a migraine or is a member of your family known to have migraines?
+E_107,Have you ever had a stroke?
+E_226,Are you more likely to develop common allergies than the general population?
+E_62,Do you regularly take stimulant drugs?
+E_49,Do you attend or work in a daycare?
+E_95,Do you have Parkinson’s disease?
+E_204,Have you traveled out of the country in the last 4 weeks? [any country]
+E_204=V_0,Have you traveled out of the country in the last 4 weeks? [North Africa]
+E_204=V_1,Have you traveled out of the country in the last 4 weeks? [West Africa]
+E_204=V_2,Have you traveled out of the country in the last 4 weeks? [South Africa]
+E_204=V_3,Have you traveled out of the country in the last 4 weeks? [Central America]
+E_204=V_4,Have you traveled out of the country in the last 4 weeks? [North America]
+E_204=V_5,Have you traveled out of the country in the last 4 weeks? [South America]
+E_204=V_6,Have you traveled out of the country in the last 4 weeks? [Asia]
+E_204=V_7,Have you traveled out of the country in the last 4 weeks? [South East Asia]
+E_204=V_8,Have you traveled out of the country in the last 4 weeks? [Caraibes]
+E_204=V_9,Have you traveled out of the country in the last 4 weeks? [Europe]
+E_204=V_13,Have you traveled out of the country in the last 4 weeks? [Oceania]
+E_37,Do you have metastatic cancer?
+E_153,Are you being treated for osteoporosis?
+E_124,Do you have asthma or have you ever had to use a bronchodilator in the past?
+E_98,Do you have a hiatal hernia?
+E_116,Have you had a cold in the last 2 weeks?
+E_48,Do you live with 4 or more people?
+E_2,Are you infected with the human immunodeficiency virus (HIV)?
+E_227,Are you immunosuppressed?
+E_61,Are you currently using intravenous drugs?
+E_47,Do you suffer from Crohn’s disease or ulcerative colitis (UC)?
+E_27,Have you ever had a sexually transmitted infection?
+E_143,"Do you exercise regularly, 4 times per week or more?"
+E_191,Are you a former smoker?
+E_208,"Is your BMI less than 18.5, or are you underweight?"
+E_126,Do you have liver cirrhosis?
+E_189,Have you had sexual intercourse with an HIV-positive partner in the past 12 months?
+E_7,Do you have a poor diet?
+E_24,Have you ever had a diagnosis of anemia?
+E_26,Do you have any family members who have been diagnosed with anemia?
+E_113,Do you have chronic kidney failure?
+E_160,Were you born prematurely or did you suffer any complication at birth?
+E_28,Are there any members of your family who have been diagnosed myasthenia gravis?
+E_20,Do you have Rheumatoid Arthritis?
+E_80,Have you ever been diagnosed with depression?
+E_40,Have you been in contact with someone who has had pertussis (whoooping cough)?
+E_0,Have you recently had a viral infection?
+E_1,Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?
+E_34,Do you have an active cancer?
+E_209,Are your vaccinations up to date?
+E_139,Do you have a known heart defect?
+E_19,Have you been diagnosed with hyperthyroidism?
+E_31,Do you have severe Chronic Obstructive Pulmonary Disease (COPD)?
+E_22,Do you have a known issue with one of your heart valves?
+E_60,Do you consume energy drinks regularly?
+E_35,Do you regularly drink coffee or tea?
+E_213,Have you recently taken decongestants or other substances that may have stimulant effects?
+E_12,Do you have a known severe food allergy?
+E_44,Do you take corticosteroids?
+E_4,Have you or any member of your family ever had croup?
+E_81,Do you suffer from chronic anxiety?
+E_109,Have you ever had deep vein thrombosis (DVT)?
+E_110,Have you been unable to move or get up for more than 3 consecutive days within the last 4 weeks?
+E_17,Are you of Asian descent?
+E_18,Do you have cystic fibrosis?
+E_118,Have you ever had pneumonia?
+E_123,Do you have a chronic obstructive pulmonary disease (COPD)?
+E_207,Do you live in in a big city?
+E_86,"Do you have any close family members who suffer from allergies (any type), hay fever or eczema?"
+E_87,Do you have any family members who have asthma?
+E_141,Did you have your first menstrual period before the age of 12?
+E_11,Have you breastfed one of your children for more than 9 months?
+E_186,Have you ever been diagnosed with obstructive sleep apnea (OSA)?
+E_106,Do you have heart failure?
+E_158,Were you diagnosed with endocrine disease or a hormone dysfunction?
+E_187,Did you eat dark-fleshed fish (such as tuna) or Swiss cheese before the reaction occurred?
+E_6,Do you have chronic pancreatitis?
+E_125,Have you ever been diagnosed with gastroesophageal reflux?
+E_21,Have you ever had a spontaneous pneumothorax?
+E_222,Are you exposed to secondhand cigarette smoke on a daily basis?
+E_15,Have you started or taken any antipsychotic medication within the last 7 days?
+E_147,"Have you been treated in hospital recently for nausea, agitation, intoxication or aggressive behavior and received medication via an intravenous or intramuscular route?"
+E_137,Have you ever had surgery to remove lymph nodes?
+E_149,Do you take a calcium channel blockers (medication)?
+E_197,Do you have a known kidney problem resulting in an inability to retain proteins?
+E_3,Have you ever had a pericarditis?
+E_29,Do any members of your immediate family have a psychiatric illness?
+E_225,Do you have close family members who had a cardiovascular disease problem before the age of 50?
+E_73,"In the last month, have you been in contact with anyone infected with the Ebola virus?"
+E_138,Do you suffer from fibromyalgia?
+E_101,Have you been hospitalized for an asthma attack in the past year?
+E_46,Have you had 2 or more asthma attacks in the past year?
+E_119,Have you been diagnosed with chronic sinusitis?
+E_72,Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year?
+E_198,Do you work in agriculture?
+E_200,Do you work in the mining sector?
+E_199,Do you work in construction?
+E_121,Do you have a deviated nasal septum?
+E_120,Do you have polyps in your nose?
+E_142,Does your mother suffer from asthma?
+E_195,Do you live in the suburbs?
+E_183,Do you live in a rural area?
+E_224,Do you have family members who have had lung cancer?
+E_223,Are there members of your family who have been diagnosed with pancreatic cancer?
+E_5,Have you ever had fluid in your lungs?
+sex_female,Patient is female
+sex_male,Patient is male
+age_under_2,Patient age 0 to 1
+age_2_11,Patient age 2 to 11
+age_12_17,Patient age 12 to 17
+age_18_39,Patient age 18 to 39
+age_40_64,Patient age 40 to 64
+age_65_plus,Patient age 65 or over

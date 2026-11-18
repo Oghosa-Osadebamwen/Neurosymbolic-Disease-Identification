@@ -1,0 +1,31 @@
+id,complaint,missed,wrongly_added,denials_missed,exact
+1,For three days now my body has been very hot and I have chills. My head is aching and I've been sweating at night.,,,,True
+2,"I can't stop scratching, there's a rash on my arms and some bumps on my skin. No fever.",itching,,,False
+3,"I keep sneezing, my nose is running and my eyes are watering. I don't have a cough.",,,,True
+4,There's a burning feeling when I pass urine and I always feel like urinating. My urine smells bad.,burning_micturition;continuous_feel_of_urine,polyuria,,False
+5,"My eyes have gone yellow, my urine is dark and I've lost my appetite. I feel like throwing up.",nausea,vomiting,,False
+6,"I have a terrible headache, I feel dizzy and my vision is blurry. My neck is stiff too.",,,,True
+7,I've been coughing for weeks and now I'm coughing up blood. I have night sweats and I've lost weight.,,,,True
+8,"My joints are painful and swollen, especially my knees. Walking is painful.",knee_pain;swelling_joints,,,False
+9,"I have a running stomach, I'm vomiting and I feel very weak and dehydrated.",,,,True
+10,"I've been very thirsty, I pee a lot and I'm always hungry. My vision is blurred.",,,,True
+11,My chest hurts and I'm short of breath. My heart is pounding. I'm not dizzy.,,,,True
+12,"I've gained weight, I feel cold all the time, I'm always tired and my face looks puffy.",,,,True
+13,There's pain when I go to toilet to stool and I've seen blood in my stool. My anus itches.,irritation_in_anus;pain_during_bowel_movements,diarrhoea;itching,,False
+14,"I have pimples full of pus and blackheads on my face, and some scars.",,,,True
+15,My lower back is painful and my neck hurts. I have no fever and no headache.,back_pain,,,False
+16,"I feel sad all the time, I can't concentrate and I'm easily irritated.",irritability,,,False
+17,"I'm bloated, I have acid reflux and stomach pain after eating. I've been passing gas.",,,,True
+18,"He suddenly can't move one side of his body, his speech is slurred and he is confused.",,,,True
+19,"I have a mild temperature, a sore throat and my nose is blocked. My body aches.",,,,True
+20,My skin is peeling and there are silvery scales on my elbows. My nails have small dents.,small_dents_in_nails,,,False
+21,"I have a high temperature, a rash with red spots all over my body, and pain behind my eyes. My joints ache.",,skin_rash,,False
+22,Since last week I've had diarrhoea and abdominal pain. The vomiting has stopped.,,,,True
+23,"I'm losing weight even though I eat a lot. My hands shake, I sweat and my heart is racing.",excessive_hunger;shivering,,,False
+24,My legs are swollen and the veins on my calves are bulging. My legs cramp at night.,prominent_veins_on_calf,swollen_blood_vessels,,False
+25,I have sores on my tongue and my lips are dry and tingling.,,,,True
+26,"I feel tired and weak, my appetite is poor and my skin has turned yellow.",,,,True
+27,"I've had a cough with thick phlegm, a fever and chills, and my chest is painful when I breathe.",chest_pain,,,False
+28,"The room spins whenever I stand up, I lose my balance and I feel like vomiting.",spinning_movements,,,False
+29,I have yellow crusty sores around my nose and blisters on my face.,,,,True
+30,"My period has been irregular, I'm anxious and my moods change a lot.",mood_swings,,,False

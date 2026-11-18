@@ -1,0 +1,607 @@
+disease,item,source_phrase,dataset_symptoms_any_of,item_type,source_id
+Spontaneous pneumothorax,Spontaneous pneumothorax #1,Sudden chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,mayo_pneumothorax
+Spontaneous pneumothorax,Spontaneous pneumothorax #2,Shortness of breath,E_66,symptom,mayo_pneumothorax
+Spontaneous pneumothorax,Spontaneous pneumothorax #3,Smoking,E_79,risk,mayo_pneumothorax
+Spontaneous pneumothorax,Spontaneous pneumothorax #4,Being male,sex_male,risk,mayo_pneumothorax
+Spontaneous pneumothorax,Spontaneous pneumothorax #5,Family history of certain types,E_165,risk,mayo_pneumothorax
+Spontaneous pneumothorax,Spontaneous pneumothorax #6,Having had a previous pneumothorax,E_21,risk,mayo_pneumothorax
+Spontaneous pneumothorax,Spontaneous pneumothorax #7,"Underlying lung disease (COPD, cystic fibrosis, pneumonia)",E_123|E_18|E_118,risk,mayo_pneumothorax
+Cluster headache,Cluster headache #8,"A sharp, burning or piercing pain on 1 side of the head, around the eye",E_55=V_125|E_55=V_126|E_55=V_166|E_55=V_167,symptom,nhs_cluster
+Cluster headache,Cluster headache #9,A red and watering eye on the same side as the pain,E_127|E_74,symptom,nhs_cluster
+Cluster headache,Cluster headache #10,Feeling sick,E_148,symptom,nhs_cluster
+Cluster headache,Cluster headache #11,Drooping and swelling in the eyelid,E_172,symptom,nhs_cluster
+Cluster headache,Cluster headache #12,Face sweating,E_50,symptom,nhs_cluster
+Cluster headache,Cluster headache #13,A blocked or runny nose,E_181,symptom,nhs_cluster
+Cluster headache,Cluster headache #14,More common in men,sex_male,risk,nhs_cluster
+Cluster headache,Cluster headache #15,A close family member who gets them,E_25,risk,nhs_cluster
+Cluster headache,Cluster headache #16,Smoking,E_79,risk,nhs_cluster
+Cluster headache,Cluster headache #17,Drinking alcohol,E_78,risk,nhs_cluster
+Boerhaave,Boerhaave #18,Violent vomiting,E_211,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #19,Nausea,E_148,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #20,Intense left pleuritic chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #21,Pleuritic pain (worse on breathing),E_220,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #22,Epigastric pain,E_55=V_197,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #23,Tachycardic,E_155,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #24,Hypotensive (faint or lightheaded),E_82,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #25,Mildly agitated,E_114,symptom,pmc_boerhaave
+Boerhaave,Boerhaave #26,Gastro-oesophageal reflux,E_125,risk,pmc_boerhaave
+Boerhaave,Boerhaave #27,Hypertension,E_104,risk,pmc_boerhaave
+Boerhaave,Boerhaave #28,Alcoholism,E_78,risk,pmc_boerhaave
+Boerhaave,Boerhaave #29,Neoplasm,E_34,risk,pmc_boerhaave
+Spontaneous rib fracture,Spontaneous rib fracture #30,"Severe pain, particularly when a person breathes deeply",E_220,symptom,msd_ribfx
+Spontaneous rib fracture,Spontaneous rib fracture #31,Pain of the chest wall,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,msd_ribfx
+Spontaneous rib fracture,Spontaneous rib fracture #32,Breathing becomes more difficult and tiring (flail chest),E_66,symptom,msd_ribfx
+Spontaneous rib fracture,Spontaneous rib fracture #33,Older adults who have osteoporosis,E_153|age_65_plus,risk,msd_ribfx
+GERD,GERD #34,Heartburn - a burning sensation in the middle of your chest,E_173,symptom,nhs_reflux
+GERD,GERD #35,An unpleasant sour taste in your mouth,E_173,symptom,nhs_reflux
+GERD,GERD #36,A cough or hiccups that keep coming back,E_201,symptom,nhs_reflux
+GERD,GERD #37,A hoarse voice,E_212,symptom,nhs_reflux
+GERD,GERD #38,Bloating,E_30,symptom,nhs_reflux
+GERD,GERD #39,Feeling sick,E_148,symptom,nhs_reflux
+GERD,GERD #40,Food getting stuck in your throat,E_65,symptom,nhs_reflux
+GERD,GERD #41,Frequently being sick,E_211,symptom,nhs_reflux
+GERD,GERD #42,Losing weight for no reason,E_162,symptom,nhs_reflux
+GERD,GERD #43,Symptoms are often worse after eating,E_215,symptom,nhs_reflux
+GERD,GERD #44,Symptoms are often worse when lying down,E_217,symptom,nhs_reflux
+GERD,GERD #45,Being overweight,E_70,risk,nhs_reflux
+GERD,GERD #46,Smoking,E_79,risk,nhs_reflux
+GERD,GERD #47,Pregnancy,E_167,risk,nhs_reflux
+GERD,GERD #48,Anti-inflammatory painkillers,E_10,risk,nhs_reflux
+GERD,GERD #49,A hiatus hernia,E_98,risk,nhs_reflux
+GERD,GERD #50,Alcohol,E_78,risk,nhs_reflux
+GERD,GERD #51,Stress and anxiety,E_16|E_81,risk,nhs_reflux
+HIV (initial infection),HIV (initial infection) #52,A sore throat,E_97,symptom,nhs_hiv
+HIV (initial infection),HIV (initial infection) #53,A high temperature,E_91,symptom,nhs_hiv
+HIV (initial infection),HIV (initial infection) #54,Swollen glands,E_9,symptom,nhs_hiv
+HIV (initial infection),HIV (initial infection) #55,Muscle aches,E_144,symptom,nhs_hiv
+HIV (initial infection),HIV (initial infection) #56,Tiredness,E_88|E_89,symptom,nhs_hiv
+HIV (initial infection),HIV (initial infection) #57,A skin rash,E_129,symptom,nhs_hiv
+HIV (initial infection),HIV (initial infection) #58,Many sexual partners / unprotected sex,E_115,risk,nhs_hiv
+HIV (initial infection),HIV (initial infection) #59,A current or previous partner with HIV,E_189,risk,nhs_hiv
+HIV (initial infection),HIV (initial infection) #60,Having other sexually transmitted infections,E_27,risk,nhs_hiv
+HIV (initial infection),HIV (initial infection) #61,Injecting recreational drugs,E_61,risk,nhs_hiv
+Anemia,Anemia #62,Tiredness and lack of energy,E_88|E_89,symptom,nhs_ida
+Anemia,Anemia #63,Shortness of breath,E_66,symptom,nhs_ida
+Anemia,Anemia #64,Noticeable heartbeats (heart palpitations),E_155,symptom,nhs_ida
+Anemia,Anemia #65,Paler than usual skin,E_154,symptom,nhs_ida
+Anemia,Anemia #66,Headaches,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_ida
+Anemia,Anemia #67,Finding it hard to swallow,E_65,symptom,nhs_ida
+Anemia,Anemia #68,Painful open sores in the corners of your mouth,E_206,symptom,nhs_ida
+Anemia,Anemia #69,Heavy periods,E_145,risk,nhs_ida
+Anemia,Anemia #70,Pregnancy,E_167,risk,nhs_ida
+Anemia,Anemia #71,Poor diet,E_7,risk,nhs_ida
+Anemia,Anemia #72,Bleeding in the stomach and intestines,E_140|E_179,risk,nhs_ida
+Anemia,Anemia #73,Non-steroidal anti-inflammatory drugs,E_10,risk,nhs_ida
+Anemia,Anemia #74,Cancers of the bowel or stomach,E_34,risk,nhs_ida
+Viral pharyngitis,Viral pharyngitis #75,"A painful throat, especially when swallowing",E_97|E_65,symptom,nhs_sorethroat
+Viral pharyngitis,Viral pharyngitis #76,A mild cough,E_201,symptom,nhs_sorethroat
+Viral pharyngitis,Viral pharyngitis #77,Swollen neck glands,E_9,symptom,nhs_sorethroat
+Viral pharyngitis,Viral pharyngitis #78,A high temperature,E_91,symptom,nhs_sorethroat
+Viral pharyngitis,Viral pharyngitis #79,Viruses (like cold or flu),E_116|E_41|E_0,risk,nhs_sorethroat
+Viral pharyngitis,Viral pharyngitis #80,Smoking,E_79,risk,nhs_sorethroat
+Viral pharyngitis,Viral pharyngitis #81,A weakened immune system,E_227,risk,nhs_sorethroat
+Inguinal hernia,Inguinal hernia #82,A bulge or lump in the groin,E_152=V_16|E_152=V_17,symptom,nhs_hernia
+Inguinal hernia,Inguinal hernia #83,"The lump may get bigger when you cough, sneeze or cry",E_221,symptom,nhs_hernia
+Inguinal hernia,Inguinal hernia #84,Pain in or around the hernia,E_55=V_16|E_55=V_17,symptom,nhs_hernia
+Inguinal hernia,Inguinal hernia #85,A bloated tummy,E_30,symptom,nhs_hernia
+Inguinal hernia,Inguinal hernia #86,Feeling sick or being sick,E_148|E_211,symptom,nhs_hernia
+Inguinal hernia,Inguinal hernia #87,Constipated (cannot pass stools),E_150,symptom,nhs_hernia
+Inguinal hernia,Inguinal hernia #88,Being overweight,E_70,risk,nhs_hernia
+Inguinal hernia,Inguinal hernia #89,Smoking,E_79,risk,nhs_hernia
+Inguinal hernia,Inguinal hernia #90,A cough that does not get better or keeps coming back,E_201,risk,nhs_hernia
+Myasthenia gravis,Myasthenia gravis #91,Droopy eyelids,E_172,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #92,Double vision,E_52,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #93,Difficulty making facial expressions,E_83,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #94,Problems chewing,E_38,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #95,Difficulty swallowing,E_65,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #96,Slurred speech,E_63,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #97,"Weak arms, legs or neck",E_84,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #98,Shortness of breath,E_66,symptom,nhs_mg
+Myasthenia gravis,Myasthenia gravis #99,Symptoms tend to get worse when you're tired,E_90,symptom,nhs_mg
+Whooping cough,Whooping cough #100,Coughing bouts,E_203,symptom,nhs_pertussis
+Whooping cough,Whooping cough #101,Coughing bouts worse at night,E_219,symptom,nhs_pertussis
+Whooping cough,Whooping cough #102,A 'whoop' sound: a gasp for breath between coughs,E_112,symptom,nhs_pertussis
+Whooping cough,Whooping cough #103,Difficulty breathing after a coughing bout,E_66,symptom,nhs_pertussis
+Whooping cough,Whooping cough #104,"Thick mucus, which can make you vomit",E_166,symptom,nhs_pertussis
+Whooping cough,Whooping cough #105,Very red in the face,E_92,symptom,nhs_pertussis
+Whooping cough,Whooping cough #106,Runny nose,E_181,symptom,nhs_pertussis
+Whooping cough,Whooping cough #107,Sore throat,E_97,symptom,nhs_pertussis
+Whooping cough,Whooping cough #108,Chest pain that's worse when breathing or coughing,E_220,symptom,nhs_pertussis
+Whooping cough,Whooping cough #109,Seizures (fits),E_43,symptom,nhs_pertussis
+Whooping cough,Whooping cough #110,Contact with someone who has whooping cough,E_40,risk,nhs_pertussis
+Whooping cough,Whooping cough #111,Being pregnant,E_167,risk,nhs_pertussis
+Anaphylaxis,Anaphylaxis #112,Swelling of your throat and tongue,E_152=V_32|E_152=V_61|E_152=V_162|E_152=V_148|E_152=V_115|E_152=V_174|E_152=V_33,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #113,Difficulty breathing or breathing very fast,E_66,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #114,"Difficulty swallowing, tightness in your throat or a hoarse voice",E_65|E_212,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #115,"Wheezing, coughing or noisy breathing",E_214|E_201|E_194,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #116,Feeling tired or confused,E_39|E_88,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #117,"Feeling faint, dizzy or fainting",E_82,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #118,"Blue, grey or pale skin, lips or tongue",E_154,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #119,"A rash that's swollen, raised or itchy",E_129|E_136,symptom,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #120,"Contact with something you are allergic to (foods, medicines, stings, latex)",E_42,risk,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #121,Known severe food allergy,E_12,risk,nhs_anaphylaxis
+Anaphylaxis,Anaphylaxis #122,More likely to develop allergies,E_226,risk,nhs_anaphylaxis
+Epiglottitis,Epiglottitis #123,Finding it very difficult to breathe,E_66,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #124,Breathing is easier when you lean forward,E_33,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #125,"A high-pitched, rasping sound as you breathe in",E_194,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #126,A very sore throat,E_97,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #127,A high temperature,E_91,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #128,A hoarse (croaky) voice,E_212,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #129,Finding it painful and difficult to swallow,E_65,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #130,Drooling,E_190,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #131,"Pale, grey or blue-tinged skin",E_154,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #132,Extremely tired or very restless and irritable,E_88|E_114,symptom,nhs_epiglottitis
+Epiglottitis,Epiglottitis #133,Smoking,E_79,risk,nhs_epiglottitis
+Epiglottitis,Epiglottitis #134,A weakened immune system,E_227,risk,nhs_epiglottitis
+Guillain-Barré syndrome,Guillain-Barré syndrome #135,"Tingling, numbness or pins and needles in your feet and hands",E_177|E_93|E_157,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #136,Muscle weakness,E_84,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #137,"Sharp, shooting pain (nerve pain), often in your legs or back",E_55=V_38|E_55=V_39|E_55=V_40|E_55=V_51|E_55=V_52|E_55=V_119|E_55=V_120|E_55=V_172|E_55=V_173|E_55=V_82|E_55=V_83,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #138,Problems breathing,E_66,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #139,Drooping face muscles,E_156|E_83,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #140,Trouble swallowing or speaking,E_65|E_63,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #141,Double vision,E_52,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #142,"Not able to move their legs, arms and face",E_176,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #143,Feeling exhausted (fatigue),E_88|E_89,symptom,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #144,"Starts within a few weeks of an infection, such as flu or a stomach bug",E_0,risk,nhs_gbs
+Guillain-Barré syndrome,Guillain-Barré syndrome #145,More common in males,sex_male,risk,nhs_gbs
+Acute laryngitis,Acute laryngitis #146,A hoarse (croaky) voice,E_212,symptom,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #147,An irritating cough that does not go away,E_201,symptom,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #148,A sore throat,E_97,symptom,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #149,A temperature of 38C or above (children),E_91,symptom,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #150,Difficulty breathing (rare),E_66,symptom,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #151,"An infection from a virus, such as cold or flu",E_0|E_116,risk,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #152,Allergies to things like dust and fumes,E_226,risk,nhs_laryngitis
+Acute laryngitis,Acute laryngitis #153,Acid reflux,E_125,risk,nhs_laryngitis
+Croup,Croup #154,A barking cough,E_201,symptom,nhs_croup
+Croup,Croup #155,A hoarse voice,E_212,symptom,nhs_croup
+Croup,Croup #156,Difficulty breathing,E_66,symptom,nhs_croup
+Croup,Croup #157,"A high pitched, rasping sound when breathing in",E_194,symptom,nhs_croup
+Croup,Croup #158,A temperature,E_91,symptom,nhs_croup
+Croup,Croup #159,Runny nose,E_181,symptom,nhs_croup
+Croup,Croup #160,Often worse at night,E_219,symptom,nhs_croup
+Croup,Croup #161,Drooling more than they normally do,E_190,symptom,nhs_croup
+Croup,Croup #162,Finding it hard to swallow,E_65,symptom,nhs_croup
+Croup,Croup #163,Mainly affects babies' and young children's airways,age_under_2|age_2_11,risk,nhs_croup
+PSVT,PSVT #164,A very fast heartbeat / pounding or fluttering feelings in the chest (palpitations),E_155,symptom,mayo_svt
+PSVT,PSVT #165,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,mayo_svt
+PSVT,PSVT #166,Fainting or almost fainting,E_82,symptom,mayo_svt
+PSVT,PSVT #167,A lightheaded or dizzy feeling,E_76,symptom,mayo_svt
+PSVT,PSVT #168,Shortness of breath,E_66,symptom,mayo_svt
+PSVT,PSVT #169,Sweating,E_50,symptom,mayo_svt
+PSVT,PSVT #170,Weakness or extreme tiredness,E_88|E_89,symptom,mayo_svt
+PSVT,PSVT #171,"Heart disease (coronary artery disease, valve disease, heart failure, congenital defect)",E_105|E_106|E_22|E_139,risk,mayo_svt
+PSVT,PSVT #172,Long-term conditions that affect the lungs and airways,E_123|E_124,risk,mayo_svt
+PSVT,PSVT #173,Obstructive sleep apnea,E_186,risk,mayo_svt
+PSVT,PSVT #174,Thyroid disease,E_19,risk,mayo_svt
+PSVT,PSVT #175,Diabetes,E_69,risk,mayo_svt
+PSVT,PSVT #176,Stress,E_16|E_81,risk,mayo_svt
+PSVT,PSVT #177,Too much caffeine,E_35|E_60,risk,mayo_svt
+PSVT,PSVT #178,Too much alcohol use,E_78,risk,mayo_svt
+PSVT,PSVT #179,Smoking and nicotine use,E_79,risk,mayo_svt
+PSVT,PSVT #180,Stimulant drugs,E_62|E_213,risk,mayo_svt
+PSVT,PSVT #181,"More often in women, especially during pregnancy",E_167,risk,mayo_svt
+Atrial fibrillation,Atrial fibrillation #182,"An irregular heartbeat, where your pulse is not steady",E_164,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #183,"Heart pounding, racing, fluttering, skipping or missing a beat",E_155,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #184,Feeling very tired,E_88|E_89,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #185,Finding it harder to exercise,E_64|E_218,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #186,Chest pain or tightness,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #187,Feeling short of breath,E_66,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #188,"Feeling lightheaded, dizzy or like you might faint",E_76|E_82,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #189,Sweating,E_50,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #190,Feeling or being sick,E_148,symptom,nhs_af
+Atrial fibrillation,Atrial fibrillation #191,You're a man,sex_male,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #192,Living with obesity or overweight,E_70,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #193,You smoke,E_79,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #194,High blood pressure,E_104,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #195,Heart failure,E_106,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #196,Mitral valve problems,E_22,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #197,A heart attack,E_105,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #198,Chronic kidney disease,E_113,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #199,An overactive thyroid (hyperthyroidism),E_19,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #200,Diabetes,E_69,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #201,Sleep apnoea,E_186,risk,nhs_af
+Atrial fibrillation,Atrial fibrillation #202,Caffeine,E_35|E_60,risk,nhs_af
+Bronchiectasis,Bronchiectasis #203,A cough that does not go away,E_201,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #204,Coughing up a lot of phlegm (mucus),E_77,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #205,Wheezing,E_214|E_112,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #206,Shortness of breath,E_66,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #207,"Noises when you breathe, such as crackling, snoring sounds or high-pitched squeaks",E_214,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #208,Feeling very tired,E_88|E_89,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #209,Coughing up blood,E_45,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #210,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #211,Chest pain when you breathe or cough,E_220,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #212,A high temperature,E_91,symptom,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #213,"A severe infection such as pneumonia, TB, measles or whooping cough",E_118,risk,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #214,Asthma,E_124,risk,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #215,Chronic obstructive pulmonary disease (COPD),E_123,risk,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #216,A problem with your immune system,E_227,risk,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #217,Rheumatoid arthritis,E_20,risk,nhs_bronchiectasis
+Bronchiectasis,Bronchiectasis #218,Inflammatory bowel disease such as ulcerative colitis or Crohn's disease,E_47,risk,nhs_bronchiectasis
+Allergic sinusitis,Allergic sinusitis #219,An itchy nose,E_169,symptom,nhs_allergic_rhinitis
+Allergic sinusitis,Allergic sinusitis #220,A runny or blocked nose,E_181,symptom,nhs_allergic_rhinitis
+Allergic sinusitis,Allergic sinusitis #221,"Itchy, red and watery eyes",E_170|E_74|E_127,symptom,nhs_allergic_rhinitis
+Allergic sinusitis,Allergic sinusitis #222,A cough,E_201,symptom,nhs_allergic_rhinitis
+Allergic sinusitis,Allergic sinusitis #223,The roof of your mouth being itchy,E_169,symptom,nhs_allergic_rhinitis
+Allergic sinusitis,Allergic sinusitis #224,More likely to get an allergy if people in your family also have them,E_86,risk,nhs_allergic_rhinitis
+Allergic sinusitis,Allergic sinusitis #225,Conditions such as eczema and asthma,E_124,risk,nhs_allergic_rhinitis
+Chagas,Chagas #226,Fever,E_91,symptom,cdc_chagas
+Chagas,Chagas #227,Feeling tired,E_88|E_89,symptom,cdc_chagas
+Chagas,Chagas #228,Body aches,E_144|E_175,symptom,cdc_chagas
+Chagas,Chagas #229,Headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,cdc_chagas
+Chagas,Chagas #230,Rash,E_129,symptom,cdc_chagas
+Chagas,Chagas #231,Loss of appetite,E_161|E_32,symptom,cdc_chagas
+Chagas,Chagas #232,Diarrhea,E_51,symptom,cdc_chagas
+Chagas,Chagas #233,Vomiting,E_148|E_211,symptom,cdc_chagas
+Chagas,Chagas #234,Eyelid swelling (Romaña's sign),E_152=V_125|E_152=V_126,symptom,cdc_chagas
+Chagas,Chagas #235,"Heart issues: altered heart rate or rhythm, heart failure",E_155|E_164|E_106,symptom,cdc_chagas
+Chagas,Chagas #236,"Having lived in Mexico, Central or South America",E_204=V_3|E_204=V_5,risk,cdc_chagas
+Scombroid food poisoning,Scombroid food poisoning #237,Flushing,E_92,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #238,Rash / urticaria,E_129,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #239,Palpitations,E_155,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #240,Headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #241,Dizziness,E_76|E_82,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #242,Sweating,E_50,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #243,Burning of the mouth and throat,E_55=V_32|E_55=V_148,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #244,Abdominal cramps,E_55=V_187|E_55=V_197|E_55=V_103|E_55=V_104|E_55=V_87|E_55=V_88,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #245,Nausea,E_148,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #246,Vomiting,E_211,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #247,Diarrhoea,E_51,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #248,"Bronchospasm, respiratory distress",E_66|E_214,symptom,litfl_scombroid
+Scombroid food poisoning,Scombroid food poisoning #249,Consuming fish from the Scombridae family (tuna) or cheese such as Swiss,E_187,risk,litfl_scombroid
+Myocarditis,Myocarditis #250,Shortness of breath,E_66,symptom,cc_myocarditis
+Myocarditis,Myocarditis #251,Tiredness,E_88|E_89,symptom,cc_myocarditis
+Myocarditis,Myocarditis #252,Fever,E_91,symptom,cc_myocarditis
+Myocarditis,Myocarditis #253,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,cc_myocarditis
+Myocarditis,Myocarditis #254,Heart palpitations / irregular heartbeat,E_155|E_164,symptom,cc_myocarditis
+Myocarditis,Myocarditis #255,Pain in your abdomen,E_55=V_187|E_55=V_197|E_55=V_103|E_55=V_104|E_55=V_87|E_55=V_88,symptom,cc_myocarditis
+Myocarditis,Myocarditis #256,Lightheadedness / fainting,E_82|E_76,symptom,cc_myocarditis
+Myocarditis,Myocarditis #257,No appetite,E_161,symptom,cc_myocarditis
+Myocarditis,Myocarditis #258,Swollen legs or feet,E_152=V_23|E_152=V_24|E_152=V_34|E_152=V_35|E_152=V_119|E_152=V_120|E_152=V_43|E_152=V_44|E_152=V_72|E_152=V_73|E_152=V_172|E_152=V_173,symptom,cc_myocarditis
+Myocarditis,Myocarditis #259,Chest pain that may feel better when you lean forward,E_33,symptom,bhf_myocarditis
+Myocarditis,Myocarditis #260,Flu-like symptoms such as sore throat,E_97,symptom,bhf_myocarditis
+Myocarditis,Myocarditis #261,Body aches,E_144,symptom,bhf_myocarditis
+Myocarditis,Myocarditis #262,Viral infection such as the flu,E_0,risk,cc_myocarditis
+Myocarditis,Myocarditis #263,Drinking more alcohol than the limit,E_78,risk,cc_myocarditis
+Myocarditis,Myocarditis #264,HIV/AIDS,E_2,risk,cc_myocarditis
+Myocarditis,Myocarditis #265,Diabetes,E_69,risk,cc_myocarditis
+Myocarditis,Myocarditis #266,Dialysis,E_8,risk,cc_myocarditis
+Myocarditis,Myocarditis #267,End-stage kidney disease,E_113,risk,cc_myocarditis
+Myocarditis,Myocarditis #268,You're male,sex_male,risk,cc_myocarditis
+Larygospasm,Larygospasm #269,"Feeling that the windpipe is constricted, or that you cannot breathe at all",E_66|E_128,symptom,healthline_laryngospasm
+Larygospasm,Larygospasm #270,A hoarse whistling sound called stridor,E_194,symptom,healthline_laryngospasm
+Larygospasm,Larygospasm #271,"Waking from deep sleep, disoriented and having trouble breathing",E_67,symptom,healthline_laryngospasm
+Larygospasm,Larygospasm #272,Their skin going pale,E_154,symptom,healthline_laryngospasm
+Larygospasm,Larygospasm #273,GERD,E_125,risk,healthline_laryngospasm
+Larygospasm,Larygospasm #274,Asthma,E_124,risk,healthline_laryngospasm
+Larygospasm,Larygospasm #275,"Stress, anxiety or emotional stress",E_16|E_81,risk,healthline_laryngospasm
+Larygospasm,Larygospasm #276,Chronic obstructive pulmonary disease (COPD),E_123,risk,healthline_laryngospasm
+Acute dystonic reactions,Acute dystonic reactions #277,Muscle spasms,E_193,symptom,mayo_dystonia
+Acute dystonic reactions,Acute dystonic reactions #278,The head twists or turns to one side (neck),E_192,symptom,mayo_dystonia
+Acute dystonic reactions,Acute dystonic reactions #279,Slurred speech,E_63,symptom,mayo_dystonia
+Acute dystonic reactions,Acute dystonic reactions #280,Drooling,E_190,symptom,mayo_dystonia
+Acute dystonic reactions,Acute dystonic reactions #281,Trouble chewing or swallowing,E_65,symptom,mayo_dystonia
+Acute dystonic reactions,Acute dystonic reactions #282,A strained or whispering voice,E_212,symptom,mayo_dystonia
+Localized edema,Localized edema #283,"Swelling or puffiness of the tissue under the skin, especially in legs or arms",E_151,symptom,mayo_edema
+Localized edema,Localized edema #284,Swelling of the belly,E_30,symptom,mayo_edema
+Localized edema,Localized edema #285,Shortness of breath,E_66,symptom,mayo_edema
+Localized edema,Localized edema #286,Irregular heartbeat,E_155|E_164,symptom,mayo_edema
+Localized edema,Localized edema #287,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,mayo_edema
+Localized edema,Localized edema #288,Being pregnant,E_167,risk,mayo_edema
+Localized edema,Localized edema #289,"Medicines (blood pressure medicines, NSAIDs, steroids)",E_149|E_10|E_44,risk,mayo_edema
+Localized edema,Localized edema #290,Congestive heart failure,E_106,risk,mayo_edema
+Localized edema,Localized edema #291,Liver damage,E_126,risk,mayo_edema
+Localized edema,Localized edema #292,Kidney disease,E_113|E_197,risk,mayo_edema
+Localized edema,Localized edema #293,Deep vein thrombosis,E_109,risk,mayo_edema
+Localized edema,Localized edema #294,Surgery that involves a lymph node,E_137,risk,mayo_edema
+Localized edema,Localized edema #295,Sitting or staying in one position for too long,E_110,risk,mayo_edema
+SLE,SLE #296,Joint and muscle pain,E_144,symptom,nhs_lupus
+SLE,SLE #297,Extreme tiredness that will not go away,E_88|E_89,symptom,nhs_lupus
+SLE,SLE #298,Rashes that usually come on after being in the sun,E_129,symptom,nhs_lupus
+SLE,SLE #299,Headaches,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_lupus
+SLE,SLE #300,Mouth ulcers,E_206,symptom,nhs_lupus
+SLE,SLE #301,A high temperature,E_91,symptom,nhs_lupus
+SLE,SLE #302,Weight loss,E_162,symptom,nhs_lupus
+SLE,SLE #303,Swollen glands,E_9,symptom,nhs_lupus
+SLE,SLE #304,Depression and anxiety,E_16|E_80,symptom,nhs_lupus
+SLE,SLE #305,Chest or tummy pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160|E_55=V_187|E_55=V_197|E_55=V_103|E_55=V_104|E_55=V_87|E_55=V_88,symptom,nhs_lupus
+SLE,SLE #306,Anaemia,E_24,symptom,nhs_lupus
+SLE,SLE #307,Kidney problems,E_113|E_197,symptom,nhs_lupus
+SLE,SLE #308,A viral infection,E_0,risk,nhs_lupus
+SLE,SLE #309,More women than men get lupus,sex_female,risk,nhs_lupus
+Tuberculosis,Tuberculosis #310,A cough that lasts more than 3 weeks,E_201,symptom,nhs_tb
+Tuberculosis,Tuberculosis #311,Cough up mucus or mucus with blood in it,E_77|E_45,symptom,nhs_tb
+Tuberculosis,Tuberculosis #312,Feeling tired all the time,E_88|E_89,symptom,nhs_tb
+Tuberculosis,Tuberculosis #313,A high temperature or night sweats,E_91|E_50,symptom,nhs_tb
+Tuberculosis,Tuberculosis #314,Not feeling as hungry as usual,E_161,symptom,nhs_tb
+Tuberculosis,Tuberculosis #315,Losing weight without trying,E_162,symptom,nhs_tb
+Tuberculosis,Tuberculosis #316,Swollen glands,E_9,symptom,nhs_tb
+Tuberculosis,Tuberculosis #317,Body aches and pains,E_144,symptom,nhs_tb
+Tuberculosis,Tuberculosis #318,A headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_tb
+Tuberculosis,Tuberculosis #319,Being sick (vomiting),E_148|E_211,symptom,nhs_tb
+Tuberculosis,Tuberculosis #320,Feeling confused or irritable,E_39|E_114,symptom,nhs_tb
+Tuberculosis,Tuberculosis #321,Swollen joints or ankles,E_151,symptom,nhs_tb
+Tuberculosis,Tuberculosis #322,Tummy or pelvic pain,E_55=V_187|E_55=V_197|E_55=V_103|E_55=V_104|E_55=V_87|E_55=V_88,symptom,nhs_tb
+Tuberculosis,Tuberculosis #323,"A rash on the legs, face or other part of the body",E_129,symptom,nhs_tb
+Tuberculosis,Tuberculosis #324,Had a seizure or fit,E_43,symptom,nhs_tb
+Tuberculosis,Tuberculosis #325,Weakness or loss of movement in part of the body,E_176,symptom,nhs_tb
+Tuberculosis,Tuberculosis #326,Born in or lived in an area where TB is more common,E_204,risk,nhs_tb
+Tuberculosis,Tuberculosis #327,People with HIV,E_2,risk,nhs_tb
+Tuberculosis,Tuberculosis #328,Diabetes,E_69,risk,nhs_tb
+Tuberculosis,Tuberculosis #329,A weakened immune system,E_227,risk,nhs_tb
+Tuberculosis,Tuberculosis #330,"Regularly smoke, drink alcohol or take drugs",E_79|E_78|E_61,risk,nhs_tb
+Tuberculosis,Tuberculosis #331,Close contact with people who have TB,E_41,risk,nhs_tb
+Unstable angina,Unstable angina #332,"Sudden pain in your chest, neck, shoulders, jaw or arms",E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_angina
+Unstable angina,Unstable angina #333,"Pain that spreads to your arm, neck, jaw, shoulder, stomach or back",E_57=V_194|E_57=V_195|E_57=V_121|E_57=V_163|E_57=V_30|E_57=V_31|E_57=V_27|E_57=V_28|E_57=V_78|E_57=V_79|E_57=V_175|E_57=V_176|E_57=V_26|E_57=V_53|E_57=V_54|E_57=V_127|E_57=V_128|E_57=V_177|E_57=V_178|E_57=V_45|E_57=V_46,symptom,nhs_angina
+Unstable angina,Unstable angina #334,Feeling sick,E_148,symptom,nhs_angina
+Unstable angina,Unstable angina #335,Breathless,E_66,symptom,nhs_angina
+Unstable angina,Unstable angina #336,Dizzy,E_82,symptom,nhs_angina
+Unstable angina,Unstable angina #337,Sweaty,E_50,symptom,nhs_angina
+Unstable angina,Unstable angina #338,Angina that happens when you're resting,E_14,symptom,nhs_angina
+Unstable angina,Unstable angina #339,Angina that feels worse than before or is happening more often,E_13,symptom,nhs_angina
+Unstable angina,Unstable angina #340,Triggers such as exercise,E_218,symptom,nhs_angina
+Unstable angina,Unstable angina #341,Smoking,E_79,risk,nhs_angina
+Unstable angina,Unstable angina #342,Drinking more than 14 units of alcohol a week,E_78,risk,nhs_angina
+Unstable angina,Unstable angina #343,Obesity or overweight,E_70,risk,nhs_angina
+Unstable angina,Unstable angina #344,High blood pressure,E_104,risk,nhs_angina
+Unstable angina,Unstable angina #345,High cholesterol,E_71,risk,nhs_angina
+Unstable angina,Unstable angina #346,Previous heart problems,E_105,risk,nhs_angina
+Unstable angina,Unstable angina #347,Close relatives with heart problems,E_225,risk,nhs_angina
+Unstable angina,Unstable angina #348,Diabetes,E_69,risk,nhs_angina
+Unstable angina,Unstable angina #349,Kidney disease,E_113,risk,nhs_angina
+Stable angina,Stable angina #350,"Pain in your chest (tightness, squeezing or pressure)",E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_angina
+Stable angina,Stable angina #351,"Pain that spreads to your arm, neck, jaw, shoulder, stomach or back",E_57=V_194|E_57=V_195|E_57=V_121|E_57=V_163|E_57=V_30|E_57=V_31|E_57=V_27|E_57=V_28|E_57=V_78|E_57=V_79|E_57=V_175|E_57=V_176|E_57=V_26|E_57=V_53|E_57=V_54|E_57=V_127|E_57=V_128|E_57=V_177|E_57=V_178|E_57=V_45|E_57=V_46,symptom,nhs_angina
+Stable angina,Stable angina #352,Feeling sick,E_148,symptom,nhs_angina
+Stable angina,Stable angina #353,Breathless,E_66,symptom,nhs_angina
+Stable angina,Stable angina #354,Dizzy,E_82,symptom,nhs_angina
+Stable angina,Stable angina #355,Sweaty,E_50,symptom,nhs_angina
+Stable angina,Stable angina #356,Triggers such as exercise (eased by rest),E_218,symptom,nhs_angina
+Stable angina,Stable angina #357,Smoking,E_79,risk,nhs_angina
+Stable angina,Stable angina #358,Drinking more than 14 units of alcohol a week,E_78,risk,nhs_angina
+Stable angina,Stable angina #359,Obesity or overweight,E_70,risk,nhs_angina
+Stable angina,Stable angina #360,High blood pressure,E_104,risk,nhs_angina
+Stable angina,Stable angina #361,High cholesterol,E_71,risk,nhs_angina
+Stable angina,Stable angina #362,Previous heart problems,E_105,risk,nhs_angina
+Stable angina,Stable angina #363,Close relatives with heart problems,E_225,risk,nhs_angina
+Stable angina,Stable angina #364,Diabetes,E_69,risk,nhs_angina
+Stable angina,Stable angina #365,Kidney disease,E_113,risk,nhs_angina
+Ebola,Ebola #366,Fever,E_91,symptom,who_ebola
+Ebola,Ebola #367,Fatigue,E_88|E_89,symptom,who_ebola
+Ebola,Ebola #368,Muscle pain,E_144,symptom,who_ebola
+Ebola,Ebola #369,Headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,who_ebola
+Ebola,Ebola #370,Sore throat,E_97,symptom,who_ebola
+Ebola,Ebola #371,Vomiting,E_148|E_211,symptom,who_ebola
+Ebola,Ebola #372,Diarrhoea,E_51,symptom,who_ebola
+Ebola,Ebola #373,Abdominal pain,E_55=V_187|E_55=V_197|E_55=V_103|E_55=V_104|E_55=V_87|E_55=V_88,symptom,who_ebola
+Ebola,Ebola #374,Rash,E_129,symptom,who_ebola
+Ebola,Ebola #375,Internal and external bleeding,E_178,symptom,who_ebola
+Ebola,Ebola #376,Blood in vomit,E_210,symptom,who_ebola
+Ebola,Ebola #377,Confusion,E_39,symptom,who_ebola
+Ebola,Ebola #378,Irritability and aggression,E_114,symptom,who_ebola
+Ebola,Ebola #379,Close contact with an infected person,E_73,risk,who_ebola
+Acute otitis media,Acute otitis media #380,Pain inside the ear (earache),E_55=V_27|E_55=V_28|E_55=V_78|E_55=V_79|E_55=V_129|E_55=V_130,symptom,nhs_ear
+Acute otitis media,Acute otitis media #381,A high temperature,E_91,symptom,nhs_ear
+Acute otitis media,Acute otitis media #382,Irritable or restless (young children),E_114,symptom,nhs_ear
+Acute otitis media,Acute otitis media #383,Off their food,E_161|E_32,symptom,nhs_ear
+Acute otitis media,Acute otitis media #384,Feel sick or being sick,E_148,symptom,nhs_ear
+Acute otitis media,Acute otitis media #385,Middle ear infections are usually in children,age_under_2|age_2_11,risk,nhs_ear
+Acute otitis media,Acute otitis media #386,Middle ear infection caused by viruses like colds and flu,E_116,risk,nhs_ear
+Acute otitis media,Acute otitis media #387,Keep your child away from smoky environments,E_222,risk,nhs_ear
+Acute otitis media,Acute otitis media #388,A weakened immune system,E_227,risk,nhs_ear
+Acute otitis media,Acute otitis media #389,Diabetes,E_69,risk,nhs_ear
+Panic attack,Panic attack #390,A racing heartbeat,E_155,symptom,nhs_panic
+Panic attack,Panic attack #391,Feeling faint,E_82,symptom,nhs_panic
+Panic attack,Panic attack #392,Sweating,E_50,symptom,nhs_panic
+Panic attack,Panic attack #393,Nausea,E_148,symptom,nhs_panic
+Panic attack,Panic attack #394,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_panic
+Panic attack,Panic attack #395,Shortness of breath,E_66,symptom,nhs_panic
+Panic attack,Panic attack #396,Chills,E_94,symptom,nhs_panic
+Panic attack,Panic attack #397,A choking sensation,E_75,symptom,nhs_panic
+Panic attack,Panic attack #398,Dizziness,E_76,symptom,nhs_panic
+Panic attack,Panic attack #399,Numbness or pins and needles,E_177,symptom,nhs_panic
+Panic attack,Panic attack #400,A feeling of dread or a fear of dying,E_111,symptom,nhs_panic
+Panic attack,Panic attack #401,Feeling like you're not connected to your body,E_171,symptom,nhs_panic
+Panic attack,Panic attack #402,Having a close family member with panic disorder,E_29,risk,nhs_panic
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #403,Wheezing,E_214,symptom,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #404,Coughing,E_201,symptom,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #405,Shortness of breath,E_66,symptom,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #406,Symptoms may be worse at night,E_219,symptom,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #407,Exercise as a trigger,E_218,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #408,"Allergies such as eczema, hay fever or food allergies",E_226,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #409,"Other people in your family have asthma, hay fever, eczema or allergies",E_86|E_87,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #410,Born prematurely,E_160,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #411,Exposed to cigarette smoke,E_222|E_79,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #412,Illnesses as a child such as bronchiolitis or croup,E_4,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #413,You're overweight,E_70,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #414,Infections such as flu,E_116,risk,nhs_asthma
+Bronchospasm / acute asthma exacerbation,Bronchospasm / acute asthma exacerbation #415,Previously diagnosed asthma,E_124,risk,nhs_asthma
+Bronchitis,Bronchitis #416,A cough - you may cough up mucus,E_201|E_77,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #417,Chest pain when coughing,E_220,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #418,Shortness of breath,E_66,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #419,A sore throat,E_97,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #420,A runny nose,E_181,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #421,A high temperature,E_91,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #422,You cough up blood or blood-stained mucus,E_45,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #423,You suddenly feel confused,E_39,symptom,nhs_bronchitis
+Bronchitis,Bronchitis #424,You're over 65,age_65_plus,risk,nhs_bronchitis
+Bronchitis,Bronchitis #425,You're pregnant,E_167,risk,nhs_bronchitis
+Bronchitis,Bronchitis #426,"A long-term condition, such as diabetes, or a heart, lung or kidney condition",E_69|E_106|E_123|E_113,risk,nhs_bronchitis
+Bronchitis,Bronchitis #427,A weakened immune system,E_227,risk,nhs_bronchitis
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #428,Shortness of breath,E_66,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #429,A persistent chesty cough with phlegm,E_201|E_77,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #430,Persistent wheezing,E_214,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #431,Weight loss,E_162,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #432,Tiredness,E_88|E_89,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #433,Swollen ankles from a build-up of fluid,E_151,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #434,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #435,Coughing up blood,E_45,symptom,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #436,Smoke or used to smoke,E_79|E_191,risk,nhs_copd
+Acute COPD exacerbation / infection,Acute COPD exacerbation / infection #437,Chronic obstructive pulmonary disease,E_123|E_31,risk,nhs_copd
+Pulmonary embolism,Pulmonary embolism #438,Difficulty breathing that comes on suddenly,E_66,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #439,Chest pain that's worse when you breathe in,E_220,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #440,Coughing up blood,E_45,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #441,"Pain, redness and swelling in one of your legs (usually the calf)",E_152=V_119|E_152=V_120|E_55=V_119|E_55=V_120,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #442,Pain in your chest or upper back,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160|E_55=V_127|E_55=V_128|E_55=V_39,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #443,Your heart is beating very fast,E_155,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #444,Someone has passed out,E_159,symptom,nhs_pe
+Pulmonary embolism,Pulmonary embolism #445,A blood clot dislodging from your leg (deep vein thrombosis),E_109,risk,nhs_pe
+Pulmonary embolism,Pulmonary embolism #446,Long journeys or sitting for long periods without moving,E_110,risk,nhs_pe
+URTI,URTI #447,A blocked or runny nose,E_181,symptom,nhs_cold
+URTI,URTI #448,A sore throat,E_97,symptom,nhs_cold
+URTI,URTI #449,A hoarse voice,E_212,symptom,nhs_cold
+URTI,URTI #450,A cough,E_201,symptom,nhs_cold
+URTI,URTI #451,Feeling tired and unwell,E_88|E_175,symptom,nhs_cold
+URTI,URTI #452,A high temperature,E_91,symptom,nhs_cold
+URTI,URTI #453,Aching muscles,E_144,symptom,nhs_cold
+URTI,URTI #454,A loss of taste and smell,E_103,symptom,nhs_cold
+URTI,URTI #455,Colds are spread by germs from coughs and sneezes (contact),E_41,risk,nhs_cold
+URTI,URTI #456,A long-term medical condition,E_123|E_105|E_69,risk,nhs_cold
+URTI,URTI #457,A weakened immune system,E_227,risk,nhs_cold
+Influenza,Influenza #458,A sudden high temperature,E_91,symptom,nhs_flu
+Influenza,Influenza #459,An aching body,E_144,symptom,nhs_flu
+Influenza,Influenza #460,Feeling tired or exhausted,E_88,symptom,nhs_flu
+Influenza,Influenza #461,A dry cough,E_201,symptom,nhs_flu
+Influenza,Influenza #462,A sore throat,E_97,symptom,nhs_flu
+Influenza,Influenza #463,A headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_flu
+Influenza,Influenza #464,Loss of appetite,E_161|E_32,symptom,nhs_flu
+Influenza,Influenza #465,Pain in their ear (children),E_55=V_27|E_55=V_28|E_55=V_78|E_55=V_79|E_55=V_129|E_55=V_130,symptom,nhs_flu
+Influenza,Influenza #466,Sore eyes,E_74|E_170,symptom,nhs_flu
+Influenza,Influenza #467,Swollen glands,E_9,symptom,nhs_flu
+Influenza,Influenza #468,You feel short of breath,E_66,symptom,nhs_flu
+Influenza,Influenza #469,You get sudden chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_flu
+Influenza,Influenza #470,You start coughing up blood,E_45,symptom,nhs_flu
+Influenza,Influenza #471,You're 65 or over,age_65_plus,risk,nhs_flu
+Influenza,Influenza #472,You're pregnant,E_167,risk,nhs_flu
+Influenza,Influenza #473,A long-term medical condition,E_123|E_106|E_113|E_69,risk,nhs_flu
+Influenza,Influenza #474,A weakened immune system,E_227,risk,nhs_flu
+Influenza,Influenza #475,Flu is spread by germs from coughs and sneezes (contact),E_41,risk,nhs_flu
+Pneumonia,Pneumonia #476,A cough,E_201,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #477,Shortness of breath,E_66,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #478,A high temperature,E_91,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #479,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #480,Chest pain that happens when breathing or coughing,E_220,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #481,An aching body,E_144,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #482,Feeling very tired,E_88|E_89,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #483,Loss of appetite,E_161|E_32,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #484,Making wheezing noises when you breathe,E_214,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #485,Feeling confused,E_39,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #486,Coughing up yellow or green mucus (phlegm),E_77,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #487,You're coughing up blood,E_45,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #488,"Pale, blue or blotchy skin, lips or tongue",E_154,symptom,nhs_pneumonia
+Pneumonia,Pneumonia #489,You're over 65,age_65_plus,risk,nhs_pneumonia
+Pneumonia,Pneumonia #490,Cardiovascular disease or a long-term lung condition,E_105|E_106|E_123,risk,nhs_pneumonia
+Pneumonia,Pneumonia #491,Smoking,E_79,risk,nhs_pneumonia
+Acute rhinosinusitis,Acute rhinosinusitis #492,"Pain, swelling and tenderness around your cheeks, eyes or forehead",E_55=V_108|E_55=V_109|E_55=V_110|E_55=V_111|E_55=V_125|E_55=V_126|E_55=V_89,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #493,A blocked or runny nose,E_181,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #494,A reduced sense of smell,E_103,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #495,Green or yellow mucus from your nose,E_182,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #496,A high temperature,E_91,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #497,A headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #498,Toothache,E_55=V_57|E_55=V_58|E_55=V_59|E_55=V_60,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #499,A cough,E_201,symptom,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #500,Following a cold or flu,E_116|E_0,risk,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #501,Allergies,E_226,risk,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #502,Smoking,E_79,risk,nhs_sinusitis
+Acute rhinosinusitis,Acute rhinosinusitis #503,A weakened immune system,E_227,risk,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #504,"Pain, swelling and tenderness around your cheeks, eyes or forehead",E_55=V_108|E_55=V_109|E_55=V_110|E_55=V_111|E_55=V_125|E_55=V_126|E_55=V_89,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #505,A blocked or runny nose,E_181,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #506,A reduced sense of smell,E_103,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #507,Green or yellow mucus from your nose,E_182,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #508,A high temperature,E_91,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #509,A headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #510,Toothache,E_55=V_57|E_55=V_58|E_55=V_59|E_55=V_60,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #511,A cough,E_201,symptom,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #512,You keep getting sinusitis (chronic sinusitis),E_119,risk,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #513,Allergies,E_226,risk,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #514,Smoking,E_79,risk,nhs_sinusitis
+Chronic rhinosinusitis,Chronic rhinosinusitis #515,A weakened immune system,E_227,risk,nhs_sinusitis
+Bronchiolitis,Bronchiolitis #516,A runny or blocked nose,E_181,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #517,A slightly high temperature,E_91,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #518,A cough,E_201,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #519,Breathing more quickly,E_66,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #520,Finding it difficult to feed or eat,E_161|E_32,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #521,Noisy breathing (wheezing or crackling sounds),E_214|E_112,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #522,Becoming irritable,E_114,symptom,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #523,Babies under 6 months old,age_under_2,risk,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #524,Born prematurely,E_160,risk,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #525,A weakened immune system,E_227,risk,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #526,Long-term lung or heart conditions,E_123|E_139,risk,nhs_bronchiolitis
+Bronchiolitis,Bronchiolitis #527,Children who breathe in cigarette smoke,E_222,risk,nhs_bronchiolitis
+Pulmonary neoplasm,Pulmonary neoplasm #528,A cough that is not going away,E_201,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #529,Shortness of breath,E_66,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #530,Coughing up blood,E_45,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #531,Chest or shoulder pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160|E_55=V_194|E_55=V_195,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #532,Losing weight without trying,E_162,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #533,Not feeling hungry (loss of appetite),E_161,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #534,Feeling tired all the time,E_88|E_89,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #535,Swelling of your face or neck,E_152=V_26|E_152=V_53|E_152=V_54|E_152=V_108|E_152=V_109|E_152=V_110|E_152=V_111|E_152=V_118,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #536,Difficulty swallowing,E_65,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #537,A hoarse voice that does not go away,E_212,symptom,nhs_lungcancer
+Pulmonary neoplasm,Pulmonary neoplasm #538,A family member who has had lung cancer,E_224,risk,nhs_lungcancer
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #539,Chest pain which may feel like crushing or squeezing,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #540,"The pain may also spread to your arm, neck and jaw",E_57=V_194|E_57=V_195|E_57=V_121|E_57=V_163|E_57=V_30|E_57=V_31|E_57=V_27|E_57=V_28|E_57=V_78|E_57=V_79|E_57=V_175|E_57=V_176|E_57=V_26|E_57=V_53|E_57=V_54|E_57=V_127|E_57=V_128|E_57=V_177|E_57=V_178|E_57=V_45|E_57=V_46,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #541,Feeling short of breath,E_66,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #542,Feeling sick or being sick,E_148,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #543,Feeling like you have indigestion,E_215|E_173,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #544,A burning feeling in your chest and feeling full or bloated,E_30,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #545,Sweating,E_50,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #546,"Pale, blue or grey skin",E_154,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #547,Someone has passed out,E_159,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #548,"Heart racing, going too slowly, skipping a beat or fluttering",E_155,symptom,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #549,Smoking,E_79,risk,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #550,High blood pressure,E_104,risk,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #551,High cholesterol,E_71,risk,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #552,A close relative who's had a heart attack,E_225,risk,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #553,Diabetes,E_69,risk,nhs_heartattack
+Possible NSTEMI / STEMI,Possible NSTEMI / STEMI #554,Living with overweight or obesity,E_70,risk,nhs_heartattack
+Sarcoidosis,Sarcoidosis #555,Tender bumps on the skin,E_129,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #556,Shortness of breath,E_66,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #557,A persistent dry cough,E_201,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #558,Chest pain or discomfort,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #559,"Swollen, tender glands in the face, neck, armpits or groin",E_9,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #560,Tiredness and a general feeling of being unwell,E_88|E_89|E_175,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #561,Red or sore eyes,E_74,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #562,Abnormal heart rhythm (arrhythmia),E_155|E_164,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #563,A blocked or stuffy nose,E_181,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #564,Headache,E_55=V_25|E_55=V_62|E_55=V_89|E_55=V_166|E_55=V_167|E_55=V_124,symptom,nhs_sarcoid
+Sarcoidosis,Sarcoidosis #565,More common in women,sex_female,risk,nhs_sarcoid
+Pancreatic neoplasm,Pancreatic neoplasm #566,Darker pee and paler poo than usual,E_188,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #567,Loss of appetite,E_161,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #568,Losing weight without trying,E_162,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #569,Feeling tired or having no energy,E_88|E_89,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #570,"A high temperature, or feeling hot, cold or shivery",E_91|E_94,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #571,Feeling or being sick,E_148,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #572,Diarrhoea,E_51,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #573,Pain at the top part of your tummy and your back,E_55=V_197|E_55=V_40|E_55=V_103|E_55=V_104,symptom,nhs_pancreatic
+Pancreatic neoplasm,Pancreatic neoplasm #574,"Symptoms of indigestion, such as feeling bloated",E_30|E_215,symptom,nhs_pancreatic
+Acute pulmonary edema,Acute pulmonary edema #575,Difficulty breathing (dyspnea) or extreme shortness of breath,E_66,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #576,A feeling of suffocating or drowning,E_75,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #577,A cough that produces frothy sputum that may have blood in it,E_45|E_77,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #578,"A rapid, irregular heartbeat (palpitations)",E_155|E_164,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #579,"Anxiety, restlessness",E_16,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #580,"Cold, clammy skin / sweating",E_50,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #581,Wheezing or gasping for breath,E_214,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #582,Awakening at night with a cough or breathless feeling,E_67,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #583,Difficulty breathing when lying flat,E_217,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #584,Fatigue,E_88|E_89,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #585,Rapid weight gain,E_96,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #586,Swelling in the legs and feet,E_151,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #587,Chest pain,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #588,Confusion,E_39,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #589,A blue or gray color to the skin,E_154,symptom,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #590,"Coronary artery disease, valve problems, congenital heart defects, arrhythmias",E_105|E_106|E_22|E_139|E_164,risk,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #591,High blood pressure,E_104,risk,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #592,Kidney disease,E_113|E_8,risk,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #593,Diabetes,E_69,risk,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #594,Sleep apnea,E_186,risk,mayo_pulmedema
+Acute pulmonary edema,Acute pulmonary edema #595,Alcohol use,E_78,risk,mayo_pulmedema
+Pericarditis,Pericarditis #596,Chest pain that feels sharp or stabbing,E_55=V_29|E_55=V_55|E_55=V_56|E_55=V_101|E_55=V_170|E_55=V_171|E_55=V_159|E_55=V_160,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #597,"Pain that spreads to your shoulders, arms or tummy",E_57=V_194|E_57=V_195|E_57=V_121|E_57=V_163|E_57=V_30|E_57=V_31|E_57=V_27|E_57=V_28|E_57=V_78|E_57=V_79|E_57=V_175|E_57=V_176|E_57=V_26|E_57=V_53|E_57=V_54|E_57=V_127|E_57=V_128|E_57=V_177|E_57=V_178|E_57=V_45|E_57=V_46,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #598,Pain that gets worse when you breathe in deeply,E_220,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #599,Pain that gets worse when you lie down,E_217,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #600,Pain that gets better when you lean forward,E_33,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #601,"A high temperature, or feel hot, cold or shivery",E_91|E_94,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #602,A cough,E_201,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #603,Shortness of breath,E_66,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #604,Sweating,E_50,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #605,Feeling or being sick,E_148,symptom,nhs_pericarditis
+Pericarditis,Pericarditis #606,"Often follows a viral infection, such as a cold or flu",E_0|E_116,risk,nhs_pericarditis
