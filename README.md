@@ -1,10 +1,8 @@
 # GHSOM + GNG Neuro-Symbolic Pipeline for Disease Identification
 
 Python implementation of the design in *"A GHSOM + GNG Neuro-Symbolic Pipeline for Disease
-Identification"* (Doc Fash's design): a Kautz Type 3 (Neuro;Symbolic) pipeline. The stages run
+Identification"*: a Kautz Type 3 (Neuro-Symbolic) pipeline. The stages run
 in strict sequence: **neural → XAI → symbolic**. Each stage reads only the previous stage's output.
-
-Only the datasets and rule (ontology) files from the earlier project are reused. All code here is new.
 
 ## Run
 
